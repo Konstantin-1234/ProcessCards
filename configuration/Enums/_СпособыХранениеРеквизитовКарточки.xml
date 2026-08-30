@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="31d429a0-fcc8-4a01-b20f-9fecea9d1750">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef._СпособыХранениеРеквизитовКарточки" category="Ref">
+				<xr:TypeId>eacbf5a4-7444-4772-8c75-f00189b374f0</xr:TypeId>
+				<xr:ValueId>3a8d3183-513a-4a2d-8742-980949fadc95</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager._СпособыХранениеРеквизитовКарточки" category="Manager">
+				<xr:TypeId>1563d041-6bc4-4f12-afa7-e9bbab901510</xr:TypeId>
+				<xr:ValueId>d196f27e-96ce-44ac-a36e-21d6c8d745b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList._СпособыХранениеРеквизитовКарточки" category="List">
+				<xr:TypeId>2ba19b04-2c69-4c74-bc77-875030606c78</xr:TypeId>
+				<xr:ValueId>c7fa1e13-ef7c-4eeb-8b45-042ba88f3f83</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>_СпособыХранениеРеквизитовКарточки</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Способы хранение реквизитов карточки</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="98071b7f-bfab-460c-9f0d-9609e69d8caf">
+				<Properties>
+					<Name>ВКарточке</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>В карточке</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Означет, что значение хрнится в карточке, Иначе - это свойство другого реквизита</Comment>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

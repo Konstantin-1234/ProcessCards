@@ -35,7 +35,8 @@
 		</Metadata>
 		<Metadata name="Catalog._Команды.ManagerModule" id="543231a9-0030-43a9-a32b-39441f5a2ba4.3" configVersion="b058e914bd73a1946044ca0e2c0a382d11e157b2"/>
 		<Metadata name="Catalog._КомандыГруппы" id="a5cd451d-8d52-47ae-88a7-c70d954a30e3" configVersion="9032a9e881428c3557d3d01a61217089bdcf8087"/>
-		<Metadata name="Catalog._Правила" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133" configVersion="edd952d6f3f53892ed8093c547162d50afc73c74">
+		<Metadata name="Catalog._Правила" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133" configVersion="4b63e1057e6bafbaaca9c329303b30270796529c">
+			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.ФункциональнаяРоль" id="0e11f18e-fdfe-4150-80ac-06169a79d5d1"/>
 			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.Сравнение_1" id="0f01f926-da88-46a6-a116-648d3ded4895"/>
 			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.ВидРеквизитаДополнение" id="1bbd3a35-a02d-4b7c-a6e5-74969b1f8ac5"/>
 			<Metadata name="Catalog._Правила.TabularSection.Действия.Attribute.Комментарий" id="4161f985-3be3-4523-8fea-fe1775d0be2d"/>
@@ -60,12 +61,13 @@
 		<Metadata name="Catalog._Правила.Form.ФормаЭлемента" id="c6177659-20cf-4fe3-bd47-6250f8146bd8" configVersion="d6217d8972f190c301065108ac9225cab3cd5692"/>
 		<Metadata name="Catalog._Правила.Form.ФормаЭлемента.Form" id="c6177659-20cf-4fe3-bd47-6250f8146bd8.0" configVersion="f4443f59874c811bd7beb02093309dca4891a930"/>
 		<Metadata name="Catalog._Правила.Help" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133.1" configVersion="58bcbf21ba6b38b536fdbdb7bccb2ecf8a717d5b"/>
-		<Metadata name="Catalog._Правила.ManagerModule" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133.3" configVersion="aa0fbf3e75701925a4e58d96855a0befc1fc5750"/>
+		<Metadata name="Catalog._Правила.ManagerModule" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133.3" configVersion="553bb7666344027b0a9d6d1cb53a62f2901c7842"/>
 		<Metadata name="Catalog._Правила.Template.Макет" id="cb097463-0ebf-451f-9f15-0f90448509f7" configVersion="3eb22596e59b94c9d6893befc02ab05d83e88a29"/>
 		<Metadata name="Catalog._Правила.Template.Макет.Template" id="cb097463-0ebf-451f-9f15-0f90448509f7.0" configVersion="242af9746551c53224cba0601dc513d9ee401a97"/>
 		<Metadata name="Catalog._СтатусыКарточки" id="2c0b1c1f-c14b-43a5-8571-ededd1bb568b" configVersion="be0e52c10c794eb32de8c5300b7bb7a0c73a3b79"/>
 		<Metadata name="Catalog._СтатусыКарточки.Predefined" id="2c0b1c1f-c14b-43a5-8571-ededd1bb568b.1c" configVersion="1db99caac45fa5fd9b7447f29144f0d05cb11dd5"/>
 		<Metadata name="Catalog._ФункциональныеРоли" id="15619e99-6fcb-4c87-a89e-ec7ea03d82cd" configVersion="edc67920b3fbb24e8ea47528a93d5183d91c7320"/>
+		<Metadata name="Catalog._ФункциональныеРоли.Predefined" id="15619e99-6fcb-4c87-a89e-ec7ea03d82cd.1c" configVersion="91c6bbd9b726c0da7e33cadff34f25fc616e2587"/>
 		<Metadata name="ChartOfCharacteristicTypes._ВидыРеквизитов" id="83b3c809-34db-4482-b21e-e527470ca783" configVersion="5eb4d1f8004dde4f741a167f4461f095270fd63c">
 			<Metadata name="ChartOfCharacteristicTypes._ВидыРеквизитов.Attribute.ВидКарточки" id="1ae6b0b4-a222-4630-9dda-9f6ecc63ff12"/>
 			<Metadata name="ChartOfCharacteristicTypes._ВидыРеквизитов.Attribute.ЭтоСписок" id="8e2207e6-04eb-457e-b0e4-ba9b2226f5df"/>

@@ -1,0 +1,1 @@
+<ConfigurationName>КарточкиДанных</ConfigurationName>

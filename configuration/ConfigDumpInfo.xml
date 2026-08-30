@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog._ВидыКарточек" id="760517d2-76ad-45f1-bad9-1664e5fe380e" configVersion="9108cfbd4a924279ad3b6c431bd3aef37e135620">
+			<Metadata name="Catalog._ВидыКарточек.TabularSection.Реквизиты.Attribute.ВидРеквизитаВХранении" id="1553b84b-dae8-4bd4-bc27-b757cc8bfac4"/>
+			<Metadata name="Catalog._ВидыКарточек.TabularSection.Реквизиты.Attribute.СтартовоеЗначениеРеквизита" id="22c947ad-d6f3-4fd0-a4ef-7791a6a12404"/>
+			<Metadata name="Catalog._ВидыКарточек.TabularSection.ВидыКарточки_родители" id="24eebd69-cdf6-4dc9-a3ea-5aa5c112ae83"/>
+			<Metadata name="Catalog._ВидыКарточек.TabularSection.Реквизиты.Attribute.Хранение" id="32a46b83-b8a1-4cba-aa07-875714e22697"/>
+			<Metadata name="Catalog._ВидыКарточек.TabularSection.ОтображаемыеГруппыКоманд" id="65acef3c-0b6e-427d-8055-eee5e9f23308"/>
+			<Metadata name="Catalog._ВидыКарточек.TabularSection.Реквизиты" id="81a3b569-3155-48a9-b63c-7040ce0cca83"/>
+			<Metadata name="Catalog._ВидыКарточек.TabularSection.Реквизиты.Attribute.ВидРеквизита" id="81d56ea7-3e31-4953-a84b-a059e8c5d32d"/>
+			<Metadata name="Catalog._ВидыКарточек.TabularSection.Реквизиты.Attribute.СтартовоеДействие" id="a111726c-ead1-4908-945b-483380f6c121"/>
+			<Metadata name="Catalog._ВидыКарточек.TabularSection.Реквизиты.Attribute.ЭтоФункциональнаяРоль" id="af518746-b6cb-4c94-8bf7-a0e491d40496"/>
+			<Metadata name="Catalog._ВидыКарточек.TabularSection.ОтображаемыеГруппыКоманд.Attribute.ГруппыКоманд" id="c61d9e2f-68f4-45ed-92f3-7c29ac27fa32"/>
+			<Metadata name="Catalog._ВидыКарточек.TabularSection.ВидыКарточки_родители.Attribute.ВидКарточки" id="ea55a35b-0997-4039-bec2-ab0ca836feb3"/>
+		</Metadata>
+		<Metadata name="Catalog._ВидыКарточек.Form.ФормаЭлемента" id="0bc4de14-e745-4a3e-9129-00323e29d6f7" configVersion="2dd19626c4cc906be3ce021787b293839eecbdf6"/>
+		<Metadata name="Catalog._ВидыКарточек.Form.ФормаЭлемента.Form" id="0bc4de14-e745-4a3e-9129-00323e29d6f7.0" configVersion="bf67ce769906f51f89be1ea923a5df4e411768d7"/>
+		<Metadata name="Catalog._Действия" id="e1a6fb55-a7a9-4d89-9c66-4bc3e9a3b35c" configVersion="ec546281c7c827adc99f9cdfe9cb0e0a90f0bc35"/>
+		<Metadata name="Catalog._Действия.Predefined" id="e1a6fb55-a7a9-4d89-9c66-4bc3e9a3b35c.1c" configVersion="a4865975eabdda41cd85ffad074a228ce07ef802"/>
+		<Metadata name="Catalog._Карточки" id="043bc851-7549-484d-b470-46048099e730" configVersion="50e902dc9afdda2756bddeb4e629bf655650d8d8">
+			<Metadata name="Catalog._Карточки.Attribute.ВидКарточки_Представление" id="1344e2a1-1f7d-46af-8af0-ec495ae9a5a6"/>
+			<Metadata name="Catalog._Карточки.Attribute.ВидКарточки" id="1f8da953-5ec2-4838-a319-3810d060faa3"/>
+			<Metadata name="Catalog._Карточки.TabularSection.ВидыКарточки.Attribute.ВидКарточки" id="76933e88-dea2-4e54-825c-c11a6d1e0471"/>
+			<Metadata name="Catalog._Карточки.TabularSection.ВидыКарточки" id="cc717b9e-3ca6-4d05-9cfc-4c4b4ed25d78"/>
+		</Metadata>
+		<Metadata name="Catalog._Карточки.Form.ФормаЭлемента" id="cbce4a7e-332e-4afc-85c8-746b13461f0f" configVersion="30b29be21b53713d2a06332e0428cf0914ac2112"/>
+		<Metadata name="Catalog._Карточки.Form.ФормаЭлемента.Form" id="cbce4a7e-332e-4afc-85c8-746b13461f0f.0" configVersion="e41cf9dbed4d45930802023e17e5ca5045ec600e"/>
+		<Metadata name="Catalog._Карточки.Help" id="043bc851-7549-484d-b470-46048099e730.1" configVersion="80f9a577aa66922cdc03444dff2a6d9638168578"/>
+		<Metadata name="Catalog._Карточки.ObjectModule" id="043bc851-7549-484d-b470-46048099e730.0" configVersion="b68b13a829389dd929929eef1a3d37d8a0ef0bd1"/>
+		<Metadata name="Catalog._Команды" id="543231a9-0030-43a9-a32b-39441f5a2ba4" configVersion="5a4c1647002c5652d41532dac3946624a60edc05">
+			<Metadata name="Catalog._Команды.TabularSection.ФункциональныеРоли" id="19fb43b9-3713-4fce-93e3-679860d1fff4"/>
+			<Metadata name="Catalog._Команды.Attribute.Группа" id="2a621d07-418d-4fd0-abe8-ef320d082baa"/>
+			<Metadata name="Catalog._Команды.TabularSection.ФункциональныеРоли.Attribute.ФункциональнаяРоль" id="717e1ce0-7499-4fd5-9fb7-16e2dc145674"/>
+		</Metadata>
+		<Metadata name="Catalog._Команды.ManagerModule" id="543231a9-0030-43a9-a32b-39441f5a2ba4.3" configVersion="b058e914bd73a1946044ca0e2c0a382d11e157b2"/>
+		<Metadata name="Catalog._КомандыГруппы" id="a5cd451d-8d52-47ae-88a7-c70d954a30e3" configVersion="9032a9e881428c3557d3d01a61217089bdcf8087"/>
+		<Metadata name="Catalog._Правила" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133" configVersion="edd952d6f3f53892ed8093c547162d50afc73c74">
+			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.Сравнение_1" id="0f01f926-da88-46a6-a116-648d3ded4895"/>
+			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.ВидРеквизитаДополнение" id="1bbd3a35-a02d-4b7c-a6e5-74969b1f8ac5"/>
+			<Metadata name="Catalog._Правила.TabularSection.Действия.Attribute.Комментарий" id="4161f985-3be3-4523-8fea-fe1775d0be2d"/>
+			<Metadata name="Catalog._Правила.TabularSection.Действия.Attribute.ФункциональнаяРоль" id="50596536-7903-47aa-ade0-d18aaea514dd"/>
+			<Metadata name="Catalog._Правила.TabularSection.Действия.Attribute.ВидРеквизита" id="57777654-5b95-4c63-832a-26fccfc99c02"/>
+			<Metadata name="Catalog._Правила.TabularSection.ВидыКарточек" id="62b966d8-5f0b-449c-8093-4d4dcca07034"/>
+			<Metadata name="Catalog._Правила.Attribute.ИспользоватьРоли" id="7fd453d4-cd71-4e26-8f07-063a7b823969"/>
+			<Metadata name="Catalog._Правила.TabularSection.Условия" id="83842d71-a0e8-4e3d-9254-562c3441ba98"/>
+			<Metadata name="Catalog._Правила.Attribute.Обработчик" id="8bbe5a41-9b94-43ed-b56e-63d71d00f72a"/>
+			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.Сравнение_2" id="8f3bf415-b329-40fe-9d5b-790929c4abd8"/>
+			<Metadata name="Catalog._Правила.TabularSection.Действия.Attribute.ЗначениеРеквизита" id="9869dfe2-02e5-4066-be25-0113dc931b1a"/>
+			<Metadata name="Catalog._Правила.TabularSection.Действия" id="a6bc98a6-eff0-4744-9895-658516a71a98"/>
+			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.ЗначениеРеквизита_1" id="b67b5fff-d81f-412c-b16d-7a620b43726a"/>
+			<Metadata name="Catalog._Правила.Attribute.Команда" id="c8ba1e8f-877e-4901-9860-872f9759b552"/>
+			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.ВидРеквизита" id="d9f5919b-42f3-4c48-866b-06fe37d0db46"/>
+			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.Группа" id="dbf6e118-3fca-485a-9ba6-80005d64748f"/>
+			<Metadata name="Catalog._Правила.TabularSection.Действия.Attribute.Действие" id="dc518995-3683-48a6-8a3b-0dfe82f9fbbc"/>
+			<Metadata name="Catalog._Правила.Attribute.ИспользоватьГруппыУсловий" id="ebad33c2-9aab-4a42-bfa9-aba8af77024b"/>
+			<Metadata name="Catalog._Правила.TabularSection.ВидыКарточек.Attribute.ВидКарточки" id="f7962504-7e9a-4b7a-803c-03ad74cd7249"/>
+			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.ЗначениеРеквизита_2" id="fb61eb12-d1ca-4da6-9ced-8ff21c747d2f"/>
+		</Metadata>
+		<Metadata name="Catalog._Правила.Form.ФормаЭлемента" id="c6177659-20cf-4fe3-bd47-6250f8146bd8" configVersion="d6217d8972f190c301065108ac9225cab3cd5692"/>
+		<Metadata name="Catalog._Правила.Form.ФормаЭлемента.Form" id="c6177659-20cf-4fe3-bd47-6250f8146bd8.0" configVersion="f4443f59874c811bd7beb02093309dca4891a930"/>
+		<Metadata name="Catalog._Правила.Help" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133.1" configVersion="58bcbf21ba6b38b536fdbdb7bccb2ecf8a717d5b"/>
+		<Metadata name="Catalog._Правила.ManagerModule" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133.3" configVersion="aa0fbf3e75701925a4e58d96855a0befc1fc5750"/>
+		<Metadata name="Catalog._Правила.Template.Макет" id="cb097463-0ebf-451f-9f15-0f90448509f7" configVersion="3eb22596e59b94c9d6893befc02ab05d83e88a29"/>
+		<Metadata name="Catalog._Правила.Template.Макет.Template" id="cb097463-0ebf-451f-9f15-0f90448509f7.0" configVersion="242af9746551c53224cba0601dc513d9ee401a97"/>
+		<Metadata name="Catalog._СтатусыКарточки" id="2c0b1c1f-c14b-43a5-8571-ededd1bb568b" configVersion="be0e52c10c794eb32de8c5300b7bb7a0c73a3b79"/>
+		<Metadata name="Catalog._СтатусыКарточки.Predefined" id="2c0b1c1f-c14b-43a5-8571-ededd1bb568b.1c" configVersion="1db99caac45fa5fd9b7447f29144f0d05cb11dd5"/>
+		<Metadata name="Catalog._ФункциональныеРоли" id="15619e99-6fcb-4c87-a89e-ec7ea03d82cd" configVersion="edc67920b3fbb24e8ea47528a93d5183d91c7320"/>
+		<Metadata name="ChartOfCharacteristicTypes._ВидыРеквизитов" id="83b3c809-34db-4482-b21e-e527470ca783" configVersion="5eb4d1f8004dde4f741a167f4461f095270fd63c">
+			<Metadata name="ChartOfCharacteristicTypes._ВидыРеквизитов.Attribute.ВидКарточки" id="1ae6b0b4-a222-4630-9dda-9f6ecc63ff12"/>
+			<Metadata name="ChartOfCharacteristicTypes._ВидыРеквизитов.Attribute.ЭтоСписок" id="8e2207e6-04eb-457e-b0e4-ba9b2226f5df"/>
+		</Metadata>
+		<Metadata name="ChartOfCharacteristicTypes._ВидыРеквизитов.Form.ФормаЭлемента" id="032c11f1-9caa-4c84-a3ef-1daaaff69eae" configVersion="f65261e992ac4267d4c65b3f9835b48363f433d7"/>
+		<Metadata name="ChartOfCharacteristicTypes._ВидыРеквизитов.Form.ФормаЭлемента.Form" id="032c11f1-9caa-4c84-a3ef-1daaaff69eae.0" configVersion="a5c08e72ef4d9fec3ef9051251139a0c2eda5d71"/>
+		<Metadata name="CommonModule._ВызовСервера" id="db3edd5b-a5f6-4b15-8349-04c166b2b123" configVersion="715093222954680bd7c79fa7f31bd66f7856a0ff"/>
+		<Metadata name="CommonModule._ВызовСервера.Module" id="db3edd5b-a5f6-4b15-8349-04c166b2b123.0" configVersion="e96e57a48e1488fdfcfe3f79208b70e4dacffbe3"/>
+		<Metadata name="CommonModule._КомандыВызовСервера" id="fe4f6c99-8299-40fb-a946-9887570394c8" configVersion="85322e86c9860000970ced8e5ed1dc28886baf29"/>
+		<Metadata name="CommonModule._КомандыВызовСервера.Module" id="fe4f6c99-8299-40fb-a946-9887570394c8.0" configVersion="2d9fd50d1acbbf711a9717c6065791e4b7d29693"/>
+		<Metadata name="CommonModule._КомандыКлиент" id="47c13704-40ea-4cad-aa03-e2109094a674" configVersion="6957b01d1bbe200ae3c627db42ba16c5710184e0"/>
+		<Metadata name="CommonModule._КомандыКлиент.Module" id="47c13704-40ea-4cad-aa03-e2109094a674.0" configVersion="1c7090c33aea7ee6f66262a21dcd6c39c0c4f524"/>
+		<Metadata name="Configuration.КарточкиДанных" id="06c2b78d-103d-482e-8d28-6a3cab3f4a4e" configVersion="d3751e2e43c33c32ed23828a72963486f25eff63"/>
+		<Metadata name="DefinedType._Хранение" id="44cb7340-fceb-4a61-a6c5-26f13a800dfb" configVersion="6ce5d7b2f9cb215d96697de94434bba1069d282b"/>
+		<Metadata name="Document._ДвиженияКарточки" id="ca30f74a-ef74-4408-8f79-66750c8fb8e1" configVersion="2ec68fef5e527ac656b33744547fa24cdac464a0">
+			<Metadata name="Document._ДвиженияКарточки.Attribute.Карточка" id="00d9f9b4-5fda-4d39-818e-7b658032318a"/>
+			<Metadata name="Document._ДвиженияКарточки.TabularSection.Реквизиты.Attribute.УИД_Элемента" id="11a94fb3-6afc-4082-bb84-561c02243489"/>
+			<Metadata name="Document._ДвиженияКарточки.TabularSection.Реквизиты" id="4c1bad1c-c190-4fe0-9901-b54d2a0967ea"/>
+			<Metadata name="Document._ДвиженияКарточки.TabularSection.Реквизиты.Attribute.ВидРеквизита" id="80170c63-0a28-4ce9-8636-43f1c64c6f44"/>
+			<Metadata name="Document._ДвиженияКарточки.Attribute.Комментарий" id="eb04e3d9-ab06-4c80-ab91-35f347790e50"/>
+			<Metadata name="Document._ДвиженияКарточки.TabularSection.Реквизиты.Attribute.ЗначениеРеквизита" id="f84ad1cd-6339-4825-bb64-0d3041b057d7"/>
+		</Metadata>
+		<Metadata name="Document._ДвиженияКарточки.ObjectModule" id="ca30f74a-ef74-4408-8f79-66750c8fb8e1.0" configVersion="1cb57a8938954fb8ebee9e2cb799533af473d8e0"/>
+		<Metadata name="Enum._ВариантыПолученияРолей" id="74a12a8f-3a7f-4c8e-81c4-b3f34607852a" configVersion="9345ab69cc73ec6679cd0506ae964ce9297468b1"/>
+		<Metadata name="Enum._ВариантыСравнения" id="be257fd2-ef91-4aff-91f1-f8febbcaa8fb" configVersion="05d32dd7f4ef53c98be3147ec9ad86aac9b47d2c">
+			<Metadata name="Enum._ВариантыСравнения.EnumValue.МеньшеРавно" id="258ab0dd-7e05-4fdd-9391-cc159fa70fb4"/>
+			<Metadata name="Enum._ВариантыСравнения.EnumValue.НеИспользовать" id="555f63e5-4cc3-4b2e-83b9-78dd38046b2a"/>
+			<Metadata name="Enum._ВариантыСравнения.EnumValue.НеЗаполнено" id="6ebcc7bb-c1df-4a47-8a8f-44a491fcc3c0"/>
+			<Metadata name="Enum._ВариантыСравнения.EnumValue.Равно" id="754271af-b862-497c-8ac3-d5054284243c"/>
+			<Metadata name="Enum._ВариантыСравнения.EnumValue.БольшеРавно" id="75c5f703-88e0-4228-881b-7d00e14648d8"/>
+			<Metadata name="Enum._ВариантыСравнения.EnumValue.Заполнено" id="bdd5fdf8-2798-4d04-af3b-c6130af6bc77"/>
+			<Metadata name="Enum._ВариантыСравнения.EnumValue.Меньше" id="e3cefcc7-7a16-40eb-84fd-c1c323394c4a"/>
+			<Metadata name="Enum._ВариантыСравнения.EnumValue.Больше" id="f4669ccc-38c9-4fdc-83aa-4933fb477310"/>
+		</Metadata>
+		<Metadata name="Enum._ОбработчикиПравил" id="ed00dce0-9354-43f5-a981-17cb06bccdf3" configVersion="6a55233c829d62a4fb759cdbbe3e8c0606c9ffac">
+			<Metadata name="Enum._ОбработчикиПравил.EnumValue.СтандартнаяОбработка" id="a9f74c29-e5fa-45f3-9294-03baf18d9f03"/>
+		</Metadata>
+		<Metadata name="Enum._СпособыХранениеРеквизитовКарточки" id="31d429a0-fcc8-4a01-b20f-9fecea9d1750" configVersion="749ed50e4bc8b5228122f2c31251aa926323323b">
+			<Metadata name="Enum._СпособыХранениеРеквизитовКарточки.EnumValue.ВКарточке" id="98071b7f-bfab-460c-9f0d-9609e69d8caf"/>
+		</Metadata>
+		<Metadata name="Enum._СтатусыКарточки" id="18ae8ab3-4d45-4003-9b58-9890e8d031e3" configVersion="19ec1e8a67f4240da173f47d33fe2fc16a5ea080">
+			<Metadata name="Enum._СтатусыКарточки.EnumValue.НеАктивно" id="0015c151-326d-4343-9f00-f88c8c66267a"/>
+			<Metadata name="Enum._СтатусыКарточки.EnumValue.Удаление" id="391ed44d-a783-42f0-b017-f92f158a0cb9"/>
+			<Metadata name="Enum._СтатусыКарточки.EnumValue.Активно" id="57b6af26-4ccd-4190-80f4-0497c3eeed04"/>
+		</Metadata>
+		<Metadata name="InformationRegister._СостояниеКарточек" id="038a7065-b245-4b7c-9603-dec345000a88" configVersion="e893092d90edad343b0eb9a8f30a64ef6de99768">
+			<Metadata name="InformationRegister._СостояниеКарточек.Dimension.ВидРеквизита" id="3754f850-c429-4b26-83f9-667384ffd004"/>
+			<Metadata name="InformationRegister._СостояниеКарточек.Dimension.Карточка" id="4dffdf34-bd25-4b29-9863-14c425a0a25a"/>
+			<Metadata name="InformationRegister._СостояниеКарточек.Resource.ЗначениеРеквизита" id="4ea857a5-05a1-4a21-b5b5-83056d7ca19c"/>
+			<Metadata name="InformationRegister._СостояниеКарточек.Dimension.УИД_Элемента" id="7708aca3-792c-45ea-b655-4e68b94358bf"/>
+			<Metadata name="InformationRegister._СостояниеКарточек.Resource.ЗначениеАктивно" id="aff3cc21-0eaf-4072-bab6-d7f9952f23e1"/>
+		</Metadata>
+		<Metadata name="InformationRegister._СостояниеКарточек.ManagerModule" id="038a7065-b245-4b7c-9603-dec345000a88.2" configVersion="5839cce023b4d999e8a511c431cc1050b716dca9"/>
+		<Metadata name="InformationRegister._СостояниеКарточек.RecordSetModule" id="038a7065-b245-4b7c-9603-dec345000a88.1" configVersion="d60d2a8ece1961225d4e546fe948707cbaa8d897"/>
+		<Metadata name="InformationRegister._СостояниеКарточек.Template._СтарыйМодульРС_РеквизитыКарточек_Рабочий" id="61e4af2b-fe7c-4cc5-8933-179373f59ebc" configVersion="1892743448d488f5c92c83228eea9f8bafd41397"/>
+		<Metadata name="InformationRegister._СостояниеКарточек.Template._СтарыйМодульРС_РеквизитыКарточек_Рабочий.Template" id="61e4af2b-fe7c-4cc5-8933-179373f59ebc.0" configVersion="c5bffd3382a1203a3d19901cd605cb6fcf1dcc75"/>
+		<Metadata name="InformationRegister._СостояниеКарточек.Template.Модуль_ПолученныйОтИИ" id="ec168567-9161-4c0d-94cb-7777b6f9acb8" configVersion="6c2d3aaf8805a5dbe0792e1e457725ef9e1dba86"/>
+		<Metadata name="InformationRegister._СостояниеКарточек.Template.Модуль_ПолученныйОтИИ.Template" id="ec168567-9161-4c0d-94cb-7777b6f9acb8.0" configVersion="61266b57b3daaace47a0e53b5b397e0d9bfddf84"/>
+		<Metadata name="InformationRegister._СостояниеКарточек.Template.Модуль_Правка" id="dc892d99-4704-49a3-8858-5fb7f93947ca" configVersion="edc474f6c0d58a07a4b4762b584f4e38d4a48623"/>
+		<Metadata name="InformationRegister._СостояниеКарточек.Template.Модуль_Правка.Template" id="dc892d99-4704-49a3-8858-5fb7f93947ca.0" configVersion="81a7575d8babe8578c9b74561c2206d09b035a8a"/>
+		<Metadata name="InformationRegister._СостояниеКарточек.Template.Модуль_которыйПоправилИОтдалИИдляДоработки" id="31dafad7-5c1f-453c-9651-7f71c0911ffc" configVersion="161fc99703bb64d2e86f1fa3f841b06859a486c2"/>
+		<Metadata name="InformationRegister._СостояниеКарточек.Template.Модуль_которыйПоправилИОтдалИИдляДоработки.Template" id="31dafad7-5c1f-453c-9651-7f71c0911ffc.0" configVersion="a6afaa5ff34ae31bd777c31234affac571095c7e"/>
+		<Metadata name="InformationRegister._СостояниеКарточек.Template.Промт_" id="90380de5-0f31-45f7-abd3-e6525a287fd7" configVersion="785e138460538bb69b254c35403855c7ed53723a"/>
+		<Metadata name="InformationRegister._СостояниеКарточек.Template.Промт_ПолучитьСостояние" id="c39e1d43-cb33-4df8-936c-1b1b070998f9" configVersion="4636d6210591943c167615f1bb04a06a7b9f31b6"/>
+		<Metadata name="InformationRegister._СостояниеКарточек.Template.Промт_ПолучитьСостояние.Template" id="c39e1d43-cb33-4df8-936c-1b1b070998f9.0" configVersion="3bef82c894e075d8521e725bae15d360edcb767c"/>
+		<Metadata name="Language.Русский" id="a16f6f10-9e60-4138-96ba-35f8b3cea5ad" configVersion="d0dd0092b2ac1455ce96173116ef7d19dd67f102"/>
+		<Metadata name="Role._Карточки_ОсновнаяРоль" id="c8dbeb05-43b6-4f68-adf4-e8bd9eee223a" configVersion="81e330b7b5960ff80cfa4ec43316d048a2ab2d3d"/>
+		<Metadata name="Subsystem._КарточкиДанных" id="6247ed34-b6f9-449e-8caf-c337e3978582" configVersion="7d8d287649915f7264e19fa5e85caff53767287d"/>
+		<Metadata name="Subsystem._КарточкиДанных.Subsystem.Движения" id="9d0a224e-a871-4a18-9d20-7c444632bd23" configVersion="7ebbce7f4e036f38f0f76ce1fe61f55abb135c9c"/>
+		<Metadata name="Subsystem._КарточкиДанных.Subsystem.Справочники" id="ab37907e-7341-43d4-9c19-822be3fc1cf0" configVersion="862a3f15202da19c839240e2049cbe8c83a0a1df"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

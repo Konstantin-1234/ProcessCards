@@ -1,0 +1,62 @@
+﻿=== STATISTICS STARTED ===
+Date: 29.08.2026 18:10:49
+Folder: C:\_tmp\XML for AI
+Prefix filter: нет
+==================================
+Файл 1. 01_СтруктураМетаданных.txt
+1 Configuration.xml
+2 Catalogs\_ВидыКарточек.xml
+3 Catalogs\_Действия.xml
+4 Catalogs\_Действия\Ext\Predefined.xml
+5 Catalogs\_Карточки.xml
+6 Catalogs\_Команды.xml
+7 Catalogs\_КомандыГруппы.xml
+8 Catalogs\_Правила.xml
+9 Catalogs\_СтатусыКарточки.xml
+10 Catalogs\_ФункциональныеРоли.xml
+11 ChartsOfCharacteristicTypes\_ВидыРеквизитов.xml
+12 CommonModules\_ВызовСервера.xml
+13 CommonModules\_КомандыВызовСервера.xml
+14 CommonModules\_КомандыКлиент.xml
+15 DataProcessors\_РазличныеПромты.xml
+16 DefinedTypes\_Хранение.xml
+17 Documents\_ДвиженияКарточки.xml
+18 Enums\_ВариантыПолученияРолей.xml
+19 Enums\_ВариантыСравнения.xml
+20 Enums\_ОбработчикиПравил.xml
+21 Enums\_СпособыХранениеРеквизитовКарточки.xml
+22 Enums\_СтатусыКарточки.xml
+23 InformationRegisters\_СостояниеКарточек.xml
+24 Languages\Русский.xml
+25 Roles\_Карточки_ОсновнаяРоль.xml
+26 Subsystems\_КарточкиДанных.xml
+27 Subsystems\_КарточкиДанных\Subsystems\Движения.xml
+28 Subsystems\_КарточкиДанных\Subsystems\Справочники.xml
+Всего блоков: 28
+
+Файл 2. 02_Код_BSL.txt
+1 Catalogs\_Карточки\Ext\ObjectModule.bsl
+2 Catalogs\_Карточки\Forms\ФормаЭлемента\Ext\Form\Module.bsl
+3 Catalogs\_Команды\Ext\ManagerModule.bsl
+4 Catalogs\_Правила\Ext\ManagerModule.bsl
+5 CommonModules\_ВызовСервера\Ext\Module.bsl
+6 CommonModules\_КомандыВызовСервера\Ext\Module.bsl
+7 CommonModules\_КомандыКлиент\Ext\Module.bsl
+8 DataProcessors\_РазличныеПромты\Ext\ObjectModule.bsl
+9 Documents\_ДвиженияКарточки\Ext\ObjectModule.bsl
+10 InformationRegisters\_СостояниеКарточек\Ext\ManagerModule.bsl
+11 InformationRegisters\_СостояниеКарточек\Ext\RecordSetModule.bsl
+Всего блоков: 11
+
+Файл 3. 03_Интерфейс.txt
+1 Catalogs\_ВидыКарточек\Forms\ФормаЭлемента.xml
+2 Catalogs\_ВидыКарточек\Forms\ФормаЭлемента\Ext\Form.xml
+3 Catalogs\_Карточки\Forms\ФормаЭлемента.xml
+4 Catalogs\_Карточки\Forms\ФормаЭлемента\Ext\Form.xml
+5 Catalogs\_Правила\Forms\ФормаЭлемента.xml
+6 Catalogs\_Правила\Forms\ФормаЭлемента\Ext\Form.xml
+7 ChartsOfCharacteristicTypes\_ВидыРеквизитов\Forms\ФормаЭлемента.xml
+8 ChartsOfCharacteristicTypes\_ВидыРеквизитов\Forms\ФормаЭлемента\Ext\Form.xml
+Всего блоков: 8
+==================================
+Total files: 47

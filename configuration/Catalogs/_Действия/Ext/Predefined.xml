@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="19878dbb-4e4c-4ae1-a643-be0ef0788116">
+		<Name>Вычесть</Name>
+		<Code>Вычесть</Code>
+		<Description>Вычесть</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8ccb7e52-ba4d-403a-a664-b0b50a4c3d4d">
+		<Name>Максимум</Name>
+		<Code>Максимум</Code>
+		<Description>Максимум</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bbfad118-8b66-4ca4-a03d-f3681dc11bcc">
+		<Name>Минимум</Name>
+		<Code>Минимум</Code>
+		<Description>Минимум</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cb620171-4b62-434c-96ff-e9b7b11a7a89">
+		<Name>НеИзменять</Name>
+		<Code>000000001</Code>
+		<Description>Не изменять</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0b64618c-9dc3-4915-953c-4c88f5c88228">
+		<Name>Прибавить</Name>
+		<Code>Прибавить</Code>
+		<Description>Прибавить</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0e120b4a-a3ad-47fe-8646-a831ecbca156">
+		<Name>ТекущаяДата</Name>
+		<Code>000000003                                         </Code>
+		<Description>Текущая дата</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1ce344b1-42bc-4fdf-a6d4-1537a323046d">
+		<Name>Установить</Name>
+		<Code>000000002                                         </Code>
+		<Description>Установить</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

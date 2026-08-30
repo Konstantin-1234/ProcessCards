@@ -28,9 +28,10 @@
 		<Metadata name="Catalog._Карточки.Form.ФормаЭлемента.Form" id="cbce4a7e-332e-4afc-85c8-746b13461f0f.0" configVersion="e41cf9dbed4d45930802023e17e5ca5045ec600e"/>
 		<Metadata name="Catalog._Карточки.Help" id="043bc851-7549-484d-b470-46048099e730.1" configVersion="80f9a577aa66922cdc03444dff2a6d9638168578"/>
 		<Metadata name="Catalog._Карточки.ObjectModule" id="043bc851-7549-484d-b470-46048099e730.0" configVersion="b68b13a829389dd929929eef1a3d37d8a0ef0bd1"/>
-		<Metadata name="Catalog._Команды" id="543231a9-0030-43a9-a32b-39441f5a2ba4" configVersion="5a4c1647002c5652d41532dac3946624a60edc05">
+		<Metadata name="Catalog._Команды" id="543231a9-0030-43a9-a32b-39441f5a2ba4" configVersion="b7c5e5572de382fb5ffa1d6e5d518bcd931def68">
 			<Metadata name="Catalog._Команды.TabularSection.ФункциональныеРоли" id="19fb43b9-3713-4fce-93e3-679860d1fff4"/>
 			<Metadata name="Catalog._Команды.Attribute.Группа" id="2a621d07-418d-4fd0-abe8-ef320d082baa"/>
+			<Metadata name="Catalog._Команды.TabularSection.ФункциональныеРоли.Attribute.ВидКарточки" id="4d9b7836-43ec-4aee-9a64-dbd44f367eb4"/>
 			<Metadata name="Catalog._Команды.TabularSection.ФункциональныеРоли.Attribute.ФункциональнаяРоль" id="717e1ce0-7499-4fd5-9fb7-16e2dc145674"/>
 		</Metadata>
 		<Metadata name="Catalog._Команды.ManagerModule" id="543231a9-0030-43a9-a32b-39441f5a2ba4.3" configVersion="b058e914bd73a1946044ca0e2c0a382d11e157b2"/>
@@ -61,7 +62,7 @@
 		<Metadata name="Catalog._Правила.Form.ФормаЭлемента" id="c6177659-20cf-4fe3-bd47-6250f8146bd8" configVersion="d6217d8972f190c301065108ac9225cab3cd5692"/>
 		<Metadata name="Catalog._Правила.Form.ФормаЭлемента.Form" id="c6177659-20cf-4fe3-bd47-6250f8146bd8.0" configVersion="f4443f59874c811bd7beb02093309dca4891a930"/>
 		<Metadata name="Catalog._Правила.Help" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133.1" configVersion="58bcbf21ba6b38b536fdbdb7bccb2ecf8a717d5b"/>
-		<Metadata name="Catalog._Правила.ManagerModule" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133.3" configVersion="553bb7666344027b0a9d6d1cb53a62f2901c7842"/>
+		<Metadata name="Catalog._Правила.ManagerModule" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133.3" configVersion="a228895d614fbc6dae03ff977d3584b9337de1e0"/>
 		<Metadata name="Catalog._Правила.Template.Макет" id="cb097463-0ebf-451f-9f15-0f90448509f7" configVersion="3eb22596e59b94c9d6893befc02ab05d83e88a29"/>
 		<Metadata name="Catalog._Правила.Template.Макет.Template" id="cb097463-0ebf-451f-9f15-0f90448509f7.0" configVersion="242af9746551c53224cba0601dc513d9ee401a97"/>
 		<Metadata name="Catalog._СтатусыКарточки" id="2c0b1c1f-c14b-43a5-8571-ededd1bb568b" configVersion="be0e52c10c794eb32de8c5300b7bb7a0c73a3b79"/>

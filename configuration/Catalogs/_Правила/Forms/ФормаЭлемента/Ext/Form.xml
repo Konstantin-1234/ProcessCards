@@ -216,6 +216,13 @@
 									<ContextMenu name="УсловияГруппаКонтекстноеМеню" id="31"/>
 									<ExtendedTooltip name="УсловияГруппаРасширеннаяПодсказка" id="32"/>
 								</InputField>
+								<InputField name="УсловияФункциональнаяРоль" id="112">
+									<DataPath>Объект.Условия.ФункциональнаяРоль</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="УсловияФункциональнаяРольКонтекстноеМеню" id="113"/>
+									<ExtendedTooltip name="УсловияФункциональнаяРольРасширеннаяПодсказка" id="114"/>
+								</InputField>
 								<InputField name="УсловияВидРеквизита" id="36">
 									<DataPath>Объект.Условия.ВидРеквизита</DataPath>
 									<EditMode>EnterOnInput</EditMode>

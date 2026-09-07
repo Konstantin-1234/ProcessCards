@@ -1,6 +1,7 @@
 configuration/Catalogs/_ВидыКарточек.xml
 configuration/Catalogs/_ВидыКарточек/Forms/ФормаЭлемента.xml
 configuration/Catalogs/_ВидыКарточек/Forms/ФормаЭлемента/Ext/Form.xml
+configuration/Catalogs/_ВидыКарточек/Forms/ФормаЭлемента/Ext/Form/Module.bsl
 configuration/Catalogs/_Действия.xml
 configuration/Catalogs/_Действия/Ext/Predefined.xml
 configuration/Catalogs/_Карточки.xml
@@ -12,6 +13,9 @@ configuration/Catalogs/_Карточки/Forms/ФормаЭлемента/Ext/Fo
 configuration/Catalogs/_Карточки/Forms/ФормаЭлемента/Ext/Form/Module.bsl
 configuration/Catalogs/_Команды.xml
 configuration/Catalogs/_Команды/Ext/ManagerModule.bsl
+configuration/Catalogs/_Команды/Forms/ФормаЭлемента.xml
+configuration/Catalogs/_Команды/Forms/ФормаЭлемента/Ext/Form.xml
+configuration/Catalogs/_Команды/Forms/ФормаЭлемента/Ext/Form/Module.bsl
 configuration/Catalogs/_КомандыГруппы.xml
 configuration/Catalogs/_Правила.xml
 configuration/Catalogs/_Правила/Ext/Help.xml
@@ -26,6 +30,7 @@ configuration/Catalogs/_СтатусыКарточки.xml
 configuration/Catalogs/_ФункциональныеРоли.xml
 configuration/Catalogs/_ФункциональныеРоли/Ext/Predefined.xml
 configuration/ChartsOfCharacteristicTypes/_ВидыРеквизитов.xml
+configuration/ChartsOfCharacteristicTypes/_ВидыРеквизитов/Ext/Predefined.xml
 configuration/ChartsOfCharacteristicTypes/_ВидыРеквизитов/Forms/ФормаЭлемента.xml
 configuration/ChartsOfCharacteristicTypes/_ВидыРеквизитов/Forms/ФормаЭлемента/Ext/Form.xml
 configuration/CommonModules/_ВызовСервера.xml
@@ -34,13 +39,10 @@ configuration/CommonModules/_КомандыВызовСервера.xml
 configuration/CommonModules/_КомандыВызовСервера/Ext/Module.bsl
 configuration/CommonModules/_КомандыКлиент.xml
 configuration/CommonModules/_КомандыКлиент/Ext/Module.bsl
+configuration/CommonModules/_НаКлиенте.xml
+configuration/CommonModules/_НаКлиенте/Ext/Module.bsl
 configuration/ConfigDumpInfo.xml
 configuration/Configuration.xml
-configuration/DataProcessors/_РазличныеПромты.xml
-configuration/DataProcessors/_РазличныеПромты/Ext/ObjectModule.bsl
-configuration/DataProcessors/_РазличныеПромты/Templates/КорректировкаЗнаний_QWEN_об_1C.xml
-configuration/DataProcessors/_РазличныеПромты/Templates/КорректировкаЗнаний_QWEN_об_1C/Ext/Template.xml
-configuration/DataProcessors/_РазличныеПромты/Templates/КорректировкаЗнаний_QWEN_об_1C/Ext/Template/ru.html
 configuration/DefinedTypes/_Хранение.xml
 configuration/Documents/_ДвиженияКарточки.xml
 configuration/Documents/_ДвиженияКарточки/Ext/ObjectModule.bsl
@@ -50,6 +52,10 @@ configuration/Enums/_ОбработчикиПравил.xml
 configuration/Enums/_СпособыХранениеРеквизитовКарточки.xml
 configuration/Enums/_СтатусыКарточки.xml
 configuration/file_list.txt
+configuration/InformationRegisters/_ИсточникиФункциональныхРолей.xml
+configuration/InformationRegisters/_ИсточникиФункциональныхРолей/Forms/ФормаЗаписи.xml
+configuration/InformationRegisters/_ИсточникиФункциональныхРолей/Forms/ФормаЗаписи/Ext/Form.xml
+configuration/InformationRegisters/_ИсточникиФункциональныхРолей/Forms/ФормаЗаписи/Ext/Form/Module.bsl
 configuration/InformationRegisters/_СостояниеКарточек.xml
 configuration/InformationRegisters/_СостояниеКарточек/Ext/ManagerModule.bsl
 configuration/InformationRegisters/_СостояниеКарточек/Ext/RecordSetModule.bsl

@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="Группа1" id="65">
 			<Group>AlwaysHorizontal</Group>
@@ -194,14 +196,21 @@
 						</Table>
 					</ChildItems>
 				</Page>
-				<Page name="ГруппаОтображаемыеГруппыКоманд" id="36">
+				<Page name="ГруппаКомандыГруппыПравила" id="36">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отображаемые группы команд</v8:content>
+							<v8:content> Команды, группы, правила обработки</v8:content>
 						</v8:item>
 					</Title>
-					<ExtendedTooltip name="ГруппаОтображаемыеГруппыКомандРасширеннаяПодсказка" id="37"/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа команды группы правила</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="ГруппаКомандыГруппыПравилаРасширеннаяПодсказка" id="37"/>
 					<ChildItems>
 						<Table name="ОтображаемыеГруппыКоманд" id="38">
 							<Representation>List</Representation>
@@ -241,7 +250,14 @@
 							<ChildItems>
 								<LabelField name="ОтображаемыеГруппыКомандНомерСтроки" id="51">
 									<DataPath>Объект.ОтображаемыеГруппыКоманд.LineNumber</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content> </v8:content>
+										</v8:item>
+									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<Width>1</Width>
 									<ContextMenu name="ОтображаемыеГруппыКомандНомерСтрокиКонтекстноеМеню" id="52"/>
 									<ExtendedTooltip name="ОтображаемыеГруппыКомандНомерСтрокиРасширеннаяПодсказка" id="53"/>
 								</LabelField>
@@ -254,6 +270,183 @@
 								</InputField>
 							</ChildItems>
 						</Table>
+						<UsualGroup name="ГруппаВертикальная" id="147">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа вертикальная</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа вертикальная</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаВертикальнаяРасширеннаяПодсказка" id="148"/>
+							<ChildItems>
+								<Table name="Команды" id="91">
+									<Height>3</Height>
+									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<EnableStartDrag>true</EnableStartDrag>
+									<DataPath>ПравилоОбработкиКоманды</DataPath>
+									<RowPictureDataPath>ПравилоОбработкиКоманды.DefaultPicture</RowPictureDataPath>
+									<AutoRefresh>false</AutoRefresh>
+									<AutoRefreshPeriod>60</AutoRefreshPeriod>
+									<Period>
+										<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+										<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+										<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+									</Period>
+									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+									<RestoreCurrentRow>false</RestoreCurrentRow>
+									<TopLevelParent xsi:nil="true"/>
+									<ShowRoot>true</ShowRoot>
+									<AllowRootChoice>false</AllowRootChoice>
+									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+									<ContextMenu name="КомандыКонтекстноеМеню" id="92"/>
+									<AutoCommandBar name="КомандыКоманднаяПанель" id="93"/>
+									<ExtendedTooltip name="КомандыРасширеннаяПодсказка" id="94"/>
+									<SearchStringAddition name="КомандыСтрокаПоиска" id="95">
+										<AdditionSource>
+											<Item>Команды</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="КомандыСтрокаПоискаКонтекстноеМеню" id="96"/>
+										<ExtendedTooltip name="КомандыСтрокаПоискаРасширеннаяПодсказка" id="97"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="КомандыСостояниеПросмотра" id="98">
+										<AdditionSource>
+											<Item>Команды</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="КомандыСостояниеПросмотраКонтекстноеМеню" id="99"/>
+										<ExtendedTooltip name="КомандыСостояниеПросмотраРасширеннаяПодсказка" id="100"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="КомандыУправлениеПоиском" id="101">
+										<AdditionSource>
+											<Item>Команды</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="КомандыУправлениеПоискомКонтекстноеМеню" id="102"/>
+										<ExtendedTooltip name="КомандыУправлениеПоискомРасширеннаяПодсказка" id="103"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<LabelField name="КомандыВидКарточки" id="104">
+											<DataPath>ПравилоОбработкиКоманды.ВидКарточки</DataPath>
+											<Width>5</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="КомандыВидКарточкиКонтекстноеМеню" id="105"/>
+											<ExtendedTooltip name="КомандыВидКарточкиРасширеннаяПодсказка" id="106"/>
+										</LabelField>
+										<LabelField name="КомандыКомандаГруппа" id="113">
+											<DataPath>ПравилоОбработкиКоманды.Команда.Группа</DataPath>
+											<ContextMenu name="КомандыКомандаГруппаКонтекстноеМеню" id="114"/>
+											<ExtendedTooltip name="КомандыКомандаГруппаРасширеннаяПодсказка" id="115"/>
+										</LabelField>
+										<LabelField name="КомандыКоманда" id="107">
+											<DataPath>ПравилоОбработкиКоманды.Команда</DataPath>
+											<ContextMenu name="КомандыКомандаКонтекстноеМеню" id="108"/>
+											<ExtendedTooltip name="КомандыКомандаРасширеннаяПодсказка" id="109"/>
+										</LabelField>
+										<LabelField name="КомандыПравилоОбработкиКоманды" id="110">
+											<DataPath>ПравилоОбработкиКоманды.ПравилоОбработкиКоманды</DataPath>
+											<ContextMenu name="КомандыПравилоОбработкиКомандыКонтекстноеМеню" id="111"/>
+											<ExtendedTooltip name="КомандыПравилоОбработкиКомандыРасширеннаяПодсказка" id="112"/>
+										</LabelField>
+									</ChildItems>
+								</Table>
+								<Table name="ИсточникиФункциональныхРолей" id="116">
+									<Height>3</Height>
+									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<EnableStartDrag>true</EnableStartDrag>
+									<DataPath>ИсточникиФункциональныхРолей</DataPath>
+									<RowPictureDataPath>ИсточникиФункциональныхРолей.DefaultPicture</RowPictureDataPath>
+									<AutoRefresh>false</AutoRefresh>
+									<AutoRefreshPeriod>60</AutoRefreshPeriod>
+									<Period>
+										<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+										<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+										<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+									</Period>
+									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+									<RestoreCurrentRow>false</RestoreCurrentRow>
+									<TopLevelParent xsi:nil="true"/>
+									<ShowRoot>true</ShowRoot>
+									<AllowRootChoice>false</AllowRootChoice>
+									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+									<ContextMenu name="ИсточникиФункциональныхРолейКонтекстноеМеню" id="117"/>
+									<AutoCommandBar name="ИсточникиФункциональныхРолейКоманднаяПанель" id="118"/>
+									<ExtendedTooltip name="ИсточникиФункциональныхРолейРасширеннаяПодсказка" id="119"/>
+									<SearchStringAddition name="ИсточникиФункциональныхРолейСтрокаПоиска" id="120">
+										<AdditionSource>
+											<Item>ИсточникиФункциональныхРолей</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ИсточникиФункциональныхРолейСтрокаПоискаКонтекстноеМеню" id="121"/>
+										<ExtendedTooltip name="ИсточникиФункциональныхРолейСтрокаПоискаРасширеннаяПодсказка" id="122"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="ИсточникиФункциональныхРолейСостояниеПросмотра" id="123">
+										<AdditionSource>
+											<Item>ИсточникиФункциональныхРолей</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ИсточникиФункциональныхРолейСостояниеПросмотраКонтекстноеМеню" id="124"/>
+										<ExtendedTooltip name="ИсточникиФункциональныхРолейСостояниеПросмотраРасширеннаяПодсказка" id="125"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="ИсточникиФункциональныхРолейУправлениеПоиском" id="126">
+										<AdditionSource>
+											<Item>ИсточникиФункциональныхРолей</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="ИсточникиФункциональныхРолейУправлениеПоискомКонтекстноеМеню" id="127"/>
+										<ExtendedTooltip name="ИсточникиФункциональныхРолейУправлениеПоискомРасширеннаяПодсказка" id="128"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<LabelField name="ИсточникиФункциональныхРолейСтандартнаяКартинка" id="144">
+											<DataPath>ИсточникиФункциональныхРолей.DefaultPicture</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content> </v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ИсточникиФункциональныхРолейСтандартнаяКартинкаКонтекстноеМеню" id="145"/>
+											<ExtendedTooltip name="ИсточникиФункциональныхРолейСтандартнаяКартинкаРасширеннаяПодсказка" id="146"/>
+										</LabelField>
+										<LabelField name="ИсточникиФункциональныхРолейФункциональнаяРоль" id="141">
+											<DataPath>ИсточникиФункциональныхРолей.ФункциональнаяРоль</DataPath>
+											<ContextMenu name="ИсточникиФункциональныхРолейФункциональнаяРольКонтекстноеМеню" id="142"/>
+											<ExtendedTooltip name="ИсточникиФункциональныхРолейФункциональнаяРольРасширеннаяПодсказка" id="143"/>
+										</LabelField>
+										<LabelField name="ИсточникиФункциональныхРолейВидКарточки" id="129">
+											<DataPath>ИсточникиФункциональныхРолей.ВидКарточки</DataPath>
+											<ContextMenu name="ИсточникиФункциональныхРолейВидКарточкиКонтекстноеМеню" id="130"/>
+											<ExtendedTooltip name="ИсточникиФункциональныхРолейВидКарточкиРасширеннаяПодсказка" id="131"/>
+										</LabelField>
+										<LabelField name="ИсточникиФункциональныхРолейВидРеквизита" id="132">
+											<DataPath>ИсточникиФункциональныхРолей.ВидРеквизита</DataPath>
+											<ContextMenu name="ИсточникиФункциональныхРолейВидРеквизитаКонтекстноеМеню" id="133"/>
+											<ExtendedTooltip name="ИсточникиФункциональныхРолейВидРеквизитаРасширеннаяПодсказка" id="134"/>
+										</LabelField>
+										<LabelField name="ИсточникиФункциональныхРолейВидРеквизитаДополнение" id="135">
+											<DataPath>ИсточникиФункциональныхРолей.ВидРеквизитаДополнение</DataPath>
+											<ContextMenu name="ИсточникиФункциональныхРолейВидРеквизитаДополнениеКонтекстноеМеню" id="136"/>
+											<ExtendedTooltip name="ИсточникиФункциональныхРолейВидРеквизитаДополнениеРасширеннаяПодсказка" id="137"/>
+										</LabelField>
+										<LabelField name="ИсточникиФункциональныхРолейКоманда" id="138">
+											<DataPath>ИсточникиФункциональныхРолей.Команда</DataPath>
+											<ContextMenu name="ИсточникиФункциональныхРолейКомандаКонтекстноеМеню" id="139"/>
+											<ExtendedTooltip name="ИсточникиФункциональныхРолейКомандаРасширеннаяПодсказка" id="140"/>
+										</LabelField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</Page>
 				<Page name="ГруппаРодители" id="67">
@@ -333,6 +526,204 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ИсточникиФункциональныхРолей" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Источники функциональных ролей</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	РегистрСведений_ИсточникиФункциональныхРолей.ВидКарточки КАК ВидКарточки,
+	РегистрСведений_ИсточникиФункциональныхРолей.Команда КАК Команда,
+	РегистрСведений_ИсточникиФункциональныхРолей.ФункциональнаяРоль КАК ФункциональнаяРоль,
+	РегистрСведений_ИсточникиФункциональныхРолей.ВидРеквизита КАК ВидРеквизита,
+	РегистрСведений_ИсточникиФункциональныхРолей.ВидРеквизитаДополнение КАК ВидРеквизитаДополнение
+ИЗ
+	РегистрСведений._ИсточникиФункциональныхРолей КАК РегистрСведений_ИсточникиФункциональныхРолей
+ГДЕ
+	РегистрСведений_ИсточникиФункциональныхРолей.ВидКарточки = &amp;ВидКарточки</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВидКарточки</dcssch:dataPath>
+					<dcssch:field>ВидКарточки</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Команда</dcssch:dataPath>
+					<dcssch:field>Команда</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ФункциональнаяРоль</dcssch:dataPath>
+					<dcssch:field>ФункциональнаяРоль</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВидРеквизита</dcssch:dataPath>
+					<dcssch:field>ВидРеквизита</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВидРеквизитаДополнение</dcssch:dataPath>
+					<dcssch:field>ВидРеквизитаДополнение</dcssch:field>
+				</Field>
+				<Parameter>
+					<dcssch:name>ВидКарточки</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид карточки</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>cfg:CatalogRef._ВидыКарточек</v8:Type>
+					</dcssch:valueType>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<MainTable>InformationRegister._ИсточникиФункциональныхРолей</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ПравилоОбработкиКоманды" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Правило обработки команды</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>false</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	_ПравилаВидыКарточек.ВидКарточки КАК ВидКарточки,
+	_ПравилаВидыКарточек.Ссылка.Команда КАК Команда,
+	_ПравилаВидыКарточек.Ссылка.Ссылка КАК ПравилоОбработкиКоманды
+ИЗ
+	Справочник._Правила.ВидыКарточек КАК _ПравилаВидыКарточек
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник._Правила КАК _Правила
+		ПО _ПравилаВидыКарточек.Ссылка = _Правила.Ссылка
+ГДЕ
+	_ПравилаВидыКарточек.ВидКарточки = &amp;ВидКарточки</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВидКарточки</dcssch:dataPath>
+					<dcssch:field>ВидКарточки</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Команда</dcssch:dataPath>
+					<dcssch:field>Команда</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПравилоОбработкиКоманды</dcssch:dataPath>
+					<dcssch:field>ПравилоОбработкиКоманды</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Правило обработки команды</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Код</dcssch:dataPath>
+					<dcssch:field>Код</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Предопределенный</dcssch:dataPath>
+					<dcssch:field>Предопределенный</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВидыКарточек</dcssch:dataPath>
+					<dcssch:field>ВидыКарточек</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Обработчик</dcssch:dataPath>
+					<dcssch:field>Обработчик</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИспользоватьГруппыУсловий</dcssch:dataPath>
+					<dcssch:field>ИспользоватьГруппыУсловий</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИспользоватьРоли</dcssch:dataPath>
+					<dcssch:field>ИспользоватьРоли</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИмяПредопределенныхДанных</dcssch:dataPath>
+					<dcssch:field>ИмяПредопределенныхДанных</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Действия</dcssch:dataPath>
+					<dcssch:field>Действия</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Условия</dcssch:dataPath>
+					<dcssch:field>Условия</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПометкаУдаления</dcssch:dataPath>
+					<dcssch:field>ПометкаУдаления</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Наименование</dcssch:dataPath>
+					<dcssch:field>Наименование</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Ссылка</dcssch:dataPath>
+					<dcssch:field>Ссылка</dcssch:field>
+				</Field>
+				<Parameter>
+					<dcssch:name>ВидКарточки</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид карточки</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>cfg:CatalogRef._ВидыКарточек</v8:Type>
+					</dcssch:valueType>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<MainTable>Catalog._Правила</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
 		</Attribute>
 	</Attributes>
 </Form>

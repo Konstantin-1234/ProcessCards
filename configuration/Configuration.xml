@@ -70,6 +70,7 @@
 			<CommonModule>_КомандыКлиент</CommonModule>
 			<CommonModule>_КомандыВызовСервера</CommonModule>
 			<CommonModule>_ВызовСервера</CommonModule>
+			<CommonModule>_НаКлиенте</CommonModule>
 			<DefinedType>_Хранение</DefinedType>
 			<Catalog>_Карточки</Catalog>
 			<Catalog>_ВидыКарточек</Catalog>
@@ -85,8 +86,8 @@
 			<Enum>_СтатусыКарточки</Enum>
 			<Enum>_ВариантыПолученияРолей</Enum>
 			<Enum>_СпособыХранениеРеквизитовКарточки</Enum>
-			<DataProcessor>_РазличныеПромты</DataProcessor>
 			<InformationRegister>_СостояниеКарточек</InformationRegister>
+			<InformationRegister>_ИсточникиФункциональныхРолей</InformationRegister>
 			<ChartOfCharacteristicTypes>_ВидыРеквизитов</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>

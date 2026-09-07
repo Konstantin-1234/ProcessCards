@@ -54,7 +54,7 @@
 					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="25"/>
 				</LabelDecoration>
 				<InputField name="ВидКарточки" id="16">
-					<DataPath>Объект.ВидКарточки</DataPath>
+					<DataPath>Объект.ВидКарточки_УДАЛИТЬ</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ВидКарточкиКонтекстноеМеню" id="17"/>

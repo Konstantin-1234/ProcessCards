@@ -45,6 +45,7 @@
 				<v8:Type>xs:string</v8:Type>
 				<v8:Type>xs:dateTime</v8:Type>
 				<v8:Type>xs:decimal</v8:Type>
+				<v8:Type>cfg:CatalogRef._ВидыКарточек</v8:Type>
 				<v8:NumberQualifiers>
 					<v8:Digits>10</v8:Digits>
 					<v8:FractionDigits>0</v8:FractionDigits>
@@ -147,11 +148,11 @@
 			</Attribute>
 			<Attribute uuid="1ae6b0b4-a222-4630-9dda-9f6ecc63ff12">
 				<Properties>
-					<Name>ВидКарточки</Name>
+					<Name>ВидКарточки_УДАЛИТЬ</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Вид карточки</v8:content>
+							<v8:content>Вид карточки УДАЛИТЬ</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

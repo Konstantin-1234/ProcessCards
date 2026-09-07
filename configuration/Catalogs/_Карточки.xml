@@ -94,11 +94,11 @@
 		<ChildObjects>
 			<Attribute uuid="1f8da953-5ec2-4838-a319-3810d060faa3">
 				<Properties>
-					<Name>ВидКарточки</Name>
+					<Name>ВидКарточки_УДАЛИТЬ</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Вид карточки</v8:content>
+							<v8:content>Вид карточки УДАЛИТЬ</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -117,7 +117,7 @@
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
 					<FillValue xsi:nil="true"/>
-					<FillChecking>ShowError</FillChecking>
+					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
 					<ChoiceParameters/>

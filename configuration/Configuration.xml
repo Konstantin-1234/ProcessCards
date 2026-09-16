@@ -71,6 +71,9 @@
 			<CommonModule>_КомандыВызовСервера</CommonModule>
 			<CommonModule>_ВызовСервера</CommonModule>
 			<CommonModule>_НаКлиенте</CommonModule>
+			<CommonModule>_JSON</CommonModule>
+			<CommonModule>_ОбщийМодуль1</CommonModule>
+			<CommonModule>_ОбщийМодуль2</CommonModule>
 			<DefinedType>_Хранение</DefinedType>
 			<Catalog>_Карточки</Catalog>
 			<Catalog>_ВидыКарточек</Catalog>
@@ -86,9 +89,13 @@
 			<Enum>_СтатусыКарточки</Enum>
 			<Enum>_ВариантыПолученияРолей</Enum>
 			<Enum>_СпособыХранениеРеквизитовКарточки</Enum>
+			<Enum>_НевозможноеЗначение</Enum>
+			<Enum>_СпособыГруппировки</Enum>
+			<Enum>_ВариантыДвиженийДокумента</Enum>
 			<InformationRegister>_СостояниеКарточек</InformationRegister>
 			<InformationRegister>_ИсточникиФункциональныхРолей</InformationRegister>
 			<ChartOfCharacteristicTypes>_ВидыРеквизитов</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>_ТипыХраненияРеквизитов</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

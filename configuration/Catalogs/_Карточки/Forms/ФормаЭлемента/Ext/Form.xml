@@ -3,6 +3,11 @@
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
+			<Button name="ФормаКомандаОбновить" id="74">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.КомандаОбновить</CommandName>
+				<ExtendedTooltip name="ФормаКомандаОбновитьРасширеннаяПодсказка" id="75"/>
+			</Button>
 			<ButtonGroup name="ГруппаКнопокКомандыДействий" id="36">
 				<Title>
 					<v8:item>
@@ -84,112 +89,156 @@
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="32"/>
 			<ChildItems>
 				<UsualGroup name="Группа2" id="40">
-					<Width>60</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>AlwaysHorizontal</Group>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="41"/>
 					<ChildItems>
-						<Table name="Реквизиты" id="7">
-							<Representation>List</Representation>
-							<Width>60</Width>
-							<Height>5</Height>
-							<AutoInsertNewRow>true</AutoInsertNewRow>
+						<UsualGroup name="Группа4" id="72">
+							<Width>80</Width>
 							<HorizontalStretch>false</HorizontalStretch>
-							<EnableStartDrag>true</EnableStartDrag>
-							<EnableDrag>true</EnableDrag>
-							<DataPath>Реквизиты</DataPath>
-							<CommandSet>
-								<ExcludedCommand>Add</ExcludedCommand>
-								<ExcludedCommand>Change</ExcludedCommand>
-								<ExcludedCommand>EndEdit</ExcludedCommand>
-							</CommandSet>
-							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="РеквизитыКонтекстноеМеню" id="8"/>
-							<AutoCommandBar name="РеквизитыКоманднаяПанель" id="9"/>
-							<ExtendedTooltip name="РеквизитыРасширеннаяПодсказка" id="10"/>
-							<SearchStringAddition name="РеквизитыСтрокаПоиска" id="11">
-								<AdditionSource>
-									<Item>Реквизиты</Item>
-									<Type>SearchStringRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="РеквизитыСтрокаПоискаКонтекстноеМеню" id="12"/>
-								<ExtendedTooltip name="РеквизитыСтрокаПоискаРасширеннаяПодсказка" id="13"/>
-							</SearchStringAddition>
-							<ViewStatusAddition name="РеквизитыСостояниеПросмотра" id="14">
-								<AdditionSource>
-									<Item>Реквизиты</Item>
-									<Type>ViewStatusRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="РеквизитыСостояниеПросмотраКонтекстноеМеню" id="15"/>
-								<ExtendedTooltip name="РеквизитыСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
-							</ViewStatusAddition>
-							<SearchControlAddition name="РеквизитыУправлениеПоиском" id="17">
-								<AdditionSource>
-									<Item>Реквизиты</Item>
-									<Type>SearchControl</Type>
-								</AdditionSource>
-								<ContextMenu name="РеквизитыУправлениеПоискомКонтекстноеМеню" id="18"/>
-								<ExtendedTooltip name="РеквизитыУправлениеПоискомРасширеннаяПодсказка" id="19"/>
-							</SearchControlAddition>
-							<Events>
-								<Event name="OnStartEdit">РеквизитыПриНачалеРедактирования</Event>
-							</Events>
+							<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="73"/>
 							<ChildItems>
-								<InputField name="РеквизитыХранение" id="66">
-									<DataPath>Реквизиты.Хранение</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<Width>13</Width>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="РеквизитыХранениеКонтекстноеМеню" id="67"/>
-									<ExtendedTooltip name="РеквизитыХранениеРасширеннаяПодсказка" id="68"/>
-								</InputField>
-								<InputField name="РеквизитыВидРеквизита" id="20">
-									<DataPath>Реквизиты.ВидРеквизита</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<Width>24</Width>
-									<HorizontalStretch>false</HorizontalStretch>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="РеквизитыВидРеквизитаКонтекстноеМеню" id="21"/>
-									<ExtendedTooltip name="РеквизитыВидРеквизитаРасширеннаяПодсказка" id="22"/>
+								<Table name="Реквизиты" id="7">
+									<Representation>List</Representation>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Height>5</Height>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>Реквизиты</DataPath>
+									<CommandSet>
+										<ExcludedCommand>Add</ExcludedCommand>
+										<ExcludedCommand>Change</ExcludedCommand>
+										<ExcludedCommand>EndEdit</ExcludedCommand>
+									</CommandSet>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="РеквизитыКонтекстноеМеню" id="8"/>
+									<AutoCommandBar name="РеквизитыКоманднаяПанель" id="9"/>
+									<ExtendedTooltip name="РеквизитыРасширеннаяПодсказка" id="10"/>
+									<SearchStringAddition name="РеквизитыСтрокаПоиска" id="11">
+										<AdditionSource>
+											<Item>Реквизиты</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="РеквизитыСтрокаПоискаКонтекстноеМеню" id="12"/>
+										<ExtendedTooltip name="РеквизитыСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="РеквизитыСостояниеПросмотра" id="14">
+										<AdditionSource>
+											<Item>Реквизиты</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="РеквизитыСостояниеПросмотраКонтекстноеМеню" id="15"/>
+										<ExtendedTooltip name="РеквизитыСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="РеквизитыУправлениеПоиском" id="17">
+										<AdditionSource>
+											<Item>Реквизиты</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="РеквизитыУправлениеПоискомКонтекстноеМеню" id="18"/>
+										<ExtendedTooltip name="РеквизитыУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+									</SearchControlAddition>
 									<Events>
-										<Event name="OnChange">РеквизитыВидРеквизитаПриИзменении</Event>
+										<Event name="OnStartEdit">РеквизитыПриНачалеРедактирования</Event>
 									</Events>
-								</InputField>
-								<LabelField name="РеквизитыВидРеквизитаЭтоСписок" id="63">
-									<DataPath>Реквизиты.ВидРеквизита.ЭтоСписок</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content> </v8:content>
-										</v8:item>
-									</Title>
-									<EditMode>EnterOnInput</EditMode>
-									<Width>5</Width>
-									<Format>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>БЛ=' '; БИ=Список</v8:content>
-										</v8:item>
-									</Format>
-									<ContextMenu name="РеквизитыВидРеквизитаЭтоСписокКонтекстноеМеню" id="64"/>
-									<ExtendedTooltip name="РеквизитыВидРеквизитаЭтоСписокРасширеннаяПодсказка" id="65"/>
-								</LabelField>
-								<InputField name="РеквизитыЗначениеРеквизита" id="23">
-									<DataPath>Реквизиты.ЗначениеРеквизита</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Значение</v8:content>
-										</v8:item>
-									</Title>
-									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="РеквизитыЗначениеРеквизитаКонтекстноеМеню" id="24"/>
-									<ExtendedTooltip name="РеквизитыЗначениеРеквизитаРасширеннаяПодсказка" id="25"/>
-								</InputField>
+									<ChildItems>
+										<InputField name="РеквизитыЗначениеАктивно" id="76">
+											<DataPath>Реквизиты.ЗначениеАктивно</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content> </v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Отметка удаления</v8:content>
+												</v8:item>
+											</ToolTip>
+											<EditMode>EnterOnInput</EditMode>
+											<Width>2</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<Format>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>БЛ=✘; БИ=' '</v8:content>
+												</v8:item>
+											</Format>
+											<EditFormat>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>БЛ=✘; БИ=' '</v8:content>
+												</v8:item>
+											</EditFormat>
+											<TextColor>#B00000</TextColor>
+											<ContextMenu name="РеквизитыЗначениеАктивноКонтекстноеМеню" id="77"/>
+											<ExtendedTooltip name="РеквизитыЗначениеАктивноРасширеннаяПодсказка" id="78"/>
+										</InputField>
+										<InputField name="РеквизитыХранение" id="66">
+											<DataPath>Реквизиты.Хранение</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<Width>13</Width>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="РеквизитыХранениеКонтекстноеМеню" id="67"/>
+											<ExtendedTooltip name="РеквизитыХранениеРасширеннаяПодсказка" id="68"/>
+										</InputField>
+										<InputField name="РеквизитыВидРеквизита" id="20">
+											<DataPath>Реквизиты.ВидРеквизита</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<Width>24</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="РеквизитыВидРеквизитаКонтекстноеМеню" id="21"/>
+											<ExtendedTooltip name="РеквизитыВидРеквизитаРасширеннаяПодсказка" id="22"/>
+											<Events>
+												<Event name="OnChange">РеквизитыВидРеквизитаПриИзменении</Event>
+											</Events>
+										</InputField>
+										<LabelField name="РеквизитыВидРеквизитаЭтоСписок" id="63">
+											<DataPath>Реквизиты.ВидРеквизита.ЭтоСписок</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content> </v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<Width>5</Width>
+											<Format>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>БЛ=' '; БИ=Список</v8:content>
+												</v8:item>
+											</Format>
+											<ContextMenu name="РеквизитыВидРеквизитаЭтоСписокКонтекстноеМеню" id="64"/>
+											<ExtendedTooltip name="РеквизитыВидРеквизитаЭтоСписокРасширеннаяПодсказка" id="65"/>
+										</LabelField>
+										<InputField name="РеквизитыЗначениеРеквизита" id="23">
+											<DataPath>Реквизиты.ЗначениеРеквизита</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Значение</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="РеквизитыЗначениеРеквизитаКонтекстноеМеню" id="24"/>
+											<ExtendedTooltip name="РеквизитыЗначениеРеквизитаРасширеннаяПодсказка" id="25"/>
+										</InputField>
+										<LabelField name="РеквизитыУИД_Элемента" id="69">
+											<DataPath>Реквизиты.УИД_Элемента</DataPath>
+											<ContextMenu name="РеквизитыУИД_ЭлементаКонтекстноеМеню" id="70"/>
+											<ExtendedTooltip name="РеквизитыУИД_ЭлементаРасширеннаяПодсказка" id="71"/>
+										</LabelField>
+									</ChildItems>
+								</Table>
 							</ChildItems>
-						</Table>
+						</UsualGroup>
 						<UsualGroup name="Группа3" id="42">
 							<Title>
 								<v8:item>
@@ -197,6 +246,8 @@
 									<v8:content>Виды карточек</v8:content>
 								</v8:item>
 							</Title>
+							<Width>30</Width>
+							<HorizontalStretch>false</HorizontalStretch>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
 							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="43"/>
@@ -328,6 +379,17 @@
 					</Title>
 					<Type>
 						<v8:TypeSet>cfg:DefinedType._Хранение</v8:TypeSet>
+					</Type>
+				</Column>
+				<Column name="ЗначениеАктивно" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение активно</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 				</Column>
 			</Columns>
@@ -467,9 +529,28 @@
 		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="Команда1" id="1"/>
+		<Command name="КомандаОбновить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда обновить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Reread</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>КомандаОбновить</Action>
+		</Command>
 		<Command name="Команда2" id="2">
 			<Action>Команда2</Action>
 		</Command>
+		<Command name="Команда3" id="3"/>
 	</Commands>
 </Form>

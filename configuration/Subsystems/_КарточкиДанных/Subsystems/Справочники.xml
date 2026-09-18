@@ -21,6 +21,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes._ВидыРеквизитов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._Команды</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._Правила</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ФункциональныеРоли</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

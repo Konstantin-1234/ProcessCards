@@ -8,6 +8,9 @@ configuration/Catalogs/_Карточки.xml
 configuration/Catalogs/_Карточки/Ext/Help.xml
 configuration/Catalogs/_Карточки/Ext/Help/ru.html
 configuration/Catalogs/_Карточки/Ext/ObjectModule.bsl
+configuration/Catalogs/_Карточки/Forms/ФормаВыбора.xml
+configuration/Catalogs/_Карточки/Forms/ФормаВыбора/Ext/Form.xml
+configuration/Catalogs/_Карточки/Forms/ФормаВыбора/Ext/Form/Module.bsl
 configuration/Catalogs/_Карточки/Forms/ФормаЭлемента.xml
 configuration/Catalogs/_Карточки/Forms/ФормаЭлемента/Ext/Form.xml
 configuration/Catalogs/_Карточки/Forms/ФормаЭлемента/Ext/Form/Module.bsl
@@ -27,7 +30,7 @@ configuration/Catalogs/_Правила/Forms/ФормаЭлемента/Ext/Form
 configuration/Catalogs/_Правила/Templates/Макет.xml
 configuration/Catalogs/_Правила/Templates/Макет/Ext/Template.xml
 configuration/Catalogs/_Правила/Templates/Макет/Ext/Template/ru.html
-configuration/Catalogs/_СтатусыКарточки.xml
+configuration/Catalogs/_СтатусыКарточек.xml
 configuration/Catalogs/_ФункциональныеРоли.xml
 configuration/Catalogs/_ФункциональныеРоли/Ext/Predefined.xml
 configuration/ChartsOfCharacteristicTypes/_ВидыРеквизитов.xml
@@ -87,6 +90,8 @@ configuration/InformationRegisters/_СостояниеКарточек/Templates
 configuration/InformationRegisters/_СостояниеКарточек/Templates/Промт_ПолучитьСостояние/Ext/Template/ru.html
 configuration/Languages/Русский.xml
 configuration/Roles/_Карточки_ОсновнаяРоль.xml
+configuration/StyleItems/_ЗаголовокГруппыКолонок_Выделенный_Шрифт.xml
+configuration/Styles/_Основной.xml
 configuration/Subsystems/_КарточкиДанных.xml
 configuration/Subsystems/_КарточкиДанных/Subsystems/Движения.xml
 configuration/Subsystems/_КарточкиДанных/Subsystems/Справочники.xml

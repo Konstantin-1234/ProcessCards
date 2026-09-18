@@ -267,11 +267,11 @@
 			</Dimension>
 			<Dimension uuid="4e630653-ef16-48c0-a85e-20ef62a3e607">
 				<Properties>
-					<Name>ВидКарточки</Name>
+					<Name>ВидКарточки_УДАЛИТЬ</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Вид карточки</v8:content>
+							<v8:content>Вид карточки УДАЛИТЬ</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

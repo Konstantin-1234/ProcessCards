@@ -407,42 +407,52 @@
 										<ExtendedTooltip name="ИсточникиФункциональныхРолейУправлениеПоискомРасширеннаяПодсказка" id="128"/>
 									</SearchControlAddition>
 									<ChildItems>
-										<LabelField name="ИсточникиФункциональныхРолейСтандартнаяКартинка" id="144">
-											<DataPath>ИсточникиФункциональныхРолей.DefaultPicture</DataPath>
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content> </v8:content>
-												</v8:item>
-											</Title>
-											<ContextMenu name="ИсточникиФункциональныхРолейСтандартнаяКартинкаКонтекстноеМеню" id="145"/>
-											<ExtendedTooltip name="ИсточникиФункциональныхРолейСтандартнаяКартинкаРасширеннаяПодсказка" id="146"/>
+										<LabelField name="ИсточникиФункциональныхРолейКоманда" id="138">
+											<DataPath>ИсточникиФункциональныхРолей.Команда</DataPath>
+											<ContextMenu name="ИсточникиФункциональныхРолейКомандаКонтекстноеМеню" id="139"/>
+											<ExtendedTooltip name="ИсточникиФункциональныхРолейКомандаРасширеннаяПодсказка" id="140"/>
 										</LabelField>
 										<LabelField name="ИсточникиФункциональныхРолейФункциональнаяРоль" id="141">
 											<DataPath>ИсточникиФункциональныхРолей.ФункциональнаяРоль</DataPath>
 											<ContextMenu name="ИсточникиФункциональныхРолейФункциональнаяРольКонтекстноеМеню" id="142"/>
 											<ExtendedTooltip name="ИсточникиФункциональныхРолейФункциональнаяРольРасширеннаяПодсказка" id="143"/>
 										</LabelField>
-										<LabelField name="ИсточникиФункциональныхРолейВидКарточки" id="129">
-											<DataPath>ИсточникиФункциональныхРолей.ВидКарточки</DataPath>
-											<ContextMenu name="ИсточникиФункциональныхРолейВидКарточкиКонтекстноеМеню" id="130"/>
-											<ExtendedTooltip name="ИсточникиФункциональныхРолейВидКарточкиРасширеннаяПодсказка" id="131"/>
-										</LabelField>
-										<LabelField name="ИсточникиФункциональныхРолейВидРеквизита" id="132">
-											<DataPath>ИсточникиФункциональныхРолей.ВидРеквизита</DataPath>
-											<ContextMenu name="ИсточникиФункциональныхРолейВидРеквизитаКонтекстноеМеню" id="133"/>
-											<ExtendedTooltip name="ИсточникиФункциональныхРолейВидРеквизитаРасширеннаяПодсказка" id="134"/>
-										</LabelField>
-										<LabelField name="ИсточникиФункциональныхРолейВидРеквизитаДополнение" id="135">
-											<DataPath>ИсточникиФункциональныхРолей.ВидРеквизитаДополнение</DataPath>
-											<ContextMenu name="ИсточникиФункциональныхРолейВидРеквизитаДополнениеКонтекстноеМеню" id="136"/>
-											<ExtendedTooltip name="ИсточникиФункциональныхРолейВидРеквизитаДополнениеРасширеннаяПодсказка" id="137"/>
-										</LabelField>
-										<LabelField name="ИсточникиФункциональныхРолейКоманда" id="138">
-											<DataPath>ИсточникиФункциональныхРолей.Команда</DataPath>
-											<ContextMenu name="ИсточникиФункциональныхРолейКомандаКонтекстноеМеню" id="139"/>
-											<ExtendedTooltip name="ИсточникиФункциональныхРолейКомандаРасширеннаяПодсказка" id="140"/>
-										</LabelField>
+										<ColumnGroup name="ГруппаИсточникиФункциональныхРолей" id="149">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Источник значения функциональной роли</v8:content>
+												</v8:item>
+											</Title>
+											<TitleFont ref="style:_ЗаголовокГруппыКолонок_Выделенный_Шрифт" kind="StyleItem"/>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа источники функциональных ролей</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Horizontal</Group>
+											<ShowInHeader>true</ShowInHeader>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<ExtendedTooltip name="ГруппаИсточникиФункциональныхРолейРасширеннаяПодсказка" id="150"/>
+											<ChildItems>
+												<LabelField name="ИсточникиФункциональныхРолейВидКарточки" id="129">
+													<DataPath>ИсточникиФункциональныхРолей.ВидКарточки</DataPath>
+													<ContextMenu name="ИсточникиФункциональныхРолейВидКарточкиКонтекстноеМеню" id="130"/>
+													<ExtendedTooltip name="ИсточникиФункциональныхРолейВидКарточкиРасширеннаяПодсказка" id="131"/>
+												</LabelField>
+												<LabelField name="ИсточникиФункциональныхРолейВидРеквизита" id="132">
+													<DataPath>ИсточникиФункциональныхРолей.ВидРеквизита</DataPath>
+													<ContextMenu name="ИсточникиФункциональныхРолейВидРеквизитаКонтекстноеМеню" id="133"/>
+													<ExtendedTooltip name="ИсточникиФункциональныхРолейВидРеквизитаРасширеннаяПодсказка" id="134"/>
+												</LabelField>
+												<LabelField name="ИсточникиФункциональныхРолейВидРеквизитаДополнение" id="135">
+													<DataPath>ИсточникиФункциональныхРолей.ВидРеквизитаДополнение</DataPath>
+													<ContextMenu name="ИсточникиФункциональныхРолейВидРеквизитаДополнениеКонтекстноеМеню" id="136"/>
+													<ExtendedTooltip name="ИсточникиФункциональныхРолейВидРеквизитаДополнениеРасширеннаяПодсказка" id="137"/>
+												</LabelField>
+											</ChildItems>
+										</ColumnGroup>
 									</ChildItems>
 								</Table>
 							</ChildItems>
@@ -539,28 +549,38 @@
 			</Type>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
-				<DynamicDataRead>true</DynamicDataRead>
+				<DynamicDataRead>false</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
-	РегистрСведений_ИсточникиФункциональныхРолей.ВидКарточки КАК ВидКарточки,
-	РегистрСведений_ИсточникиФункциональныхРолей.Команда КАК Команда,
 	РегистрСведений_ИсточникиФункциональныхРолей.ФункциональнаяРоль КАК ФункциональнаяРоль,
+	РегистрСведений_ИсточникиФункциональныхРолей.Команда КАК Команда,
+	РегистрСведений_ИсточникиФункциональныхРолей.Команда.ВидКарточки КАК ВидКарточки,
 	РегистрСведений_ИсточникиФункциональныхРолей.ВидРеквизита КАК ВидРеквизита,
 	РегистрСведений_ИсточникиФункциональныхРолей.ВидРеквизитаДополнение КАК ВидРеквизитаДополнение
 ИЗ
 	РегистрСведений._ИсточникиФункциональныхРолей КАК РегистрСведений_ИсточникиФункциональныхРолей
 ГДЕ
-	РегистрСведений_ИсточникиФункциональныхРолей.ВидКарточки = &amp;ВидКарточки</QueryText>
+	РегистрСведений_ИсточникиФункциональныхРолей.ФункциональнаяРоль.ВидКарточки = &amp;ВидКарточки</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ФункциональнаяРоль</dcssch:dataPath>
+					<dcssch:field>ФункциональнаяРоль</dcssch:field>
+				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>ВидКарточки</dcssch:dataPath>
 					<dcssch:field>ВидКарточки</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид карточки</v8:content>
+						</v8:item>
+					</dcssch:title>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Команда</dcssch:dataPath>
 					<dcssch:field>Команда</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>ФункциональнаяРоль</dcssch:dataPath>
-					<dcssch:field>ФункциональнаяРоль</dcssch:field>
+					<dcssch:dataPath>ВидКарточки_УДАЛИТЬ</dcssch:dataPath>
+					<dcssch:field>ВидКарточки_УДАЛИТЬ</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>ВидРеквизита</dcssch:dataPath>
@@ -579,7 +599,7 @@
 						</v8:item>
 					</dcssch:title>
 					<dcssch:valueType>
-						<v8:Type>cfg:CatalogRef._ВидыКарточек</v8:Type>
+						<v8:Type>cfg:CatalogRef._ФункциональныеРоли</v8:Type>
 					</dcssch:valueType>
 					<dcssch:value xsi:nil="true"/>
 					<dcssch:useRestriction>true</dcssch:useRestriction>

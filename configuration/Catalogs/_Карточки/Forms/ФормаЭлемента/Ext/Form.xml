@@ -227,6 +227,10 @@
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<TypeLink>
+												<xr:DataPath>Items.Реквизиты.CurrentData.ВидРеквизита</xr:DataPath>
+												<xr:LinkItem>0</xr:LinkItem>
+											</TypeLink>
 											<ContextMenu name="РеквизитыЗначениеРеквизитаКонтекстноеМеню" id="24"/>
 											<ExtendedTooltip name="РеквизитыЗначениеРеквизитаРасширеннаяПодсказка" id="25"/>
 										</InputField>

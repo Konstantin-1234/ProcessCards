@@ -29,6 +29,13 @@
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
 				</InputField>
+				<InputField name="ВидКарточки" id="112">
+					<DataPath>Объект.ВидКарточки</DataPath>
+					<TitleLocation>Top</TitleLocation>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ВидКарточкиКонтекстноеМеню" id="113"/>
+					<ExtendedTooltip name="ВидКарточкиРасширеннаяПодсказка" id="114"/>
+				</InputField>
 				<InputField name="ГруппаКоманд" id="10">
 					<DataPath>Объект.Группа</DataPath>
 					<TitleLocation>Top</TitleLocation>
@@ -72,7 +79,7 @@
 					<ExtendedTooltip name="ГруппаКомандыГруппыПравилаРасширеннаяПодсказка" id="40"/>
 					<ChildItems>
 						<Table name="ПравилаОбработкиКоманды" id="43">
-							<Height>5</Height>
+							<Height>3</Height>
 							<UseAlternationRowColor>true</UseAlternationRowColor>
 							<EnableStartDrag>true</EnableStartDrag>
 							<DataPath>ПравилаОбработкиКоманды</DataPath>
@@ -184,7 +191,7 @@
 							<ChildItems>
 								<Table name="ФункциональныеРоли" id="13">
 									<Representation>List</Representation>
-									<Height>5</Height>
+									<Height>3</Height>
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
@@ -246,7 +253,7 @@
 											<ExtendedTooltip name="ФункциональныеРолиСпособГруппировкиРасширеннаяПодсказка" id="111"/>
 										</InputField>
 										<InputField name="ФункциональныеРолиВидКарточки" id="32">
-											<DataPath>Объект.ФункциональныеРоли.ВидКарточки_УДАЛИТЬ</DataPath>
+											<DataPath>1/0:19fb43b9-3713-4fce-93e3-679860d1fff4/0:4d9b7836-43ec-4aee-9a64-dbd44f367eb4</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="ФункциональныеРолиВидКарточкиКонтекстноеМеню" id="33"/>
@@ -268,7 +275,7 @@
 							<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="108"/>
 							<ChildItems>
 								<Table name="ИсточникиФункциональныхРолей" id="74">
-									<Height>5</Height>
+									<Height>3</Height>
 									<UseAlternationRowColor>true</UseAlternationRowColor>
 									<EnableStartDrag>true</EnableStartDrag>
 									<DataPath>ИсточникиФункциональныхРолей</DataPath>
@@ -333,21 +340,42 @@
 											<ContextMenu name="ИсточникиФункциональныхРолейФункциональнаяРольКонтекстноеМеню" id="100"/>
 											<ExtendedTooltip name="ИсточникиФункциональныхРолейФункциональнаяРольРасширеннаяПодсказка" id="101"/>
 										</LabelField>
-										<LabelField name="ИсточникиФункциональныхРолейВидКарточки" id="87">
-											<DataPath>ИсточникиФункциональныхРолей.ВидКарточки</DataPath>
-											<ContextMenu name="ИсточникиФункциональныхРолейВидКарточкиКонтекстноеМеню" id="88"/>
-											<ExtendedTooltip name="ИсточникиФункциональныхРолейВидКарточкиРасширеннаяПодсказка" id="89"/>
-										</LabelField>
-										<LabelField name="ИсточникиФункциональныхРолейВидРеквизита" id="90">
-											<DataPath>ИсточникиФункциональныхРолей.ВидРеквизита</DataPath>
-											<ContextMenu name="ИсточникиФункциональныхРолейВидРеквизитаКонтекстноеМеню" id="91"/>
-											<ExtendedTooltip name="ИсточникиФункциональныхРолейВидРеквизитаРасширеннаяПодсказка" id="92"/>
-										</LabelField>
-										<LabelField name="ИсточникиФункциональныхРолейВидРеквизитаДополнение" id="93">
-											<DataPath>ИсточникиФункциональныхРолей.ВидРеквизитаДополнение</DataPath>
-											<ContextMenu name="ИсточникиФункциональныхРолейВидРеквизитаДополнениеКонтекстноеМеню" id="94"/>
-											<ExtendedTooltip name="ИсточникиФункциональныхРолейВидРеквизитаДополнениеРасширеннаяПодсказка" id="95"/>
-										</LabelField>
+										<ColumnGroup name="ГруппаИсточникиФункциональныхРолей" id="115">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Источник значения функциональной роли</v8:content>
+												</v8:item>
+											</Title>
+											<TitleFont ref="style:_ЗаголовокГруппыКолонок_Выделенный_Шрифт" kind="StyleItem"/>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Источник значения функциональной роли</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Horizontal</Group>
+											<ShowInHeader>true</ShowInHeader>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<ExtendedTooltip name="ГруппаИсточникиФункциональныхРолейРасширеннаяПодсказка" id="116"/>
+											<ChildItems>
+												<LabelField name="ИсточникиФункциональныхРолейВидКарточки" id="87">
+													<DataPath>ИсточникиФункциональныхРолей.ВидКарточки</DataPath>
+													<ContextMenu name="ИсточникиФункциональныхРолейВидКарточкиКонтекстноеМеню" id="88"/>
+													<ExtendedTooltip name="ИсточникиФункциональныхРолейВидКарточкиРасширеннаяПодсказка" id="89"/>
+												</LabelField>
+												<LabelField name="ИсточникиФункциональныхРолейВидРеквизита" id="90">
+													<DataPath>ИсточникиФункциональныхРолей.ВидРеквизита</DataPath>
+													<ContextMenu name="ИсточникиФункциональныхРолейВидРеквизитаКонтекстноеМеню" id="91"/>
+													<ExtendedTooltip name="ИсточникиФункциональныхРолейВидРеквизитаРасширеннаяПодсказка" id="92"/>
+												</LabelField>
+												<LabelField name="ИсточникиФункциональныхРолейВидРеквизитаДополнение" id="93">
+													<DataPath>ИсточникиФункциональныхРолей.ВидРеквизитаДополнение</DataPath>
+													<ContextMenu name="ИсточникиФункциональныхРолейВидРеквизитаДополнениеКонтекстноеМеню" id="94"/>
+													<ExtendedTooltip name="ИсточникиФункциональныхРолейВидРеквизитаДополнениеРасширеннаяПодсказка" id="95"/>
+												</LabelField>
+											</ChildItems>
+										</ColumnGroup>
 										<LabelField name="ИсточникиФункциональныхРолейКоманда" id="96">
 											<DataPath>ИсточникиФункциональныхРолей.Команда</DataPath>
 											<Visible>false</Visible>
@@ -507,9 +535,9 @@
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
-	РегистрСведений_ИсточникиФункциональныхРолей.ВидКарточки КАК ВидКарточки,
 	РегистрСведений_ИсточникиФункциональныхРолей.Команда КАК Команда,
 	РегистрСведений_ИсточникиФункциональныхРолей.ФункциональнаяРоль КАК ФункциональнаяРоль,
+	РегистрСведений_ИсточникиФункциональныхРолей.Команда.ВидКарточки КАК ВидКарточки,
 	РегистрСведений_ИсточникиФункциональныхРолей.ВидРеквизита КАК ВидРеквизита,
 	РегистрСведений_ИсточникиФункциональныхРолей.ВидРеквизитаДополнение КАК ВидРеквизитаДополнение
 ИЗ
@@ -517,16 +545,26 @@
 ГДЕ
 	РегистрСведений_ИсточникиФункциональныхРолей.Команда = &amp;Команда</QueryText>
 				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>ВидКарточки</dcssch:dataPath>
-					<dcssch:field>ВидКарточки</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Команда</dcssch:dataPath>
 					<dcssch:field>Команда</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>ФункциональнаяРоль</dcssch:dataPath>
 					<dcssch:field>ФункциональнаяРоль</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВидКарточки</dcssch:dataPath>
+					<dcssch:field>ВидКарточки</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид карточки</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВидКарточки_УДАЛИТЬ</dcssch:dataPath>
+					<dcssch:field>ВидКарточки_УДАЛИТЬ</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>ВидРеквизита</dcssch:dataPath>
@@ -556,6 +594,7 @@
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
 					</dcsset:filter>
+					<dcsset:dataParameters/>
 					<dcsset:order>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>

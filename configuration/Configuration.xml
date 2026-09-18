@@ -66,6 +66,8 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>_КарточкиДанных</Subsystem>
+			<StyleItem>_ЗаголовокГруппыКолонок_Выделенный_Шрифт</StyleItem>
+			<Style>_Основной</Style>
 			<Role>_Карточки_ОсновнаяРоль</Role>
 			<CommonModule>_КомандыКлиент</CommonModule>
 			<CommonModule>_КомандыВызовСервера</CommonModule>
@@ -81,7 +83,7 @@
 			<Catalog>_КомандыГруппы</Catalog>
 			<Catalog>_Правила</Catalog>
 			<Catalog>_Действия</Catalog>
-			<Catalog>_СтатусыКарточки</Catalog>
+			<Catalog>_СтатусыКарточек</Catalog>
 			<Catalog>_ФункциональныеРоли</Catalog>
 			<Document>_ДвиженияКарточки</Document>
 			<Enum>_ВариантыСравнения</Enum>

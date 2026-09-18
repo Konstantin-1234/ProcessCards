@@ -63,7 +63,7 @@
 			<DefaultObjectForm>Catalog._Карточки.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
 			<DefaultListForm/>
-			<DefaultChoiceForm/>
+			<DefaultChoiceForm>Catalog._Карточки.Form.ФормаВыбора</DefaultChoiceForm>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryFolderForm/>
@@ -232,7 +232,7 @@
 							<xr:ChoiceParameters/>
 						</xr:StandardAttribute>
 					</StandardAttributes>
-					<Use>ForItem</Use>
+					<Use>ForFolderAndItem</Use>
 					<LineNumberLength>5</LineNumberLength>
 				</Properties>
 				<ChildObjects>
@@ -276,6 +276,7 @@
 				</ChildObjects>
 			</TabularSection>
 			<Form>ФормаЭлемента</Form>
+			<Form>ФормаВыбора</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

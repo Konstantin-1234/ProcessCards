@@ -20,7 +20,7 @@
 			<ExtendedTooltip name="ФункциональнаяРольРасширеннаяПодсказка" id="9"/>
 		</InputField>
 		<InputField name="ВидКарточки" id="1">
-			<DataPath>Запись.ВидКарточки</DataPath>
+			<DataPath>Запись.ВидКарточки_УДАЛИТЬ</DataPath>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ВидКарточкиКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="ВидКарточкиРасширеннаяПодсказка" id="3"/>

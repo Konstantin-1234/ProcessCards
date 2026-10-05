@@ -82,4 +82,16 @@
 			</Item>
 		</ChildItems>
 	</Item>
+	<Item id="a41c4090-98da-47db-afde-8670aba9bbb4">
+		<Name>ПроверкаУдаления_1</Name>
+		<Code>ПроверкаУдаления_1</Code>
+		<Description>Проверка удаления 1</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bb29204a-07a2-4536-8c01-3ba7862e50cd">
+		<Name>ПроверкаУдаления_2</Name>
+		<Code>ПроверкаУдаления_2</Code>
+		<Description>Проверка удаления 2</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 </PredefinedData>

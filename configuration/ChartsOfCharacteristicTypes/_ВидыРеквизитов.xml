@@ -149,11 +149,11 @@
 			</Attribute>
 			<Attribute uuid="1ae6b0b4-a222-4630-9dda-9f6ecc63ff12">
 				<Properties>
-					<Name>ВидКарточки_УДАЛИТЬ</Name>
+					<Name>ВидКарточки</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Вид карточки УДАЛИТЬ</v8:content>
+							<v8:content>Вид карточки</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

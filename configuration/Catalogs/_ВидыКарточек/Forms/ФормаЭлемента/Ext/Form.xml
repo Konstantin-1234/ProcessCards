@@ -336,24 +336,24 @@
 									</SearchControlAddition>
 									<ChildItems>
 										<LabelField name="КомандыВидКарточки" id="104">
-											<DataPath>ПравилоОбработкиКоманды.ВидКарточки</DataPath>
+											<DataPath>~ПравилоОбработкиКоманды.ВидКарточки</DataPath>
 											<Width>5</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="КомандыВидКарточкиКонтекстноеМеню" id="105"/>
 											<ExtendedTooltip name="КомандыВидКарточкиРасширеннаяПодсказка" id="106"/>
 										</LabelField>
 										<LabelField name="КомандыКомандаГруппа" id="113">
-											<DataPath>ПравилоОбработкиКоманды.Команда.Группа</DataPath>
+											<DataPath>~ПравилоОбработкиКоманды.Команда.Группа</DataPath>
 											<ContextMenu name="КомандыКомандаГруппаКонтекстноеМеню" id="114"/>
 											<ExtendedTooltip name="КомандыКомандаГруппаРасширеннаяПодсказка" id="115"/>
 										</LabelField>
 										<LabelField name="КомандыКоманда" id="107">
-											<DataPath>ПравилоОбработкиКоманды.Команда</DataPath>
+											<DataPath>~ПравилоОбработкиКоманды.Команда</DataPath>
 											<ContextMenu name="КомандыКомандаКонтекстноеМеню" id="108"/>
 											<ExtendedTooltip name="КомандыКомандаРасширеннаяПодсказка" id="109"/>
 										</LabelField>
 										<LabelField name="КомандыПравилоОбработкиКоманды" id="110">
-											<DataPath>ПравилоОбработкиКоманды.ПравилоОбработкиКоманды</DataPath>
+											<DataPath>~ПравилоОбработкиКоманды.ПравилоОбработкиКоманды</DataPath>
 											<ContextMenu name="КомандыПравилоОбработкиКомандыКонтекстноеМеню" id="111"/>
 											<ExtendedTooltip name="КомандыПравилоОбработкиКомандыРасширеннаяПодсказка" id="112"/>
 										</LabelField>

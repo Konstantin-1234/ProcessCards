@@ -24,6 +24,7 @@ configuration/Catalogs/_Правила.xml
 configuration/Catalogs/_Правила/Ext/Help.xml
 configuration/Catalogs/_Правила/Ext/Help/ru.html
 configuration/Catalogs/_Правила/Ext/ManagerModule.bsl
+configuration/Catalogs/_Правила/Ext/ObjectModule.bsl
 configuration/Catalogs/_Правила/Forms/ФормаЭлемента.xml
 configuration/Catalogs/_Правила/Forms/ФормаЭлемента/Ext/Form.xml
 configuration/Catalogs/_Правила/Forms/ФормаЭлемента/Ext/Form/Module.bsl

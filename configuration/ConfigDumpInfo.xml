@@ -43,7 +43,7 @@
 		<Metadata name="Catalog._Команды.Form.ФормаЭлемента.Form" id="c7968350-39f7-44dd-9f1f-8529ee12a300.0" configVersion="180b524643d77d210e877c72d359426583f45b0b"/>
 		<Metadata name="Catalog._Команды.ManagerModule" id="543231a9-0030-43a9-a32b-39441f5a2ba4.3" configVersion="da2c366cec072abb98dbd5059f8cbf3efb96da88"/>
 		<Metadata name="Catalog._КомандыГруппы" id="a5cd451d-8d52-47ae-88a7-c70d954a30e3" configVersion="9032a9e881428c3557d3d01a61217089bdcf8087"/>
-		<Metadata name="Catalog._Правила" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133" configVersion="ab15f61a0caa30c7dde48c8e2bd7c974e8c8bc3c">
+		<Metadata name="Catalog._Правила" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133" configVersion="6f74486df23fcbb1278cb6a618a8bba53f8dbc74">
 			<Metadata name="Catalog._Правила.TabularSection.Действия.Attribute.Действие_ФункциональнаяРоль" id="008f878f-62e8-4223-8ccc-2f8baef08d9a"/>
 			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.ФункциональнаяРоль" id="0e11f18e-fdfe-4150-80ac-06169a79d5d1"/>
 			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.Сравнение_1" id="0f01f926-da88-46a6-a116-648d3ded4895"/>
@@ -51,7 +51,6 @@
 			<Metadata name="Catalog._Правила.TabularSection.Действия.Attribute.Комментарий" id="4161f985-3be3-4523-8fea-fe1775d0be2d"/>
 			<Metadata name="Catalog._Правила.TabularSection.Действия.Attribute.ФункциональнаяРоль" id="50596536-7903-47aa-ade0-d18aaea514dd"/>
 			<Metadata name="Catalog._Правила.TabularSection.Действия.Attribute.ВидРеквизита" id="57777654-5b95-4c63-832a-26fccfc99c02"/>
-			<Metadata name="Catalog._Правила.TabularSection.ВидыКарточек_УДАЛИТЬ" id="62b966d8-5f0b-449c-8093-4d4dcca07034"/>
 			<Metadata name="Catalog._Правила.Attribute.ИспользоватьРоли" id="7fd453d4-cd71-4e26-8f07-063a7b823969"/>
 			<Metadata name="Catalog._Правила.TabularSection.Условия" id="83842d71-a0e8-4e3d-9254-562c3441ba98"/>
 			<Metadata name="Catalog._Правила.Attribute.Обработчик" id="8bbe5a41-9b94-43ed-b56e-63d71d00f72a"/>
@@ -65,13 +64,12 @@
 			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.Группа" id="dbf6e118-3fca-485a-9ba6-80005d64748f"/>
 			<Metadata name="Catalog._Правила.TabularSection.Действия.Attribute.Действие" id="dc518995-3683-48a6-8a3b-0dfe82f9fbbc"/>
 			<Metadata name="Catalog._Правила.Attribute.ИспользоватьГруппыУсловий" id="ebad33c2-9aab-4a42-bfa9-aba8af77024b"/>
-			<Metadata name="Catalog._Правила.TabularSection.ВидыКарточек_УДАЛИТЬ.Attribute.ВидКарточки" id="f7962504-7e9a-4b7a-803c-03ad74cd7249"/>
 			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.ЗначениеРеквизита_2" id="fb61eb12-d1ca-4da6-9ced-8ff21c747d2f"/>
 		</Metadata>
 		<Metadata name="Catalog._Правила.Form.ФормаЭлемента" id="c6177659-20cf-4fe3-bd47-6250f8146bd8" configVersion="d6217d8972f190c301065108ac9225cab3cd5692"/>
 		<Metadata name="Catalog._Правила.Form.ФормаЭлемента.Form" id="c6177659-20cf-4fe3-bd47-6250f8146bd8.0" configVersion="10a1a2d39e4c60598b964159026ede86220c2475"/>
 		<Metadata name="Catalog._Правила.Help" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133.1" configVersion="58bcbf21ba6b38b536fdbdb7bccb2ecf8a717d5b"/>
-		<Metadata name="Catalog._Правила.ManagerModule" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133.3" configVersion="155476a7340a530b00d68a66b58a455a4d88df77"/>
+		<Metadata name="Catalog._Правила.ManagerModule" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133.3" configVersion="b446075540dca8b5a629cae7ad5f3029a6dedd3f"/>
 		<Metadata name="Catalog._Правила.ObjectModule" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133.0" configVersion="83530947db7f315a5ab94af864c28266e8d5a617"/>
 		<Metadata name="Catalog._Правила.Template.Макет" id="cb097463-0ebf-451f-9f15-0f90448509f7" configVersion="3eb22596e59b94c9d6893befc02ab05d83e88a29"/>
 		<Metadata name="Catalog._Правила.Template.Макет.Template" id="cb097463-0ebf-451f-9f15-0f90448509f7.0" configVersion="242af9746551c53224cba0601dc513d9ee401a97"/>

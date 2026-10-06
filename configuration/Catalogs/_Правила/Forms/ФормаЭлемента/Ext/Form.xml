@@ -77,7 +77,7 @@
 							<HorizontalStretch>false</HorizontalStretch>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
-							<DataPath>Объект.ВидыКарточек_УДАЛИТЬ</DataPath>
+							<DataPath>1/0:62b966d8-5f0b-449c-8093-4d4dcca07034</DataPath>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="ВидыКарточекКонтекстноеМеню" id="94"/>
 							<AutoCommandBar name="ВидыКарточекКоманднаяПанель" id="95">
@@ -110,7 +110,7 @@
 							</SearchControlAddition>
 							<ChildItems>
 								<LabelField name="ВидыКарточекНомерСтроки" id="106">
-									<DataPath>Объект.ВидыКарточек_УДАЛИТЬ.LineNumber</DataPath>
+									<DataPath>1/0:62b966d8-5f0b-449c-8093-4d4dcca07034/-2</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -123,7 +123,7 @@
 									<ExtendedTooltip name="ВидыКарточекНомерСтрокиРасширеннаяПодсказка" id="108"/>
 								</LabelField>
 								<InputField name="ВидыКарточекВидКарточки" id="109">
-									<DataPath>Объект.ВидыКарточек_УДАЛИТЬ.ВидКарточки</DataPath>
+									<DataPath>1/0:62b966d8-5f0b-449c-8093-4d4dcca07034/0:f7962504-7e9a-4b7a-803c-03ad74cd7249</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="ВидыКарточекВидКарточкиКонтекстноеМеню" id="110"/>

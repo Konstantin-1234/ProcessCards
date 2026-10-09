@@ -1,5 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.20">
+	<Item id="ea61fe15-ac5c-48f5-89d6-b784d55e7fa8">
+		<Name>АвтоОбработка</Name>
+		<Code>АвтоОбработка</Code>
+		<Description>Авто обработка</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="a7ab6ca8-3ca8-4685-bf35-7293475679ca">
 		<Name>ВидКарточки</Name>
 		<Code>ВидКарточки</Code>

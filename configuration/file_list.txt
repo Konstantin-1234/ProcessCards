@@ -52,10 +52,9 @@ configuration/CommonModules/_КомандыКлиент.xml
 configuration/CommonModules/_КомандыКлиент/Ext/Module.bsl
 configuration/CommonModules/_НаКлиенте.xml
 configuration/CommonModules/_НаКлиенте/Ext/Module.bsl
-configuration/CommonModules/_ОбщийМодуль1.xml
-configuration/CommonModules/_ОбщийМодуль1/Ext/Module.bsl
-configuration/CommonModules/_ОбщийМодуль2.xml
-configuration/CommonModules/_ОбщийМодуль2/Ext/Module.bsl
+configuration/CommonModules/pc_РегламентныеЗадания.xml
+configuration/CommonModules/pc_РегламентныеЗадания/Ext/Module.bsl
+configuration/CommonModules/ПользователиКлиент.xml
 configuration/ConfigDumpInfo.xml
 configuration/Configuration.xml
 configuration/DefinedTypes/_Хранение.xml
@@ -91,6 +90,10 @@ configuration/InformationRegisters/_СостояниеКарточек/Templates
 configuration/InformationRegisters/_СостояниеКарточек/Templates/Промт_ПолучитьСостояние/Ext/Template/ru.html
 configuration/Languages/Русский.xml
 configuration/Roles/_Карточки_ОсновнаяРоль.xml
+configuration/ScheduledJobs/_ВыполнениеРегламентныхКоманд.xml
+configuration/ScheduledJobs/_ВыполнениеРегламентныхКоманд/Ext/Schedule.xml
+configuration/ScheduledJobs/_тест.xml
+configuration/ScheduledJobs/_тест/Ext/Schedule.xml
 configuration/StyleItems/_ЗаголовокГруппыКолонок_Выделенный_Шрифт.xml
 configuration/Styles/_Основной.xml
 configuration/Subsystems/_КарточкиДанных.xml

@@ -475,172 +475,220 @@
 							<ContextMenu name="ОбработчикКонтекстноеМеню" id="80"/>
 							<ExtendedTooltip name="ОбработчикРасширеннаяПодсказка" id="81"/>
 						</InputField>
-						<Table name="Действия" id="44">
-							<Representation>List</Representation>
-							<Height>3</Height>
-							<AutoInsertNewRow>true</AutoInsertNewRow>
-							<EnableStartDrag>true</EnableStartDrag>
-							<EnableDrag>true</EnableDrag>
-							<DataPath>Объект.Действия</DataPath>
-							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="ДействияКонтекстноеМеню" id="45"/>
-							<AutoCommandBar name="ДействияКоманднаяПанель" id="46"/>
-							<ExtendedTooltip name="ДействияРасширеннаяПодсказка" id="47"/>
-							<SearchStringAddition name="ДействияСтрокаПоиска" id="48">
-								<AdditionSource>
-									<Item>Действия</Item>
-									<Type>SearchStringRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="ДействияСтрокаПоискаКонтекстноеМеню" id="49"/>
-								<ExtendedTooltip name="ДействияСтрокаПоискаРасширеннаяПодсказка" id="50"/>
-							</SearchStringAddition>
-							<ViewStatusAddition name="ДействияСостояниеПросмотра" id="51">
-								<AdditionSource>
-									<Item>Действия</Item>
-									<Type>ViewStatusRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="ДействияСостояниеПросмотраКонтекстноеМеню" id="52"/>
-								<ExtendedTooltip name="ДействияСостояниеПросмотраРасширеннаяПодсказка" id="53"/>
-							</ViewStatusAddition>
-							<SearchControlAddition name="ДействияУправлениеПоиском" id="54">
-								<AdditionSource>
-									<Item>Действия</Item>
-									<Type>SearchControl</Type>
-								</AdditionSource>
-								<ContextMenu name="ДействияУправлениеПоискомКонтекстноеМеню" id="55"/>
-								<ExtendedTooltip name="ДействияУправлениеПоискомРасширеннаяПодсказка" id="56"/>
-							</SearchControlAddition>
-							<Events>
-								<Event name="OnChange">ДействияПриИзменении</Event>
-							</Events>
+						<UsualGroup name="ГруппаДействия_2" id="134">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа действия 2</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа действия 2</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<ExtendedTooltip name="ГруппаДействия_2РасширеннаяПодсказка" id="135"/>
 							<ChildItems>
-								<LabelField name="ДействияНомерСтроки" id="57">
-									<DataPath>Объект.Действия.LineNumber</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content> </v8:content>
-										</v8:item>
-									</Title>
-									<EditMode>EnterOnInput</EditMode>
-									<Width>1</Width>
-									<ContextMenu name="ДействияНомерСтрокиКонтекстноеМеню" id="58"/>
-									<ExtendedTooltip name="ДействияНомерСтрокиРасширеннаяПодсказка" id="59"/>
-								</LabelField>
-								<InputField name="ДействияКомментарий" id="88">
-									<DataPath>Объект.Действия.Комментарий</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<Width>25</Width>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="ДействияКомментарийКонтекстноеМеню" id="89"/>
-									<ExtendedTooltip name="ДействияКомментарийРасширеннаяПодсказка" id="90"/>
-								</InputField>
-								<ColumnGroup name="ДействияГруппа1" id="120">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Что редактируется</v8:content>
-										</v8:item>
-									</Title>
-									<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
-									<Group>Horizontal</Group>
-									<ShowInHeader>true</ShowInHeader>
-									<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
-									<ExtendedTooltip name="ДействияГруппа1РасширеннаяПодсказка" id="121"/>
+								<Table name="Действия" id="44">
+									<Representation>List</Representation>
+									<Height>3</Height>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>Объект.Действия</DataPath>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="ДействияКонтекстноеМеню" id="45"/>
+									<AutoCommandBar name="ДействияКоманднаяПанель" id="46"/>
+									<ExtendedTooltip name="ДействияРасширеннаяПодсказка" id="47"/>
+									<SearchStringAddition name="ДействияСтрокаПоиска" id="48">
+										<AdditionSource>
+											<Item>Действия</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ДействияСтрокаПоискаКонтекстноеМеню" id="49"/>
+										<ExtendedTooltip name="ДействияСтрокаПоискаРасширеннаяПодсказка" id="50"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="ДействияСостояниеПросмотра" id="51">
+										<AdditionSource>
+											<Item>Действия</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ДействияСостояниеПросмотраКонтекстноеМеню" id="52"/>
+										<ExtendedTooltip name="ДействияСостояниеПросмотраРасширеннаяПодсказка" id="53"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="ДействияУправлениеПоиском" id="54">
+										<AdditionSource>
+											<Item>Действия</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="ДействияУправлениеПоискомКонтекстноеМеню" id="55"/>
+										<ExtendedTooltip name="ДействияУправлениеПоискомРасширеннаяПодсказка" id="56"/>
+									</SearchControlAddition>
+									<Events>
+										<Event name="OnChange">ДействияПриИзменении</Event>
+									</Events>
 									<ChildItems>
-										<InputField name="ДействияРоль" id="82">
-											<DataPath>Объект.Действия.ФункциональнаяРоль</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-											<ContextMenu name="ДействияРольКонтекстноеМеню" id="83"/>
-											<ExtendedTooltip name="ДействияРольРасширеннаяПодсказка" id="84"/>
-										</InputField>
-										<InputField name="ДействияВидРеквизита" id="63">
-											<DataPath>Объект.Действия.ВидРеквизита</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-											<ContextMenu name="ДействияВидРеквизитаКонтекстноеМеню" id="64"/>
-											<ExtendedTooltip name="ДействияВидРеквизитаРасширеннаяПодсказка" id="65"/>
-										</InputField>
-									</ChildItems>
-								</ColumnGroup>
-								<ColumnGroup name="ДействияГруппа2" id="122">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Действие</v8:content>
-										</v8:item>
-									</Title>
-									<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
-									<Group>Horizontal</Group>
-									<ShowInHeader>true</ShowInHeader>
-									<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
-									<ExtendedTooltip name="ДействияГруппа2РасширеннаяПодсказка" id="123"/>
-									<ChildItems>
-										<InputField name="ДействияДействие" id="60">
-											<DataPath>Объект.Действия.Действие</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<Width>10</Width>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-											<ContextMenu name="ДействияДействиеКонтекстноеМеню" id="61"/>
-											<ExtendedTooltip name="ДействияДействиеРасширеннаяПодсказка" id="62"/>
-										</InputField>
-										<InputField name="ДействияДействие_ФункциональнаяРоль" id="124">
-											<DataPath>Объект.Действия.Действие_ФункциональнаяРоль</DataPath>
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Функциональная роль</v8:content>
-												</v8:item>
-											</Title>
-											<EditMode>EnterOnInput</EditMode>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-											<ContextMenu name="ДействияДействие_ФункциональнаяРольКонтекстноеМеню" id="125"/>
-											<ExtendedTooltip name="ДействияДействие_ФункциональнаяРольРасширеннаяПодсказка" id="126"/>
-										</InputField>
-										<InputField name="ДействияЗначениеРеквизита" id="66">
-											<DataPath>Объект.Действия.ЗначениеРеквизита</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-											<TypeLink>
-												<xr:DataPath>Items.Действия.CurrentData.ТипЗначения</xr:DataPath>
-												<xr:LinkItem>0</xr:LinkItem>
-											</TypeLink>
-											<ContextMenu name="ДействияЗначениеРеквизитаКонтекстноеМеню" id="67"/>
-											<ExtendedTooltip name="ДействияЗначениеРеквизитаРасширеннаяПодсказка" id="68"/>
-										</InputField>
-										<InputField name="ДействияТипЗначенияРеквизита" id="117">
-											<DataPath>Объект.Действия.ТипЗначения</DataPath>
-											<Visible>false</Visible>
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>ТипЗначения</v8:content>
-												</v8:item>
-											</Title>
-											<EditMode>EnterOnInput</EditMode>
-											<Width>5</Width>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-											<ContextMenu name="ДействияТипЗначенияРеквизитаКонтекстноеМеню" id="118"/>
-											<ExtendedTooltip name="ДействияТипЗначенияРеквизитаРасширеннаяПодсказка" id="119"/>
-										</InputField>
-										<CheckBoxField name="ДействияДействиеИспользоватьФункциональныеРоли" id="127">
-											<DataPath>Объект.Действия.Действие.ИспользоватьФункциональнуюРоль</DataPath>
-											<Visible>false</Visible>
+										<LabelField name="ДействияНомерСтроки" id="57">
+											<DataPath>Объект.Действия.LineNumber</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content> </v8:content>
 												</v8:item>
 											</Title>
-											<CheckBoxType>Auto</CheckBoxType>
-											<ContextMenu name="ДействияДействиеИспользоватьФункциональныеРолиКонтекстноеМеню" id="128"/>
-											<ExtendedTooltip name="ДействияДействиеИспользоватьФункциональныеРолиРасширеннаяПодсказка" id="129"/>
-										</CheckBoxField>
+											<EditMode>EnterOnInput</EditMode>
+											<Width>1</Width>
+											<ContextMenu name="ДействияНомерСтрокиКонтекстноеМеню" id="58"/>
+											<ExtendedTooltip name="ДействияНомерСтрокиРасширеннаяПодсказка" id="59"/>
+										</LabelField>
+										<InputField name="ДействияКомментарий" id="88">
+											<DataPath>Объект.Действия.Комментарий</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<Width>25</Width>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ДействияКомментарийКонтекстноеМеню" id="89"/>
+											<ExtendedTooltip name="ДействияКомментарийРасширеннаяПодсказка" id="90"/>
+										</InputField>
+										<ColumnGroup name="ДействияГруппа1" id="120">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Что редактируется</v8:content>
+												</v8:item>
+											</Title>
+											<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+											<Group>Horizontal</Group>
+											<ShowInHeader>true</ShowInHeader>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<ExtendedTooltip name="ДействияГруппа1РасширеннаяПодсказка" id="121"/>
+											<ChildItems>
+												<InputField name="ДействияРоль" id="82">
+													<DataPath>Объект.Действия.ФункциональнаяРоль</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ДействияРольКонтекстноеМеню" id="83"/>
+													<ExtendedTooltip name="ДействияРольРасширеннаяПодсказка" id="84"/>
+												</InputField>
+												<InputField name="ДействияВидРеквизита" id="63">
+													<DataPath>Объект.Действия.ВидРеквизита</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ДействияВидРеквизитаКонтекстноеМеню" id="64"/>
+													<ExtendedTooltip name="ДействияВидРеквизитаРасширеннаяПодсказка" id="65"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
+										<ColumnGroup name="ДействияГруппа2" id="122">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Действие</v8:content>
+												</v8:item>
+											</Title>
+											<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+											<Group>Horizontal</Group>
+											<ShowInHeader>true</ShowInHeader>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<ExtendedTooltip name="ДействияГруппа2РасширеннаяПодсказка" id="123"/>
+											<ChildItems>
+												<InputField name="ДействияДействие" id="60">
+													<DataPath>Объект.Действия.Действие</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<Width>10</Width>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ДействияДействиеКонтекстноеМеню" id="61"/>
+													<ExtendedTooltip name="ДействияДействиеРасширеннаяПодсказка" id="62"/>
+												</InputField>
+												<InputField name="ДействияДействие_ФункциональнаяРоль" id="124">
+													<DataPath>Объект.Действия.Действие_ФункциональнаяРоль</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Функциональная роль</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ДействияДействие_ФункциональнаяРольКонтекстноеМеню" id="125"/>
+													<ExtendedTooltip name="ДействияДействие_ФункциональнаяРольРасширеннаяПодсказка" id="126"/>
+												</InputField>
+												<InputField name="ДействияЗначениеРеквизита" id="66">
+													<DataPath>Объект.Действия.ЗначениеРеквизита</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<TypeLink>
+														<xr:DataPath>Items.Действия.CurrentData.ТипЗначения</xr:DataPath>
+														<xr:LinkItem>0</xr:LinkItem>
+													</TypeLink>
+													<ContextMenu name="ДействияЗначениеРеквизитаКонтекстноеМеню" id="67"/>
+													<ExtendedTooltip name="ДействияЗначениеРеквизитаРасширеннаяПодсказка" id="68"/>
+												</InputField>
+												<InputField name="ДействияТипЗначенияРеквизита" id="117">
+													<DataPath>Объект.Действия.ТипЗначения</DataPath>
+													<Visible>false</Visible>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>ТипЗначения</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<Width>5</Width>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ДействияТипЗначенияРеквизитаКонтекстноеМеню" id="118"/>
+													<ExtendedTooltip name="ДействияТипЗначенияРеквизитаРасширеннаяПодсказка" id="119"/>
+												</InputField>
+												<CheckBoxField name="ДействияДействиеИспользоватьФункциональныеРоли" id="127">
+													<DataPath>Объект.Действия.Действие.ИспользоватьФункциональнуюРоль</DataPath>
+													<Visible>false</Visible>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content> </v8:content>
+														</v8:item>
+													</Title>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="ДействияДействиеИспользоватьФункциональныеРолиКонтекстноеМеню" id="128"/>
+													<ExtendedTooltip name="ДействияДействиеИспользоватьФункциональныеРолиРасширеннаяПодсказка" id="129"/>
+												</CheckBoxField>
+											</ChildItems>
+										</ColumnGroup>
 									</ChildItems>
-								</ColumnGroup>
+								</Table>
+								<UsualGroup name="ГруппаДействия_Право" id="136">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа действия право</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа действия право</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаДействия_ПравоРасширеннаяПодсказка" id="137"/>
+									<ChildItems>
+										<InputField name="ДействияДействие1" id="138">
+											<DataPath>Items.Действия.CurrentData.Действие</DataPath>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ДействияДействие1КонтекстноеМеню" id="139"/>
+											<ExtendedTooltip name="ДействияДействие1РасширеннаяПодсказка" id="140"/>
+										</InputField>
+										<InputField name="ДействияДействие_ФункциональнаяРоль1" id="141">
+											<DataPath>Items.Действия.CurrentData.Действие_ФункциональнаяРоль</DataPath>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ДействияДействие_ФункциональнаяРоль1КонтекстноеМеню" id="142"/>
+											<ExtendedTooltip name="ДействияДействие_ФункциональнаяРоль1РасширеннаяПодсказка" id="143"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
-						</Table>
+						</UsualGroup>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>

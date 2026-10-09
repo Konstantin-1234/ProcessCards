@@ -138,18 +138,18 @@
 									<ExtendedTooltip name="ПравилаОбработкиКомандыСтандартнаяКартинкаРасширеннаяПодсказка" id="73"/>
 								</LabelField>
 								<LabelField name="ПравилаОбработкиКомандыВидКарточки" id="56">
-									<DataPath>~ПравилаОбработкиКоманды.ВидКарточки</DataPath>
+									<DataPath>ПравилаОбработкиКоманды.ВидКарточки</DataPath>
 									<Width>10</Width>
 									<ContextMenu name="ПравилаОбработкиКомандыВидКарточкиКонтекстноеМеню" id="57"/>
 									<ExtendedTooltip name="ПравилаОбработкиКомандыВидКарточкиРасширеннаяПодсказка" id="58"/>
 								</LabelField>
 								<LabelField name="ПравилаОбработкиКомандыКоманда" id="59">
-									<DataPath>~ПравилаОбработкиКоманды.Команда</DataPath>
+									<DataPath>ПравилаОбработкиКоманды.Команда</DataPath>
 									<ContextMenu name="ПравилаОбработкиКомандыКомандаКонтекстноеМеню" id="60"/>
 									<ExtendedTooltip name="ПравилаОбработкиКомандыКомандаРасширеннаяПодсказка" id="61"/>
 								</LabelField>
 								<LabelField name="ПравилаОбработкиКомандыПравилоОбработкиКоманды" id="65">
-									<DataPath>~ПравилаОбработкиКоманды.ПравилоОбработкиКоманды</DataPath>
+									<DataPath>ПравилаОбработкиКоманды.ПравилоОбработкиКоманды</DataPath>
 									<ContextMenu name="ПравилаОбработкиКомандыПравилоОбработкиКомандыКонтекстноеМеню" id="66"/>
 									<ExtendedTooltip name="ПравилаОбработкиКомандыПравилоОбработкиКомандыРасширеннаяПодсказка" id="67"/>
 								</LabelField>
@@ -413,33 +413,13 @@
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>false</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
-	_ПравилаВидыКарточек.ВидКарточки КАК ВидКарточки,
-	_ПравилаВидыКарточек.Ссылка.Команда КАК Команда,
-	_ПравилаВидыКарточек.Ссылка.Ссылка КАК ПравилоОбработкиКоманды
+	_Правила.ВидКарточки КАК ВидКарточки,
+	_Правила.Ссылка.Команда КАК Команда,
+	_Правила.Ссылка.Ссылка КАК ПравилоОбработкиКоманды
 ИЗ
-	Справочник._Правила.ВидыКарточек КАК _ПравилаВидыКарточек
-		ЛЕВОЕ СОЕДИНЕНИЕ Справочник._Правила КАК _Правила
-		ПО _ПравилаВидыКарточек.Ссылка = _Правила.Ссылка
+	Справочник._Правила КАК _Правила
 ГДЕ
-	_ПравилаВидыКарточек.Ссылка.Команда = &amp;Команда</QueryText>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>ВидКарточки</dcssch:dataPath>
-					<dcssch:field>ВидКарточки</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Команда</dcssch:dataPath>
-					<dcssch:field>Команда</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>ПравилоОбработкиКоманды</dcssch:dataPath>
-					<dcssch:field>ПравилоОбработкиКоманды</dcssch:field>
-					<dcssch:title xsi:type="v8:LocalStringType">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Правило обработки команды</v8:content>
-						</v8:item>
-					</dcssch:title>
-				</Field>
+	_Правила.Ссылка.Команда = &amp;Команда</QueryText>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Код</dcssch:dataPath>
 					<dcssch:field>Код</dcssch:field>
@@ -449,12 +429,12 @@
 					<dcssch:field>Предопределенный</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>ВидыКарточек</dcssch:dataPath>
-					<dcssch:field>ВидыКарточек</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Обработчик</dcssch:dataPath>
 					<dcssch:field>Обработчик</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВидКарточки</dcssch:dataPath>
+					<dcssch:field>ВидКарточки</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>ИспользоватьГруппыУсловий</dcssch:dataPath>
@@ -469,6 +449,10 @@
 					<dcssch:field>ИмяПредопределенныхДанных</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Родитель</dcssch:dataPath>
+					<dcssch:field>Родитель</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Действия</dcssch:dataPath>
 					<dcssch:field>Действия</dcssch:field>
 				</Field>
@@ -477,8 +461,32 @@
 					<dcssch:field>Условия</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Команда</dcssch:dataPath>
+					<dcssch:field>Команда</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Команда</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПравилоОбработкиКоманды</dcssch:dataPath>
+					<dcssch:field>ПравилоОбработкиКоманды</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Правило обработки команды</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>ПометкаУдаления</dcssch:dataPath>
 					<dcssch:field>ПометкаУдаления</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ЭтоГруппа</dcssch:dataPath>
+					<dcssch:field>ЭтоГруппа</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Наименование</dcssch:dataPath>
@@ -508,6 +516,7 @@
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
 					</dcsset:filter>
+					<dcsset:dataParameters/>
 					<dcsset:order>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>

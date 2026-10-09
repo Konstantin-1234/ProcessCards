@@ -74,8 +74,10 @@
 			<CommonModule>_ВызовСервера</CommonModule>
 			<CommonModule>_НаКлиенте</CommonModule>
 			<CommonModule>_JSON</CommonModule>
-			<CommonModule>_ОбщийМодуль1</CommonModule>
-			<CommonModule>_ОбщийМодуль2</CommonModule>
+			<CommonModule>ПользователиКлиент</CommonModule>
+			<CommonModule>pc_РегламентныеЗадания</CommonModule>
+			<ScheduledJob>_ВыполнениеРегламентныхКоманд</ScheduledJob>
+			<ScheduledJob>_тест</ScheduledJob>
 			<DefinedType>_Хранение</DefinedType>
 			<Catalog>_Карточки</Catalog>
 			<Catalog>_ВидыКарточек</Catalog>

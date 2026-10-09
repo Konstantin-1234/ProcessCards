@@ -10,15 +10,6 @@
 			<ThroughAlign>Use</ThroughAlign>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="20"/>
 			<ChildItems>
-				<InputField name="Код" id="1">
-					<DataPath>Объект.Code</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<Width>30</Width>
-					<HorizontalStretch>false</HorizontalStretch>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
-					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
-				</InputField>
 				<InputField name="Наименование" id="4">
 					<DataPath>Объект.Description</DataPath>
 					<Title>
@@ -31,6 +22,15 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>30</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
@@ -69,6 +69,13 @@
 			<ContextMenu name="ЭтоСписокКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="ЭтоСписокРасширеннаяПодсказка" id="15"/>
 		</CheckBoxField>
+		<InputField name="Коментарий" id="26">
+			<DataPath>Объект.Коментарий</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КоментарийКонтекстноеМеню" id="27"/>
+			<ExtendedTooltip name="КоментарийРасширеннаяПодсказка" id="28"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">

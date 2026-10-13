@@ -42,6 +42,8 @@ configuration/ChartsOfCharacteristicTypes/_ТипыХраненияРеквиз�
 configuration/ChartsOfCharacteristicTypes/_ТипыХраненияРеквизитов/Ext/Predefined.xml
 configuration/ChartsOfCharacteristicTypes/_ТипыХраненияРеквизитов/Forms/ФормаЭлемента.xml
 configuration/ChartsOfCharacteristicTypes/_ТипыХраненияРеквизитов/Forms/ФормаЭлемента/Ext/Form.xml
+configuration/CommonCommands/_ВыполнитьРегламентныеКоманды.xml
+configuration/CommonCommands/_ВыполнитьРегламентныеКоманды/Ext/CommandModule.bsl
 configuration/CommonModules/_JSON.xml
 configuration/CommonModules/_JSON/Ext/Module.bsl
 configuration/CommonModules/_ВызовСервера.xml
@@ -92,8 +94,6 @@ configuration/Languages/Русский.xml
 configuration/Roles/_Карточки_ОсновнаяРоль.xml
 configuration/ScheduledJobs/_ВыполнениеРегламентныхКоманд.xml
 configuration/ScheduledJobs/_ВыполнениеРегламентныхКоманд/Ext/Schedule.xml
-configuration/ScheduledJobs/_тест.xml
-configuration/ScheduledJobs/_тест/Ext/Schedule.xml
 configuration/StyleItems/_ЗаголовокГруппыКолонок_Выделенный_Шрифт.xml
 configuration/Styles/_Основной.xml
 configuration/Subsystems/_КарточкиДанных.xml

@@ -45,6 +45,13 @@
 					<ContextMenu name="ГруппаКомандКонтекстноеМеню" id="11"/>
 					<ExtendedTooltip name="ГруппаКомандРасширеннаяПодсказка" id="12"/>
 				</InputField>
+				<CheckBoxField name="АвтоОбработка" id="117">
+					<DataPath>Объект.АвтоОбработка</DataPath>
+					<TitleLocation>Top</TitleLocation>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="АвтоОбработкаКонтекстноеМеню" id="118"/>
+					<ExtendedTooltip name="АвтоОбработкаРасширеннаяПодсказка" id="119"/>
+				</CheckBoxField>
 			</ChildItems>
 		</UsualGroup>
 		<Pages name="ГруппаСтраницы" id="37">

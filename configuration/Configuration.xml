@@ -77,8 +77,8 @@
 			<CommonModule>ПользователиКлиент</CommonModule>
 			<CommonModule>pc_РегламентныеЗадания</CommonModule>
 			<ScheduledJob>_ВыполнениеРегламентныхКоманд</ScheduledJob>
-			<ScheduledJob>_тест</ScheduledJob>
 			<DefinedType>_Хранение</DefinedType>
+			<CommonCommand>_ВыполнитьРегламентныеКоманды</CommonCommand>
 			<Catalog>_Карточки</Catalog>
 			<Catalog>_ВидыКарточек</Catalog>
 			<Catalog>_Команды</Catalog>

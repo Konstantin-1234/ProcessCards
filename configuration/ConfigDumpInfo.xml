@@ -15,7 +15,7 @@
 			<Metadata name="Catalog._ВидыКарточек.TabularSection.ВидыКарточки_родители.Attribute.ВидКарточки" id="ea55a35b-0997-4039-bec2-ab0ca836feb3"/>
 		</Metadata>
 		<Metadata name="Catalog._ВидыКарточек.Form.ФормаЭлемента" id="0bc4de14-e745-4a3e-9129-00323e29d6f7" configVersion="2dd19626c4cc906be3ce021787b293839eecbdf6"/>
-		<Metadata name="Catalog._ВидыКарточек.Form.ФормаЭлемента.Form" id="0bc4de14-e745-4a3e-9129-00323e29d6f7.0" configVersion="fbc901a14a6a9649382ff8418a4827683101933d"/>
+		<Metadata name="Catalog._ВидыКарточек.Form.ФормаЭлемента.Form" id="0bc4de14-e745-4a3e-9129-00323e29d6f7.0" configVersion="0b987bb7c9646dfc6df63bd88b8a51ed29084f70"/>
 		<Metadata name="Catalog._Действия" id="e1a6fb55-a7a9-4d89-9c66-4bc3e9a3b35c" configVersion="e3d5040155bedfc8d4bcfc10aff90c881820fef3">
 			<Metadata name="Catalog._Действия.Attribute.ИспользоватьФункциональнуюРоль" id="65d709c6-d2e1-44ee-bf79-1467481e591d"/>
 			<Metadata name="Catalog._Действия.Attribute.ТипЗначения" id="66581fab-9dbc-4d82-aed3-9f5eb9b573b5"/>
@@ -41,8 +41,8 @@
 			<Metadata name="Catalog._Команды.Attribute.АвтоОбработка" id="bd79fe0f-2da2-4f0d-8633-aca3079c1ba1"/>
 		</Metadata>
 		<Metadata name="Catalog._Команды.Form.ФормаЭлемента" id="c7968350-39f7-44dd-9f1f-8529ee12a300" configVersion="e8d2f971364eab331351aedaf84a5aae332e8a4c"/>
-		<Metadata name="Catalog._Команды.Form.ФормаЭлемента.Form" id="c7968350-39f7-44dd-9f1f-8529ee12a300.0" configVersion="6714bc75925ae1896dc29a1fcfc77c43e01f92f2"/>
-		<Metadata name="Catalog._Команды.ManagerModule" id="543231a9-0030-43a9-a32b-39441f5a2ba4.3" configVersion="da2c366cec072abb98dbd5059f8cbf3efb96da88"/>
+		<Metadata name="Catalog._Команды.Form.ФормаЭлемента.Form" id="c7968350-39f7-44dd-9f1f-8529ee12a300.0" configVersion="380479e8c59547b99c43e734c7a70780e180661f"/>
+		<Metadata name="Catalog._Команды.ManagerModule" id="543231a9-0030-43a9-a32b-39441f5a2ba4.3" configVersion="afdeaa1f83fbaf30580b307c9409c8c282f18a1d"/>
 		<Metadata name="Catalog._КомандыГруппы" id="a5cd451d-8d52-47ae-88a7-c70d954a30e3" configVersion="9032a9e881428c3557d3d01a61217089bdcf8087"/>
 		<Metadata name="Catalog._Правила" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133" configVersion="b3befdf39b1b4394c869c2ab4a96450c5a9e2cf2">
 			<Metadata name="Catalog._Правила.TabularSection.Действия.Attribute.Действие_ФункциональнаяРоль" id="008f878f-62e8-4223-8ccc-2f8baef08d9a"/>
@@ -68,9 +68,9 @@
 			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.ЗначениеРеквизита_2" id="fb61eb12-d1ca-4da6-9ced-8ff21c747d2f"/>
 		</Metadata>
 		<Metadata name="Catalog._Правила.Form.ФормаЭлемента" id="c6177659-20cf-4fe3-bd47-6250f8146bd8" configVersion="d6217d8972f190c301065108ac9225cab3cd5692"/>
-		<Metadata name="Catalog._Правила.Form.ФормаЭлемента.Form" id="c6177659-20cf-4fe3-bd47-6250f8146bd8.0" configVersion="9a2cde9cef816e147f43193061fb7d4b70054935"/>
+		<Metadata name="Catalog._Правила.Form.ФормаЭлемента.Form" id="c6177659-20cf-4fe3-bd47-6250f8146bd8.0" configVersion="27af7eed5738afff32b69e9b4dbf6cc345926aef"/>
 		<Metadata name="Catalog._Правила.Help" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133.1" configVersion="58bcbf21ba6b38b536fdbdb7bccb2ecf8a717d5b"/>
-		<Metadata name="Catalog._Правила.ManagerModule" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133.3" configVersion="b446075540dca8b5a629cae7ad5f3029a6dedd3f"/>
+		<Metadata name="Catalog._Правила.ManagerModule" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133.3" configVersion="a4689f9c8a28a3c22c49e9f28c462404b985b4e4"/>
 		<Metadata name="Catalog._Правила.ObjectModule" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133.0" configVersion="83530947db7f315a5ab94af864c28266e8d5a617"/>
 		<Metadata name="Catalog._Правила.Template.Макет" id="cb097463-0ebf-451f-9f15-0f90448509f7" configVersion="3eb22596e59b94c9d6893befc02ab05d83e88a29"/>
 		<Metadata name="Catalog._Правила.Template.Макет.Template" id="cb097463-0ebf-451f-9f15-0f90448509f7.0" configVersion="242af9746551c53224cba0601dc513d9ee401a97"/>
@@ -96,6 +96,8 @@
 		<Metadata name="ChartOfCharacteristicTypes._ТипыХраненияРеквизитов.Form.ФормаЭлемента" id="b65d966f-ce48-4e2f-a8e2-34ee82eaf827" configVersion="d6d578988a7c15647bb53b2c2ce8bda10bedd961"/>
 		<Metadata name="ChartOfCharacteristicTypes._ТипыХраненияРеквизитов.Form.ФормаЭлемента.Form" id="b65d966f-ce48-4e2f-a8e2-34ee82eaf827.0" configVersion="23dbb87e846bec9bd56f7d2aec7225bcffaa4ebb"/>
 		<Metadata name="ChartOfCharacteristicTypes._ТипыХраненияРеквизитов.Predefined" id="1f165959-423d-47cb-b188-32cf72567f60.7" configVersion="2aee80d9886fa1d017d52e2dde7299e92f6d8349"/>
+		<Metadata name="CommonCommand._ВыполнитьРегламентныеКоманды" id="c0a9d307-060a-48a9-bd7d-f9edaa38234f" configVersion="41f5e3ef76a727db2ae6011b8b7b3690e43075d1"/>
+		<Metadata name="CommonCommand._ВыполнитьРегламентныеКоманды.CommandModule" id="c0a9d307-060a-48a9-bd7d-f9edaa38234f.2" configVersion="c50f1d33752ffd45d1c08de85f1c5434d86c2a73"/>
 		<Metadata name="CommonModule._JSON" id="ff1f9ee0-a9d7-4359-bff2-825798264f79" configVersion="f95a03c18c3f7b6f66963e62d2c0735542b44f91"/>
 		<Metadata name="CommonModule._JSON.Module" id="ff1f9ee0-a9d7-4359-bff2-825798264f79.0" configVersion="17d8e0fd473cecdc603309f837c3896b08bc2109"/>
 		<Metadata name="CommonModule._ВызовСервера" id="db3edd5b-a5f6-4b15-8349-04c166b2b123" configVersion="715093222954680bd7c79fa7f31bd66f7856a0ff"/>
@@ -106,10 +108,10 @@
 		<Metadata name="CommonModule._КомандыКлиент.Module" id="47c13704-40ea-4cad-aa03-e2109094a674.0" configVersion="48632f557f4770e961fae74cc26835114f3ff2f8"/>
 		<Metadata name="CommonModule._НаКлиенте" id="26bfb9f4-7fb1-4b29-8519-071f33d5e647" configVersion="918bd5700140b6d585759bb9af36495dc70c7111"/>
 		<Metadata name="CommonModule._НаКлиенте.Module" id="26bfb9f4-7fb1-4b29-8519-071f33d5e647.0" configVersion="864164f930d7ab165ddac532e179b3894f77670d"/>
-		<Metadata name="CommonModule.pc_РегламентныеЗадания" id="30815fb9-618c-49d4-ad09-4e81dfdc6d22" configVersion="9183327fd0489c5e9082dfff85197d85d7fc0577"/>
-		<Metadata name="CommonModule.pc_РегламентныеЗадания.Module" id="30815fb9-618c-49d4-ad09-4e81dfdc6d22.0" configVersion="9f7331fbc58c27d3cd82a1680f68fee9052793a2"/>
+		<Metadata name="CommonModule.pc_РегламентныеЗадания" id="30815fb9-618c-49d4-ad09-4e81dfdc6d22" configVersion="dd621dd98908428736e327531b48b98d2a6b9294"/>
+		<Metadata name="CommonModule.pc_РегламентныеЗадания.Module" id="30815fb9-618c-49d4-ad09-4e81dfdc6d22.0" configVersion="d615604436180978a3a55dd390e2456a0d044ed5"/>
 		<Metadata name="CommonModule.ПользователиКлиент" id="28f16ceb-254a-4321-a3c9-6ba657290a44" configVersion="b6b009672a34888433ab492701b35f9c7a79c518"/>
-		<Metadata name="Configuration.КарточкиДанных" id="06c2b78d-103d-482e-8d28-6a3cab3f4a4e" configVersion="10ebc0bc99beb8bab8f562124a94d918f78b06f1"/>
+		<Metadata name="Configuration.КарточкиДанных" id="06c2b78d-103d-482e-8d28-6a3cab3f4a4e" configVersion="8c33bf40ea9867a46eb966adf621647cca93e3ec"/>
 		<Metadata name="DefinedType._Хранение" id="44cb7340-fceb-4a61-a6c5-26f13a800dfb" configVersion="6ce5d7b2f9cb215d96697de94434bba1069d282b"/>
 		<Metadata name="Document._ДвиженияКарточки" id="ca30f74a-ef74-4408-8f79-66750c8fb8e1" configVersion="10b20b3daecf4fb843530b30ed79914d68493a8b">
 			<Metadata name="Document._ДвиженияКарточки.Attribute.Карточка" id="00d9f9b4-5fda-4d39-818e-7b658032318a"/>
@@ -169,7 +171,7 @@
 			<Metadata name="InformationRegister._СостояниеКарточек.Dimension.УИД_Элемента" id="7708aca3-792c-45ea-b655-4e68b94358bf"/>
 			<Metadata name="InformationRegister._СостояниеКарточек.Resource.ЗначениеАктивно" id="aff3cc21-0eaf-4072-bab6-d7f9952f23e1"/>
 		</Metadata>
-		<Metadata name="InformationRegister._СостояниеКарточек.ManagerModule" id="038a7065-b245-4b7c-9603-dec345000a88.2" configVersion="5fd7ca0dd76a98dcb16e821dd36190e57d99e3fa"/>
+		<Metadata name="InformationRegister._СостояниеКарточек.ManagerModule" id="038a7065-b245-4b7c-9603-dec345000a88.2" configVersion="0b76d2eafd1ef72a4e206f0c70c4ec3547da96c2"/>
 		<Metadata name="InformationRegister._СостояниеКарточек.RecordSetModule" id="038a7065-b245-4b7c-9603-dec345000a88.1" configVersion="d60d2a8ece1961225d4e546fe948707cbaa8d897"/>
 		<Metadata name="InformationRegister._СостояниеКарточек.Template._СтарыйМодульРС_РеквизитыКарточек_Рабочий" id="61e4af2b-fe7c-4cc5-8933-179373f59ebc" configVersion="1892743448d488f5c92c83228eea9f8bafd41397"/>
 		<Metadata name="InformationRegister._СостояниеКарточек.Template._СтарыйМодульРС_РеквизитыКарточек_Рабочий.Template" id="61e4af2b-fe7c-4cc5-8933-179373f59ebc.0" configVersion="c5bffd3382a1203a3d19901cd605cb6fcf1dcc75"/>
@@ -186,11 +188,9 @@
 		<Metadata name="Role._Карточки_ОсновнаяРоль" id="c8dbeb05-43b6-4f68-adf4-e8bd9eee223a" configVersion="81e330b7b5960ff80cfa4ec43316d048a2ab2d3d"/>
 		<Metadata name="ScheduledJob._ВыполнениеРегламентныхКоманд" id="07f5822d-f846-4b13-9e46-f3a3b41b834e" configVersion="b241f4fe1e9babde9b9066bc0e49c3079e98d96d"/>
 		<Metadata name="ScheduledJob._ВыполнениеРегламентныхКоманд.Schedule" id="07f5822d-f846-4b13-9e46-f3a3b41b834e.0" configVersion="5ad5e1eed71dcb3612eb517e2ad78047d0aaf354"/>
-		<Metadata name="ScheduledJob._тест" id="ee509d89-8f5c-435e-bd03-61293cc02a65" configVersion="bd04d3564c514fe0fe3e277e23e80456bd7e6e80"/>
-		<Metadata name="ScheduledJob._тест.Schedule" id="ee509d89-8f5c-435e-bd03-61293cc02a65.0" configVersion="088e5997b148a475ca20a2446d2705300ed05ac6"/>
 		<Metadata name="Style._Основной" id="71d1c22a-3051-4fd4-b7ab-4e65b31204d8" configVersion="eb9a1f7105b543fa2fab4f98f3fc8480bd28c6ec"/>
 		<Metadata name="StyleItem._ЗаголовокГруппыКолонок_Выделенный_Шрифт" id="c87c8d51-b09b-416a-8515-48da7689eb66" configVersion="e1ffb91d72688519342a8a544b5e169ad92dc0d7"/>
-		<Metadata name="Subsystem._КарточкиДанных" id="6247ed34-b6f9-449e-8caf-c337e3978582" configVersion="7d8d287649915f7264e19fa5e85caff53767287d"/>
+		<Metadata name="Subsystem._КарточкиДанных" id="6247ed34-b6f9-449e-8caf-c337e3978582" configVersion="e0c8cb2bbd478a0ed1cbd4764595b76c99a30313"/>
 		<Metadata name="Subsystem._КарточкиДанных.Subsystem.Движения" id="9d0a224e-a871-4a18-9d20-7c444632bd23" configVersion="7ebbce7f4e036f38f0f76ce1fe61f55abb135c9c"/>
 		<Metadata name="Subsystem._КарточкиДанных.Subsystem.Справочники" id="ab37907e-7341-43d4-9c19-822be3fc1cf0" configVersion="736f950147c6ed8538ba87cc2fa2d3d05f1af41b"/>
 	</ConfigVersions>

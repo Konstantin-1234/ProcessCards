@@ -87,6 +87,7 @@
 			<Catalog>_Действия</Catalog>
 			<Catalog>_СтатусыКарточек</Catalog>
 			<Catalog>_ФункциональныеРоли</Catalog>
+			<Catalog>_МетодыПолученияЗначений</Catalog>
 			<Document>_ДвиженияКарточки</Document>
 			<Enum>_ВариантыСравнения</Enum>
 			<Enum>_ОбработчикиПравил</Enum>
@@ -96,6 +97,7 @@
 			<Enum>_НевозможноеЗначение</Enum>
 			<Enum>_СпособыГруппировки</Enum>
 			<Enum>_ВариантыДвиженийДокумента</Enum>
+			<Enum>_СпособыВычисленияЗначения</Enum>
 			<InformationRegister>_СостояниеКарточек</InformationRegister>
 			<InformationRegister>_ИсточникиФункциональныхРолей</InformationRegister>
 			<ChartOfCharacteristicTypes>_ВидыРеквизитов</ChartOfCharacteristicTypes>

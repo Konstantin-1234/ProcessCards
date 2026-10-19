@@ -20,6 +20,7 @@ configuration/Catalogs/_Команды/Forms/ФормаЭлемента.xml
 configuration/Catalogs/_Команды/Forms/ФормаЭлемента/Ext/Form.xml
 configuration/Catalogs/_Команды/Forms/ФормаЭлемента/Ext/Form/Module.bsl
 configuration/Catalogs/_КомандыГруппы.xml
+configuration/Catalogs/_МетодыПолученияЗначений.xml
 configuration/Catalogs/_Правила.xml
 configuration/Catalogs/_Правила/Ext/Help.xml
 configuration/Catalogs/_Правила/Ext/Help/ru.html
@@ -67,6 +68,7 @@ configuration/Enums/_ВариантыПолученияРолей.xml
 configuration/Enums/_ВариантыСравнения.xml
 configuration/Enums/_НевозможноеЗначение.xml
 configuration/Enums/_ОбработчикиПравил.xml
+configuration/Enums/_СпособыВычисленияЗначения.xml
 configuration/Enums/_СпособыГруппировки.xml
 configuration/Enums/_СпособыХранениеРеквизитовКарточки.xml
 configuration/Enums/_СтатусыКарточки.xml

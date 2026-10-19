@@ -143,33 +143,14 @@
 				</v8:item>
 			</Title>
 			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="11"/>
-		</Pages>
-		<UsualGroup name="ГруппаОновное" id="71">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа оновное</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа оновное</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Group>Vertical</Group>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаОновноеРасширеннаяПодсказка" id="72"/>
 			<ChildItems>
-				<UsualGroup name="ГруппаУсловия" id="12">
+				<Page name="ГруппаУсловия" id="12">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Условия</v8:content>
 						</v8:item>
 					</Title>
-					<Group>Vertical</Group>
-					<Behavior>Collapsible</Behavior>
 					<ExtendedTooltip name="ГруппаУсловияРасширеннаяПодсказка" id="13"/>
 					<ChildItems>
 						<Table name="Условия" id="14">
@@ -457,16 +438,14 @@
 							</ChildItems>
 						</Table>
 					</ChildItems>
-				</UsualGroup>
-				<UsualGroup name="ГруппаДействия" id="42">
+				</Page>
+				<Page name="ГруппаДействия" id="42">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Действия</v8:content>
 						</v8:item>
 					</Title>
-					<Group>Vertical</Group>
-					<Behavior>Collapsible</Behavior>
 					<ExtendedTooltip name="ГруппаДействияРасширеннаяПодсказка" id="43"/>
 					<ChildItems>
 						<InputField name="Обработчик" id="79">
@@ -528,6 +507,7 @@
 										<ExtendedTooltip name="ДействияУправлениеПоискомРасширеннаяПодсказка" id="56"/>
 									</SearchControlAddition>
 									<Events>
+										<Event name="OnActivateRow">ДействияПриАктивизацииСтроки</Event>
 										<Event name="OnChange">ДействияПриИзменении</Event>
 									</Events>
 									<ChildItems>
@@ -544,14 +524,6 @@
 											<ContextMenu name="ДействияНомерСтрокиКонтекстноеМеню" id="58"/>
 											<ExtendedTooltip name="ДействияНомерСтрокиРасширеннаяПодсказка" id="59"/>
 										</LabelField>
-										<InputField name="ДействияКомментарий" id="88">
-											<DataPath>Объект.Действия.Комментарий</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<Width>25</Width>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-											<ContextMenu name="ДействияКомментарийКонтекстноеМеню" id="89"/>
-											<ExtendedTooltip name="ДействияКомментарийРасширеннаяПодсказка" id="90"/>
-										</InputField>
 										<ColumnGroup name="ДействияГруппа1" id="120">
 											<Title>
 												<v8:item>
@@ -581,7 +553,23 @@
 												</InputField>
 											</ChildItems>
 										</ColumnGroup>
+										<InputField name="ДействияПредставление" id="189">
+											<DataPath>Объект.Действия.Представление</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Действие</v8:content>
+												</v8:item>
+											</Title>
+											<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+											<EditMode>EnterOnInput</EditMode>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ДействияПредставлениеКонтекстноеМеню" id="190"/>
+											<ExtendedTooltip name="ДействияПредставлениеРасширеннаяПодсказка" id="191"/>
+										</InputField>
 										<ColumnGroup name="ДействияГруппа2" id="122">
+											<Visible>false</Visible>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -656,6 +644,14 @@
 												</CheckBoxField>
 											</ChildItems>
 										</ColumnGroup>
+										<InputField name="ДействияКомментарий" id="88">
+											<DataPath>Объект.Действия.Комментарий</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<Width>25</Width>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ДействияКомментарийКонтекстноеМеню" id="89"/>
+											<ExtendedTooltip name="ДействияКомментарийРасширеннаяПодсказка" id="90"/>
+										</InputField>
 									</ChildItems>
 								</Table>
 								<UsualGroup name="ГруппаДействия_Право" id="136">
@@ -665,34 +661,274 @@
 											<v8:content>Группа действия право</v8:content>
 										</v8:item>
 									</Title>
+									<TitleFont ref="style:NormalTextFont" height="4" kind="StyleItem" scale="100"/>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Группа действия право</v8:content>
 										</v8:item>
 									</ToolTip>
+									<Group>Vertical</Group>
 									<ShowTitle>false</ShowTitle>
+									<ThroughAlign>Use</ThroughAlign>
 									<ExtendedTooltip name="ГруппаДействия_ПравоРасширеннаяПодсказка" id="137"/>
 									<ChildItems>
-										<InputField name="ДействияДействие1" id="138">
-											<DataPath>Items.Действия.CurrentData.Действие</DataPath>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-											<ContextMenu name="ДействияДействие1КонтекстноеМеню" id="139"/>
-											<ExtendedTooltip name="ДействияДействие1РасширеннаяПодсказка" id="140"/>
-										</InputField>
-										<InputField name="ДействияДействие_ФункциональнаяРоль1" id="141">
-											<DataPath>Items.Действия.CurrentData.Действие_ФункциональнаяРоль</DataPath>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-											<ContextMenu name="ДействияДействие_ФункциональнаяРоль1КонтекстноеМеню" id="142"/>
-											<ExtendedTooltip name="ДействияДействие_ФункциональнаяРоль1РасширеннаяПодсказка" id="143"/>
-										</InputField>
+										<UsualGroup name="Группа7" id="175">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>-------------------------------------------------</v8:content>
+												</v8:item>
+											</Title>
+											<TitleFont ref="style:NormalTextFont" height="4" kind="StyleItem" scale="100"/>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Что редактируется</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ThroughAlign>Use</ThroughAlign>
+											<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="176"/>
+											<ChildItems>
+												<InputField name="ДействияФункциональнаяРоль" id="177">
+													<DataPath>Items.Действия.CurrentData.ФункциональнаяРоль</DataPath>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ДействияФункциональнаяРольКонтекстноеМеню" id="178"/>
+													<ExtendedTooltip name="ДействияФункциональнаяРольРасширеннаяПодсказка" id="179"/>
+												</InputField>
+												<InputField name="ДействияВидРеквизита1" id="180">
+													<DataPath>Items.Действия.CurrentData.ВидРеквизита</DataPath>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ДействияВидРеквизита1КонтекстноеМеню" id="181"/>
+													<ExtendedTooltip name="ДействияВидРеквизита1РасширеннаяПодсказка" id="182"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="Группа2" id="144">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>-------------------------------------------------</v8:content>
+												</v8:item>
+											</Title>
+											<TitleFont ref="style:NormalTextFont" height="4" kind="StyleItem" scale="100"/>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Выбор действия</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ThroughAlign>Use</ThroughAlign>
+											<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="145"/>
+											<ChildItems>
+												<InputField name="ДействияДействие1" id="138">
+													<DataPath>Items.Действия.CurrentData.Действие</DataPath>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ДействияДействие1КонтекстноеМеню" id="139"/>
+													<ExtendedTooltip name="ДействияДействие1РасширеннаяПодсказка" id="140"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="Группа3" id="146">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>-------------------------------------------------</v8:content>
+												</v8:item>
+											</Title>
+											<TitleFont ref="style:NormalTextFont" height="4" kind="StyleItem" scale="100"/>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Определение устанавливаемого значения</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<ThroughAlign>Use</ThroughAlign>
+											<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="147"/>
+											<ChildItems>
+												<UsualGroup name="Группа4" id="148">
+													<Group>Vertical</Group>
+													<ShowTitle>false</ShowTitle>
+													<ThroughAlign>Use</ThroughAlign>
+													<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="149"/>
+													<ChildItems>
+														<CheckBoxField name="ДействияВидЗначения" id="154">
+															<DataPath>Items.Действия.CurrentData.ЭтоВидЗначения_Значение</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Значение</v8:content>
+																</v8:item>
+															</Title>
+															<TitleTextColor>style:AccentColor</TitleTextColor>
+															<TitleLocation>Right</TitleLocation>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="ДействияВидЗначенияКонтекстноеМеню" id="155"/>
+															<ExtendedTooltip name="ДействияВидЗначенияРасширеннаяПодсказка" id="156"/>
+															<Events>
+																<Event name="OnChange">ДействияВидЗначенияПриИзменении</Event>
+															</Events>
+														</CheckBoxField>
+														<UsualGroup name="Группа_ДействиеЗначение" id="183">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа действие значение</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа действие значение</v8:content>
+																</v8:item>
+															</ToolTip>
+															<ShowTitle>false</ShowTitle>
+															<ThroughAlign>Use</ThroughAlign>
+															<ExtendedTooltip name="Группа_ДействиеЗначениеРасширеннаяПодсказка" id="184"/>
+															<ChildItems>
+																<InputField name="ДействияЗначениеРеквизита1" id="163">
+																	<DataPath>Items.Действия.CurrentData.ЗначениеРеквизита</DataPath>
+																	<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+																	<ContextMenu name="ДействияЗначениеРеквизита1КонтекстноеМеню" id="164"/>
+																	<ExtendedTooltip name="ДействияЗначениеРеквизита1РасширеннаяПодсказка" id="165"/>
+																</InputField>
+															</ChildItems>
+														</UsualGroup>
+													</ChildItems>
+												</UsualGroup>
+												<UsualGroup name="Группа5" id="150">
+													<Group>Vertical</Group>
+													<ShowTitle>false</ShowTitle>
+													<ThroughAlign>Use</ThroughAlign>
+													<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="151"/>
+													<ChildItems>
+														<CheckBoxField name="ДействияВидЗначения_Функция" id="157">
+															<DataPath>Items.Действия.CurrentData.ЭтоВидЗначения_Функция</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Функция</v8:content>
+																</v8:item>
+															</Title>
+															<TitleTextColor>style:AccentColor</TitleTextColor>
+															<TitleLocation>Right</TitleLocation>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="ДействияВидЗначения_ФункцияКонтекстноеМеню" id="158"/>
+															<ExtendedTooltip name="ДействияВидЗначения_ФункцияРасширеннаяПодсказка" id="159"/>
+															<Events>
+																<Event name="OnChange">ДействияВидЗначенияПриИзменении</Event>
+															</Events>
+														</CheckBoxField>
+														<UsualGroup name="Группа_ДействиеФункция" id="185">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа действие функция</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа действие функция</v8:content>
+																</v8:item>
+															</ToolTip>
+															<ShowTitle>false</ShowTitle>
+															<ThroughAlign>Use</ThroughAlign>
+															<ExtendedTooltip name="Группа_ДействиеФункцияРасширеннаяПодсказка" id="186"/>
+															<ChildItems>
+																<InputField name="ДействияФункцияПолученияЗначения" id="166">
+																	<DataPath>Items.Действия.CurrentData.ФункцияПолученияЗначения</DataPath>
+																	<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+																	<ContextMenu name="ДействияФункцияПолученияЗначенияКонтекстноеМеню" id="167"/>
+																	<ExtendedTooltip name="ДействияФункцияПолученияЗначенияРасширеннаяПодсказка" id="168"/>
+																</InputField>
+															</ChildItems>
+														</UsualGroup>
+													</ChildItems>
+												</UsualGroup>
+												<UsualGroup name="Группа6" id="152">
+													<Group>Vertical</Group>
+													<ShowTitle>false</ShowTitle>
+													<ThroughAlign>Use</ThroughAlign>
+													<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="153"/>
+													<ChildItems>
+														<CheckBoxField name="ДействияВидЗначения_ИзРеквизитаФункцРоли" id="160">
+															<DataPath>Items.Действия.CurrentData.ЭтоВидЗначения_ИзРеквизитаФункцРоли</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Из реквизита функциональной роли</v8:content>
+																</v8:item>
+															</Title>
+															<TitleTextColor>style:AccentColor</TitleTextColor>
+															<TitleLocation>Right</TitleLocation>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="ДействияВидЗначения_ИзРеквизитаФункцРолиКонтекстноеМеню" id="161"/>
+															<ExtendedTooltip name="ДействияВидЗначения_ИзРеквизитаФункцРолиРасширеннаяПодсказка" id="162"/>
+															<Events>
+																<Event name="OnChange">ДействияВидЗначенияПриИзменении</Event>
+															</Events>
+														</CheckBoxField>
+														<UsualGroup name="Группа_ДействиеРеквизитФРоли" id="187">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа действие реквизит ф роли</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа действие реквизит ф роли</v8:content>
+																</v8:item>
+															</ToolTip>
+															<ShowTitle>false</ShowTitle>
+															<ThroughAlign>Use</ThroughAlign>
+															<ExtendedTooltip name="Группа_ДействиеРеквизитФРолиРасширеннаяПодсказка" id="188"/>
+															<ChildItems>
+																<InputField name="ДействияДействие_ФункциональнаяРоль2" id="169">
+																	<DataPath>Items.Действия.CurrentData.Действие_ФункциональнаяРоль</DataPath>
+																	<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+																	<ContextMenu name="ДействияДействие_ФункциональнаяРоль2КонтекстноеМеню" id="170"/>
+																	<ExtendedTooltip name="ДействияДействие_ФункциональнаяРоль2РасширеннаяПодсказка" id="171"/>
+																</InputField>
+																<InputField name="ДействияДействие_ВидРеквизита" id="172">
+																	<DataPath>Items.Действия.CurrentData.Действие_ВидРеквизита</DataPath>
+																	<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+																	<ContextMenu name="ДействияДействие_ВидРеквизитаКонтекстноеМеню" id="173"/>
+																	<ExtendedTooltip name="ДействияДействие_ВидРеквизитаРасширеннаяПодсказка" id="174"/>
+																</InputField>
+															</ChildItems>
+														</UsualGroup>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
 									</ChildItems>
 								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
 					</ChildItems>
-				</UsualGroup>
+				</Page>
 			</ChildItems>
+		</Pages>
+		<UsualGroup name="ГруппаОновное" id="71">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа оновное</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа оновное</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОновноеРасширеннаяПодсказка" id="72"/>
 		</UsualGroup>
 	</ChildItems>
 	<Attributes>
@@ -739,6 +975,45 @@
 							<v8:Type>xs:boolean</v8:Type>
 						</Type>
 					</Column>
+					<Column name="ЭтоВидЗначения_Значение" id="3">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>1 - Значение
+2 - Функция
+3 - Из реквизита ФункцРоли</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:boolean</v8:Type>
+						</Type>
+					</Column>
+					<Column name="ЭтоВидЗначения_Функция" id="4">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>1 - Значение
+2 - Функция
+3 - Из реквизита ФункцРоли</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:boolean</v8:Type>
+						</Type>
+					</Column>
+					<Column name="ЭтоВидЗначения_ИзРеквизитаФункцРоли" id="5">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>1 - Значение
+2 - Функция
+3 - Из реквизита ФункцРоли</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:boolean</v8:Type>
+						</Type>
+					</Column>
 				</AdditionalColumns>
 			</Columns>
 		</Attribute>
@@ -757,6 +1032,78 @@
 					</dcsset:item>
 				</dcsset:filter>
 				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>Группа_ДействиеЗначение</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.Действия.ВидЗначения_Значение</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Доступность</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>Группа_ДействиеФункция</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.Действия.ВидЗначения_Функция</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Доступность</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>Группа_ДействиеРеквизитФРоли</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.Действия.ВидЗначения_ИзРеквизитаФункцРоли</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Доступность</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
 						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>

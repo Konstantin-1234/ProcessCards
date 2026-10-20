@@ -630,7 +630,7 @@
 													<ExtendedTooltip name="ДействияТипЗначенияРеквизитаРасширеннаяПодсказка" id="119"/>
 												</InputField>
 												<CheckBoxField name="ДействияДействиеИспользоватьФункциональныеРоли" id="127">
-													<DataPath>Объект.Действия.Действие.ИспользоватьФункциональнуюРоль</DataPath>
+													<DataPath>1/0:a6bc98a6-eff0-4744-9895-658516a71a98/0:dc518995-3683-48a6-8a3b-0dfe82f9fbbc/0:65d709c6-d2e1-44ee-bf79-1467481e591d</DataPath>
 													<Visible>false</Visible>
 													<Title>
 														<v8:item>

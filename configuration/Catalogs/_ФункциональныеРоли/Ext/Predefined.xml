@@ -3,7 +3,7 @@
 	<Item id="8db0ba95-05d0-461a-ab93-5f83ab065ccc">
 		<Name>ОсновнаяФР</Name>
 		<Code>000000001</Code>
-		<Description>Основная ФР</Description>
+		<Description>Базовая карточка</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 </PredefinedData>

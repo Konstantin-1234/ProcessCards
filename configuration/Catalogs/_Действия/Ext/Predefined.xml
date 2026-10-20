@@ -49,7 +49,7 @@
 				<IsFolder>false</IsFolder>
 			</Item>
 			<Item id="7c9547e9-f913-409d-b5cb-f751ad42b188">
-				<Name>УстановитьИзФункциональнойРоли</Name>
+				<Name>УстановитьЭлемент</Name>
 				<Code>00008</Code>
 				<Description>Установить из </Description>
 				<IsFolder>false</IsFolder>
@@ -63,35 +63,17 @@
 		<IsFolder>true</IsFolder>
 		<ChildItems>
 			<Item id="ae40c947-1da7-4f69-b597-5fc56c21bbfb">
-				<Name>ДобавитьЭлементПоФункциональнойРоли</Name>
+				<Name>ДобавитьЭлемент</Name>
 				<Code>00010</Code>
-				<Description>Добавить в список (по функциональной роли)</Description>
+				<Description>Добавить элемент в список</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
 			<Item id="631c3cd8-43a8-48df-9b9a-31a750b1f60e">
-				<Name>УбратьЭлементПоФункциональнойРоли</Name>
-				<Code>00011</Code>
-				<Description>Удалить из списка (По функциональной роли)</Description>
-				<IsFolder>false</IsFolder>
-			</Item>
-			<Item id="d2dd473d-2a11-4032-b515-49427c0b5c7b">
 				<Name>УбратьЭлемент</Name>
-				<Code>00012</Code>
-				<Description>Удалить из списка (ПоЗначению)</Description>
+				<Code>00011</Code>
+				<Description>Удалить элемент из списка</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
 		</ChildItems>
-	</Item>
-	<Item id="a41c4090-98da-47db-afde-8670aba9bbb4">
-		<Name>ПроверкаУдаления_1</Name>
-		<Code>ПроверкаУдаления_1</Code>
-		<Description>Проверка удаления 1</Description>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="bb29204a-07a2-4536-8c01-3ba7862e50cd">
-		<Name>ПроверкаУдаления_2</Name>
-		<Code>ПроверкаУдаления_2</Code>
-		<Description>Проверка удаления 2</Description>
-		<IsFolder>false</IsFolder>
 	</Item>
 </PredefinedData>

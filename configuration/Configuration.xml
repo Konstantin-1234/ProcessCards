@@ -98,10 +98,11 @@
 			<Enum>_СпособыГруппировки</Enum>
 			<Enum>_ВариантыДвиженийДокумента</Enum>
 			<Enum>_СпособыВычисленияЗначения</Enum>
+			<Enum>_СпособыПолученияЗначенияДляУсловия</Enum>
 			<InformationRegister>_СостояниеКарточек</InformationRegister>
 			<InformationRegister>_ИсточникиФункциональныхРолей</InformationRegister>
 			<ChartOfCharacteristicTypes>_ВидыРеквизитов</ChartOfCharacteristicTypes>
-			<ChartOfCharacteristicTypes>_ТипыХраненияРеквизитов</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>_ТипыЗначений</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

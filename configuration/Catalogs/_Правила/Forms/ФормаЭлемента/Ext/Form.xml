@@ -214,7 +214,7 @@
 								<ExtendedTooltip name="УсловияДеревоУправлениеПоискомРасширеннаяПодсказка" id="206"/>
 							</SearchControlAddition>
 							<Events>
-								<Event name="OnChange">ДеревоУсловийПриИзменении</Event>
+								<Event name="OnChange">УсловияДеревоПриИзменении</Event>
 							</Events>
 							<ChildItems>
 								<InputField name="УсловияДеревоПредставление" id="207">
@@ -1682,7 +1682,7 @@
 					<v8:content>Добавить условие</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>ДобавитьУсловие</Action>
+			<Action>УсловияДеревоДобавитьУсловие</Action>
 		</Command>
 		<Command name="УдалитьУсловие" id="2">
 			<Title>
@@ -1697,7 +1697,7 @@
 					<v8:content>Удалить условие</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>УдалитьУсловие</Action>
+			<Action>УсловияДеревоУдалитьУсловие</Action>
 		</Command>
 	</Commands>
 </Form>

@@ -98,7 +98,7 @@
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:ChartOfCharacteristicTypesRef._ТипыХраненияРеквизитов</v8:Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef._ТипыЗначений</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -108,7 +108,7 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Определяет какой тип должен быть у значения в строке действия.
 Например для сложения. должен быть указан Число.
-Т.к. к дате всегда прибавляется Число.</v8:content>
+Т.к. к числу и дате всегда прибавляется Число.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

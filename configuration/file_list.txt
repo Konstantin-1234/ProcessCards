@@ -39,10 +39,10 @@ configuration/ChartsOfCharacteristicTypes/_ВидыРеквизитов.xml
 configuration/ChartsOfCharacteristicTypes/_ВидыРеквизитов/Ext/Predefined.xml
 configuration/ChartsOfCharacteristicTypes/_ВидыРеквизитов/Forms/ФормаЭлемента.xml
 configuration/ChartsOfCharacteristicTypes/_ВидыРеквизитов/Forms/ФормаЭлемента/Ext/Form.xml
-configuration/ChartsOfCharacteristicTypes/_ТипыХраненияРеквизитов.xml
-configuration/ChartsOfCharacteristicTypes/_ТипыХраненияРеквизитов/Ext/Predefined.xml
-configuration/ChartsOfCharacteristicTypes/_ТипыХраненияРеквизитов/Forms/ФормаЭлемента.xml
-configuration/ChartsOfCharacteristicTypes/_ТипыХраненияРеквизитов/Forms/ФормаЭлемента/Ext/Form.xml
+configuration/ChartsOfCharacteristicTypes/_ТипыЗначений.xml
+configuration/ChartsOfCharacteristicTypes/_ТипыЗначений/Ext/Predefined.xml
+configuration/ChartsOfCharacteristicTypes/_ТипыЗначений/Forms/ФормаЭлемента.xml
+configuration/ChartsOfCharacteristicTypes/_ТипыЗначений/Forms/ФормаЭлемента/Ext/Form.xml
 configuration/CommonCommands/_ВыполнитьРегламентныеКоманды.xml
 configuration/CommonCommands/_ВыполнитьРегламентныеКоманды/Ext/CommandModule.bsl
 configuration/CommonModules/_JSON.xml
@@ -70,6 +70,7 @@ configuration/Enums/_НевозможноеЗначение.xml
 configuration/Enums/_ОбработчикиПравил.xml
 configuration/Enums/_СпособыВычисленияЗначения.xml
 configuration/Enums/_СпособыГруппировки.xml
+configuration/Enums/_СпособыПолученияЗначенияДляУсловия.xml
 configuration/Enums/_СпособыХранениеРеквизитовКарточки.xml
 configuration/Enums/_СтатусыКарточки.xml
 configuration/file_list.txt

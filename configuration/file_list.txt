@@ -39,6 +39,7 @@ configuration/ChartsOfCharacteristicTypes/_ВидыРеквизитов.xml
 configuration/ChartsOfCharacteristicTypes/_ВидыРеквизитов/Ext/Predefined.xml
 configuration/ChartsOfCharacteristicTypes/_ВидыРеквизитов/Forms/ФормаЭлемента.xml
 configuration/ChartsOfCharacteristicTypes/_ВидыРеквизитов/Forms/ФормаЭлемента/Ext/Form.xml
+configuration/ChartsOfCharacteristicTypes/_ВидыРеквизитов/Forms/ФормаЭлемента/Ext/Form/Module.bsl
 configuration/ChartsOfCharacteristicTypes/_ТипыЗначений.xml
 configuration/ChartsOfCharacteristicTypes/_ТипыЗначений/Ext/Predefined.xml
 configuration/ChartsOfCharacteristicTypes/_ТипыЗначений/Forms/ФормаЭлемента.xml

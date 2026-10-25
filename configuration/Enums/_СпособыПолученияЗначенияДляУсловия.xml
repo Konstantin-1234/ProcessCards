@@ -108,7 +108,7 @@
 			</EnumValue>
 			<EnumValue uuid="be76d04c-6122-4576-b5ba-3ac9bfba10b8">
 				<Properties>
-					<Name>ИзРеквизитаТекущейКарточки</Name>
+					<Name>ИзРеквизита</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>

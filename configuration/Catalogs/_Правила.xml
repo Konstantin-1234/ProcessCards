@@ -670,48 +670,6 @@
 							<ExtendedEdit>false</ExtendedEdit>
 							<MinValue xsi:nil="true"/>
 							<MaxValue xsi:nil="true"/>
-							<FillChecking>ShowError</FillChecking>
-							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-							<ChoiceParameterLinks/>
-							<ChoiceParameters/>
-							<QuickChoice>Auto</QuickChoice>
-							<CreateOnInput>Auto</CreateOnInput>
-							<ChoiceForm/>
-							<LinkByType/>
-							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-							<Indexing>DontIndex</Indexing>
-							<FullTextSearch>Use</FullTextSearch>
-							<DataHistory>Use</DataHistory>
-						</Properties>
-					</Attribute>
-					<Attribute uuid="ed64ec39-53b8-4307-8391-c847f0624471">
-						<Properties>
-							<Name>ВидРеквизитаДляСравнения_1</Name>
-							<Synonym>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Вид реквизита для сравнения 1</v8:content>
-								</v8:item>
-							</Synonym>
-							<Comment/>
-							<Type>
-								<v8:Type>cfg:ChartOfCharacteristicTypesRef._ВидыРеквизитов</v8:Type>
-							</Type>
-							<PasswordMode>false</PasswordMode>
-							<Format/>
-							<EditFormat/>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Реквизит текущей карточки хранящий значение, если СпособПолученияЗначения_1 = ИзРеквизитаТекущейКарточки</v8:content>
-								</v8:item>
-							</ToolTip>
-							<MarkNegatives>false</MarkNegatives>
-							<Mask/>
-							<MultiLine>false</MultiLine>
-							<ExtendedEdit>false</ExtendedEdit>
-							<MinValue xsi:nil="true"/>
-							<MaxValue xsi:nil="true"/>
 							<FillChecking>DontCheck</FillChecking>
 							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 							<ChoiceParameterLinks/>
@@ -728,11 +686,11 @@
 					</Attribute>
 					<Attribute uuid="7f84790a-e3a6-4d02-867f-76eae42c2fa7">
 						<Properties>
-							<Name>ВидРеквизитаСвязи_1</Name>
+							<Name>ВидРеквизита_1</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Вид реквизита связи 1</v8:content>
+									<v8:content>Вид реквизита 1</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
@@ -745,7 +703,8 @@
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Реквизит карточки, содержащий ссылку на связанную карточку, если СпособПолученияЗначения_1 = ИзРеквизитаСвязаннойКарточки</v8:content>
+									<v8:content>Реквизит карточки, содержаит значение для сравнения или ссылку на связанную карточк. 
+Используется если СпособПолученияЗначения_1= ИзРеквизита (СвязаннойКарточки)</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1004,48 +963,6 @@
 							<ExtendedEdit>false</ExtendedEdit>
 							<MinValue xsi:nil="true"/>
 							<MaxValue xsi:nil="true"/>
-							<FillChecking>ShowError</FillChecking>
-							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-							<ChoiceParameterLinks/>
-							<ChoiceParameters/>
-							<QuickChoice>Auto</QuickChoice>
-							<CreateOnInput>Auto</CreateOnInput>
-							<ChoiceForm/>
-							<LinkByType/>
-							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-							<Indexing>DontIndex</Indexing>
-							<FullTextSearch>Use</FullTextSearch>
-							<DataHistory>Use</DataHistory>
-						</Properties>
-					</Attribute>
-					<Attribute uuid="98c59665-2dc9-46d8-b073-672a8fb24133">
-						<Properties>
-							<Name>ВидРеквизитаДляСравнения_2</Name>
-							<Synonym>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Вид реквизита для сравнения 2</v8:content>
-								</v8:item>
-							</Synonym>
-							<Comment/>
-							<Type>
-								<v8:Type>cfg:ChartOfCharacteristicTypesRef._ВидыРеквизитов</v8:Type>
-							</Type>
-							<PasswordMode>false</PasswordMode>
-							<Format/>
-							<EditFormat/>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Реквизит текущей карточки хранящий значение, если СпособПолученияЗначения_1 = ИзРеквизитаТекущейКарточки</v8:content>
-								</v8:item>
-							</ToolTip>
-							<MarkNegatives>false</MarkNegatives>
-							<Mask/>
-							<MultiLine>false</MultiLine>
-							<ExtendedEdit>false</ExtendedEdit>
-							<MinValue xsi:nil="true"/>
-							<MaxValue xsi:nil="true"/>
 							<FillChecking>DontCheck</FillChecking>
 							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 							<ChoiceParameterLinks/>
@@ -1062,11 +979,11 @@
 					</Attribute>
 					<Attribute uuid="bed648f1-4afb-497e-b11e-6d1dba36d058">
 						<Properties>
-							<Name>ВидРеквизитаСвязи_2</Name>
+							<Name>ВидРеквизита_2</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Вид реквизита связи 2</v8:content>
+									<v8:content>Вид реквизита 2</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
@@ -1079,7 +996,8 @@
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Реквизит карточки, содержащий ссылку на связанную карточку, если СпособПолученияЗначения_1 = ИзРеквизитаСвязаннойКарточки</v8:content>
+									<v8:content>Реквизит карточки, содержаит значение для сравнения или ссылку на связанную карточк. 
+Используется если СпособПолученияЗначения_2= ИзРеквизита (СвязаннойКарточки)</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>

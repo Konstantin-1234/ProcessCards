@@ -44,7 +44,7 @@
 		<Metadata name="Catalog._Команды.ManagerModule" id="543231a9-0030-43a9-a32b-39441f5a2ba4.3" configVersion="375c05997fbb63fcd104791171af6e2ceaf3755e"/>
 		<Metadata name="Catalog._КомандыГруппы" id="a5cd451d-8d52-47ae-88a7-c70d954a30e3" configVersion="9032a9e881428c3557d3d01a61217089bdcf8087"/>
 		<Metadata name="Catalog._МетодыПолученияЗначений" id="157d2401-af5c-4c99-ae59-372f7112a7c8" configVersion="9b0d8b6ac101211e32e667c8bba3e797d80284a8"/>
-		<Metadata name="Catalog._Правила" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133" configVersion="b3a0715a242300e52ee6f8b70907a35803fb4a66">
+		<Metadata name="Catalog._Правила" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133" configVersion="fdb310f70eaf8cdcd7eff7e2f25500aa8a7e82c6">
 			<Metadata name="Catalog._Правила.TabularSection.Действия.Attribute.Действие_ФункциональнаяРоль" id="008f878f-62e8-4223-8ccc-2f8baef08d9a"/>
 			<Metadata name="Catalog._Правила.TabularSection.Действия.Attribute.ФункцияПолученияЗначения" id="0ba0cda7-7369-4fc6-b0d1-dbb430a94e56"/>
 			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.ФункциональнаяРоль" id="0e11f18e-fdfe-4150-80ac-06169a79d5d1"/>
@@ -58,19 +58,18 @@
 			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.ФункцияПолученияЗначения_2" id="59c30af0-93f0-4ac9-a00a-b064067353e3"/>
 			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.СпособПолученияЗначения_1" id="6abed158-af21-48f0-8d86-f82b69deb766"/>
 			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.СпособПолученияЗначения_2" id="77e2e315-2644-407a-9410-67681320d32d"/>
-			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.ВидРеквизитаСвязи_1" id="7f84790a-e3a6-4d02-867f-76eae42c2fa7"/>
+			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.ВидРеквизита_1" id="7f84790a-e3a6-4d02-867f-76eae42c2fa7"/>
 			<Metadata name="Catalog._Правила.Attribute.ИспользоватьРоли" id="7fd453d4-cd71-4e26-8f07-063a7b823969"/>
 			<Metadata name="Catalog._Правила.TabularSection.Условия" id="83842d71-a0e8-4e3d-9254-562c3441ba98"/>
 			<Metadata name="Catalog._Правила.Attribute.Обработчик" id="8bbe5a41-9b94-43ed-b56e-63d71d00f72a"/>
 			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.Сравнение_2" id="8f3bf415-b329-40fe-9d5b-790929c4abd8"/>
 			<Metadata name="Catalog._Правила.TabularSection.Действия.Attribute.ЗначениеРеквизита" id="9869dfe2-02e5-4066-be25-0113dc931b1a"/>
-			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.ВидРеквизитаДляСравнения_2" id="98c59665-2dc9-46d8-b073-672a8fb24133"/>
 			<Metadata name="Catalog._Правила.TabularSection.Действия" id="a6bc98a6-eff0-4744-9895-658516a71a98"/>
 			<Metadata name="Catalog._Правила.TabularSection.Действия.Attribute.СпособВычисленияЗначения" id="ab764096-96a5-41c3-be12-fb9d2789effd"/>
 			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.ЗначениеРеквизита_1" id="b67b5fff-d81f-412c-b16d-7a620b43726a"/>
 			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.ВидРеквизитаСвязаннойКарточки_2" id="bb83e77e-ce41-4c5a-980b-3ad6acc34283"/>
 			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.ФункциональнаяРоль_2" id="bc26ffc7-2985-47d6-a45b-b8bd1c7dbe37"/>
-			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.ВидРеквизитаСвязи_2" id="bed648f1-4afb-497e-b11e-6d1dba36d058"/>
+			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.ВидРеквизита_2" id="bed648f1-4afb-497e-b11e-6d1dba36d058"/>
 			<Metadata name="Catalog._Правила.Attribute.ВидКарточки" id="bff14003-e773-4d34-8079-d0d664f2d8f1"/>
 			<Metadata name="Catalog._Правила.Attribute.Команда" id="c8ba1e8f-877e-4901-9860-872f9759b552"/>
 			<Metadata name="Catalog._Правила.TabularSection.Действия.Attribute.Представление" id="d30d3bc9-7eb6-4b6f-a04a-85655a175bbd"/>
@@ -80,11 +79,10 @@
 			<Metadata name="Catalog._Правила.TabularSection.Действия.Attribute.Действие" id="dc518995-3683-48a6-8a3b-0dfe82f9fbbc"/>
 			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.ФункцияПолученияЗначения_1" id="e549dc56-863d-4fba-adf7-5a3b0a97cc78"/>
 			<Metadata name="Catalog._Правила.Attribute.ИспользоватьГруппыУсловий" id="ebad33c2-9aab-4a42-bfa9-aba8af77024b"/>
-			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.ВидРеквизитаДляСравнения_1" id="ed64ec39-53b8-4307-8391-c847f0624471"/>
 			<Metadata name="Catalog._Правила.TabularSection.Условия.Attribute.ЗначениеРеквизита_2" id="fb61eb12-d1ca-4da6-9ced-8ff21c747d2f"/>
 		</Metadata>
 		<Metadata name="Catalog._Правила.Form.ФормаЭлемента" id="c6177659-20cf-4fe3-bd47-6250f8146bd8" configVersion="d6217d8972f190c301065108ac9225cab3cd5692"/>
-		<Metadata name="Catalog._Правила.Form.ФормаЭлемента.Form" id="c6177659-20cf-4fe3-bd47-6250f8146bd8.0" configVersion="e41a7794ffb55b3af98e22280bd896d244a8abee"/>
+		<Metadata name="Catalog._Правила.Form.ФормаЭлемента.Form" id="c6177659-20cf-4fe3-bd47-6250f8146bd8.0" configVersion="129eb6f7bf7708735151f207ca7574b8c8995d9c"/>
 		<Metadata name="Catalog._Правила.Help" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133.1" configVersion="58bcbf21ba6b38b536fdbdb7bccb2ecf8a717d5b"/>
 		<Metadata name="Catalog._Правила.ManagerModule" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133.3" configVersion="394b03c053f7d024a564eb88d6d2c94919e5106c"/>
 		<Metadata name="Catalog._Правила.ObjectModule" id="55bfcf6e-5f2f-4d56-a342-254d89ae6133.0" configVersion="83530947db7f315a5ab94af864c28266e8d5a617"/>

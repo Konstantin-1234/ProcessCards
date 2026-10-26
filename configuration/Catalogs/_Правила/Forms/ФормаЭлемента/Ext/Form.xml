@@ -170,6 +170,9 @@
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
 							<DataPath>УсловияДерево</DataPath>
+							<CommandSet>
+								<ExcludedCommand>Add</ExcludedCommand>
+							</CommandSet>
 							<ContextMenu name="УсловияДеревоКонтекстноеМеню" id="195"/>
 							<AutoCommandBar name="УсловияДеревоКоманднаяПанель" id="196">
 								<ChildItems>
@@ -1474,7 +1477,7 @@
 						<v8:Type>cfg:CatalogRef._ФункциональныеРоли</v8:Type>
 					</Type>
 				</Column>
-				<Column name="ВидРеквизитаСвязи_1" id="16">
+				<Column name="ВидРеквизита_1" id="16">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1562,7 +1565,7 @@
 						<v8:Type>cfg:ChartOfCharacteristicTypesRef._ВидыРеквизитов</v8:Type>
 					</Type>
 				</Column>
-				<Column name="ВидРеквизитаСвязи_2" id="24">
+				<Column name="ВидРеквизита_2" id="24">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>

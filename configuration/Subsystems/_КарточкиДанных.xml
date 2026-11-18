@@ -20,6 +20,7 @@
 			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand._ВыполнитьРегламентныеКоманды</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor._ПроверкаПримененияПравил</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

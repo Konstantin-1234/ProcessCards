@@ -68,6 +68,9 @@
 			<Subsystem>_КарточкиДанных</Subsystem>
 			<StyleItem>_ЗаголовокГруппыКолонок_Выделенный_Шрифт</StyleItem>
 			<Style>_Основной</Style>
+			<SessionParameter>ТекущийПользователь</SessionParameter>
+			<SessionParameter>_ОграничитьДоступ_кНСИ</SessionParameter>
+			<SessionParameter>_ОграничитьДоступ_кКарточкам</SessionParameter>
 			<Role>_Карточки_ОсновнаяРоль</Role>
 			<CommonModule>_КомандыКлиент</CommonModule>
 			<CommonModule>_КомандыВызовСервера</CommonModule>
@@ -88,6 +91,7 @@
 			<Catalog>_СтатусыКарточек</Catalog>
 			<Catalog>_ФункциональныеРоли</Catalog>
 			<Catalog>_МетодыПолученияЗначений</Catalog>
+			<Catalog>Пользователи</Catalog>
 			<Document>_ДвиженияКарточки</Document>
 			<Enum>_ВариантыСравнения</Enum>
 			<Enum>_ОбработчикиПравил</Enum>
@@ -99,8 +103,12 @@
 			<Enum>_ВариантыДвиженийДокумента</Enum>
 			<Enum>_СпособыВычисленияЗначения</Enum>
 			<Enum>_СпособыПолученияЗначенияДляУсловия</Enum>
+			<DataProcessor>_ПроверкаПримененияПравил</DataProcessor>
+			<DataProcessor>ОбработкаПоказатьТекущегоПользователя</DataProcessor>
 			<InformationRegister>_СостояниеКарточек</InformationRegister>
 			<InformationRegister>_ИсточникиФункциональныхРолей</InformationRegister>
+			<InformationRegister>_Доступы_Карточки</InformationRegister>
+			<InformationRegister>_Доступы_НСИ</InformationRegister>
 			<ChartOfCharacteristicTypes>_ВидыРеквизитов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>_ТипыЗначений</ChartOfCharacteristicTypes>
 		</ChildObjects>

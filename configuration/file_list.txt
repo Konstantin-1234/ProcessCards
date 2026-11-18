@@ -21,6 +21,7 @@ configuration/Catalogs/_Команды/Forms/ФормаЭлемента/Ext/Form
 configuration/Catalogs/_Команды/Forms/ФормаЭлемента/Ext/Form/Module.bsl
 configuration/Catalogs/_КомандыГруппы.xml
 configuration/Catalogs/_МетодыПолученияЗначений.xml
+configuration/Catalogs/_МетодыПолученияЗначений/Ext/Predefined.xml
 configuration/Catalogs/_Правила.xml
 configuration/Catalogs/_Правила/Ext/Help.xml
 configuration/Catalogs/_Правила/Ext/Help/ru.html
@@ -35,6 +36,9 @@ configuration/Catalogs/_Правила/Templates/Макет/Ext/Template/ru.html
 configuration/Catalogs/_СтатусыКарточек.xml
 configuration/Catalogs/_ФункциональныеРоли.xml
 configuration/Catalogs/_ФункциональныеРоли/Ext/Predefined.xml
+configuration/Catalogs/Пользователи.xml
+configuration/Catalogs/Пользователи/Forms/_ФормаЭлемента.xml
+configuration/Catalogs/Пользователи/Forms/_ФормаЭлемента/Ext/Form.xml
 configuration/ChartsOfCharacteristicTypes/_ВидыРеквизитов.xml
 configuration/ChartsOfCharacteristicTypes/_ВидыРеквизитов/Ext/Predefined.xml
 configuration/ChartsOfCharacteristicTypes/_ВидыРеквизитов/Forms/ФормаЭлемента.xml
@@ -61,6 +65,14 @@ configuration/CommonModules/pc_РегламентныеЗадания/Ext/Module
 configuration/CommonModules/ПользователиКлиент.xml
 configuration/ConfigDumpInfo.xml
 configuration/Configuration.xml
+configuration/DataProcessors/_ПроверкаПримененияПравил.xml
+configuration/DataProcessors/_ПроверкаПримененияПравил/Forms/Форма.xml
+configuration/DataProcessors/_ПроверкаПримененияПравил/Forms/Форма/Ext/Form.xml
+configuration/DataProcessors/_ПроверкаПримененияПравил/Forms/Форма/Ext/Form/Module.bsl
+configuration/DataProcessors/ОбработкаПоказатьТекущегоПользователя.xml
+configuration/DataProcessors/ОбработкаПоказатьТекущегоПользователя/Forms/Форма.xml
+configuration/DataProcessors/ОбработкаПоказатьТекущегоПользователя/Forms/Форма/Ext/Form.xml
+configuration/DataProcessors/ОбработкаПоказатьТекущегоПользователя/Forms/Форма/Ext/Form/Module.bsl
 configuration/DefinedTypes/_Хранение.xml
 configuration/Documents/_ДвиженияКарточки.xml
 configuration/Documents/_ДвиженияКарточки/Ext/ObjectModule.bsl
@@ -75,6 +87,8 @@ configuration/Enums/_СпособыПолученияЗначенияДляУс�
 configuration/Enums/_СпособыХранениеРеквизитовКарточки.xml
 configuration/Enums/_СтатусыКарточки.xml
 configuration/file_list.txt
+configuration/InformationRegisters/_Доступы_Карточки.xml
+configuration/InformationRegisters/_Доступы_НСИ.xml
 configuration/InformationRegisters/_ИсточникиФункциональныхРолей.xml
 configuration/InformationRegisters/_ИсточникиФункциональныхРолей/Forms/ФормаЗаписи.xml
 configuration/InformationRegisters/_ИсточникиФункциональныхРолей/Forms/ФормаЗаписи/Ext/Form.xml
@@ -96,10 +110,15 @@ configuration/InformationRegisters/_СостояниеКарточек/Templates
 configuration/InformationRegisters/_СостояниеКарточек/Templates/Промт_ПолучитьСостояние/Ext/Template/ru.html
 configuration/Languages/Русский.xml
 configuration/Roles/_Карточки_ОсновнаяРоль.xml
+configuration/Roles/_Карточки_ОсновнаяРоль/Ext/Rights.xml
 configuration/ScheduledJobs/_ВыполнениеРегламентныхКоманд.xml
 configuration/ScheduledJobs/_ВыполнениеРегламентныхКоманд/Ext/Schedule.xml
+configuration/SessionParameters/_ОграничитьДоступ_кКарточкам.xml
+configuration/SessionParameters/_ОграничитьДоступ_кНСИ.xml
+configuration/SessionParameters/ТекущийПользователь.xml
 configuration/StyleItems/_ЗаголовокГруппыКолонок_Выделенный_Шрифт.xml
 configuration/Styles/_Основной.xml
 configuration/Subsystems/_КарточкиДанных.xml
+configuration/Subsystems/_КарточкиДанных/Ext/CommandInterface.xml
 configuration/Subsystems/_КарточкиДанных/Subsystems/Движения.xml
 configuration/Subsystems/_КарточкиДанных/Subsystems/Справочники.xml

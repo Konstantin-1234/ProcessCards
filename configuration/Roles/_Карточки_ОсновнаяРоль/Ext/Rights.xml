@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Rights xmlns="http://v8.1c.ru/8.2/roles" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Rights" version="2.20">
+	<setForNewObjects>true</setForNewObjects>
+	<setForAttributesByDefault>true</setForAttributesByDefault>
+	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
+	<object>
+		<name>Configuration.КарточкиДанных</name>
+		<right>
+			<name>MainWindowModeNormal</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeEmbeddedWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeKiosk</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>AnalyticsSystemClient</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog._ВидыКарточек</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<field>Ref</field>
+				<condition>_ВидыКарточек ГДЕ (&amp;_ОграничитьДоступ_кНСИ = ЛОЖЬ
+			ИЛИ _ВидыКарточек.Ссылка В
+				(ВЫБРАТЬ
+					_Доступы_НСИ.ОбъектДоступа
+				ИЗ
+					РегистрСведений._Доступы_НСИ КАК _Доступы_НСИ
+				ГДЕ
+					_Доступы_НСИ.РазделительДоступа = &amp;ТекущийПользователь))</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>_ВидыКарточек ГДЕ &amp;_ОграничитьДоступ_кНСИ</condition>
+			</restrictionByCondition>
+		</right>
+	</object>
+</Rights>

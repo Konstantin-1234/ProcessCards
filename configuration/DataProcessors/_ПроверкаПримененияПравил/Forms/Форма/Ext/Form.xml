@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаКомандаПроверить" id="119">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.КомандаПроверить</CommandName>
+				<ExtendedTooltip name="ФормаКомандаПроверитьРасширеннаяПодсказка" id="120"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="117">
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="118"/>
+			<ChildItems>
+				<InputField name="Карточка" id="1">
+					<DataPath>Объект.Карточка</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КарточкаКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КарточкаРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Правило" id="4">
+					<DataPath>Объект.Правило</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПравилоКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ПравилоРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Страницы" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="8"/>
+			<ChildItems>
+				<Page name="ГруппаТаблицаРолей" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Таблица ролей</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаТаблицаРолейРасширеннаяПодсказка" id="10"/>
+					<ChildItems>
+						<Table name="ТаблицаРолей" id="11">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ТаблицаРолей</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ТаблицаРолейКонтекстноеМеню" id="12"/>
+							<AutoCommandBar name="ТаблицаРолейКоманднаяПанель" id="13"/>
+							<ExtendedTooltip name="ТаблицаРолейРасширеннаяПодсказка" id="14"/>
+							<SearchStringAddition name="ТаблицаРолейСтрокаПоиска" id="15">
+								<AdditionSource>
+									<Item>ТаблицаРолей</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТаблицаРолейСтрокаПоискаКонтекстноеМеню" id="16"/>
+								<ExtendedTooltip name="ТаблицаРолейСтрокаПоискаРасширеннаяПодсказка" id="17"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ТаблицаРолейСостояниеПросмотра" id="18">
+								<AdditionSource>
+									<Item>ТаблицаРолей</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТаблицаРолейСостояниеПросмотраКонтекстноеМеню" id="19"/>
+								<ExtendedTooltip name="ТаблицаРолейСостояниеПросмотраРасширеннаяПодсказка" id="20"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ТаблицаРолейУправлениеПоиском" id="21">
+								<AdditionSource>
+									<Item>ТаблицаРолей</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ТаблицаРолейУправлениеПоискомКонтекстноеМеню" id="22"/>
+								<ExtendedTooltip name="ТаблицаРолейУправлениеПоискомРасширеннаяПодсказка" id="23"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ТаблицаРолейНомерСтроки" id="24">
+									<DataPath>Объект.ТаблицаРолей.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ТаблицаРолейНомерСтрокиКонтекстноеМеню" id="25"/>
+									<ExtendedTooltip name="ТаблицаРолейНомерСтрокиРасширеннаяПодсказка" id="26"/>
+								</LabelField>
+								<InputField name="ТаблицаРолейФункциональнаяРоль" id="27">
+									<DataPath>Объект.ТаблицаРолей.ФункциональнаяРоль</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТаблицаРолейФункциональнаяРольКонтекстноеМеню" id="28"/>
+									<ExtendedTooltip name="ТаблицаРолейФункциональнаяРольРасширеннаяПодсказка" id="29"/>
+								</InputField>
+								<InputField name="ТаблицаРолейКарточка" id="30">
+									<DataPath>Объект.ТаблицаРолей.Карточка</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТаблицаРолейКарточкаКонтекстноеМеню" id="31"/>
+									<ExtendedTooltip name="ТаблицаРолейКарточкаРасширеннаяПодсказка" id="32"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаРезультатыПроверки" id="33">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Результаты Проверки</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа результаты проверки</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаРезультатыПроверкиРасширеннаяПодсказка" id="34"/>
+					<ChildItems>
+						<Table name="Условия" id="35">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.РезультатыПроверки</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="УсловияКонтекстноеМеню" id="36"/>
+							<AutoCommandBar name="УсловияКоманднаяПанель" id="37"/>
+							<ExtendedTooltip name="УсловияРасширеннаяПодсказка" id="38"/>
+							<SearchStringAddition name="УсловияСтрокаПоиска" id="39">
+								<AdditionSource>
+									<Item>Условия</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="УсловияСтрокаПоискаКонтекстноеМеню" id="40"/>
+								<ExtendedTooltip name="УсловияСтрокаПоискаРасширеннаяПодсказка" id="41"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="УсловияСостояниеПросмотра" id="42">
+								<AdditionSource>
+									<Item>Условия</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="УсловияСостояниеПросмотраКонтекстноеМеню" id="43"/>
+								<ExtendedTooltip name="УсловияСостояниеПросмотраРасширеннаяПодсказка" id="44"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="УсловияУправлениеПоиском" id="45">
+								<AdditionSource>
+									<Item>Условия</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="УсловияУправлениеПоискомКонтекстноеМеню" id="46"/>
+								<ExtendedTooltip name="УсловияУправлениеПоискомРасширеннаяПодсказка" id="47"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="УсловияНомерСтроки" id="48">
+									<DataPath>Объект.РезультатыПроверки.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="УсловияНомерСтрокиКонтекстноеМеню" id="49"/>
+									<ExtendedTooltip name="УсловияНомерСтрокиРасширеннаяПодсказка" id="50"/>
+								</LabelField>
+								<InputField name="УсловияГруппа" id="51">
+									<DataPath>Объект.РезультатыПроверки.Группа</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="УсловияГруппаКонтекстноеМеню" id="52"/>
+									<ExtendedTooltip name="УсловияГруппаРасширеннаяПодсказка" id="53"/>
+								</InputField>
+								<InputField name="УсловияФункциональнаяРоль" id="54">
+									<DataPath>Объект.РезультатыПроверки.ФункциональнаяРоль</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="УсловияФункциональнаяРольКонтекстноеМеню" id="55"/>
+									<ExtendedTooltip name="УсловияФункциональнаяРольРасширеннаяПодсказка" id="56"/>
+								</InputField>
+								<InputField name="УсловияВидРеквизита" id="57">
+									<DataPath>Объект.РезультатыПроверки.ВидРеквизита</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="УсловияВидРеквизитаКонтекстноеМеню" id="58"/>
+									<ExtendedTooltip name="УсловияВидРеквизитаРасширеннаяПодсказка" id="59"/>
+								</InputField>
+								<InputField name="УсловияВидРеквизитаДополнение" id="60">
+									<DataPath>Объект.РезультатыПроверки.ВидРеквизитаДополнение</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="УсловияВидРеквизитаДополнениеКонтекстноеМеню" id="61"/>
+									<ExtendedTooltip name="УсловияВидРеквизитаДополнениеРасширеннаяПодсказка" id="62"/>
+								</InputField>
+								<InputField name="УсловияЗначениеСлева" id="63">
+									<DataPath>Объект.РезультатыПроверки.ЗначениеСлева</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="УсловияЗначениеСлеваКонтекстноеМеню" id="64"/>
+									<ExtendedTooltip name="УсловияЗначениеСлеваРасширеннаяПодсказка" id="65"/>
+								</InputField>
+								<ColumnGroup name="УсловияГруппа1" id="121">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сравнение 1</v8:content>
+										</v8:item>
+									</Title>
+									<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+									<Group>Horizontal</Group>
+									<ShowInHeader>true</ShowInHeader>
+									<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+									<ExtendedTooltip name="УсловияГруппа1РасширеннаяПодсказка" id="122"/>
+									<ChildItems>
+										<InputField name="УсловияСравнение_1" id="66">
+											<DataPath>Объект.РезультатыПроверки.Сравнение_1</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content> </v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="УсловияСравнение_1КонтекстноеМеню" id="67"/>
+											<ExtendedTooltip name="УсловияСравнение_1РасширеннаяПодсказка" id="68"/>
+										</InputField>
+										<InputField name="УсловияЗначениеСправа_1" id="123">
+											<DataPath>Объект.РезультатыПроверки.ЗначениеСправа_1</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="УсловияЗначениеСправа_1КонтекстноеМеню" id="124"/>
+											<ExtendedTooltip name="УсловияЗначениеСправа_1РасширеннаяПодсказка" id="125"/>
+										</InputField>
+										<ColumnGroup name="УсловияГруппа2" id="126">
+											<Visible>false</Visible>
+											<ExtendedTooltip name="УсловияГруппа2РасширеннаяПодсказка" id="127"/>
+											<ChildItems>
+												<InputField name="УсловияСпособПолученияЗначения_1" id="69">
+													<DataPath>Объект.РезультатыПроверки.СпособПолученияЗначения_1</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="УсловияСпособПолученияЗначения_1КонтекстноеМеню" id="70"/>
+													<ExtendedTooltip name="УсловияСпособПолученияЗначения_1РасширеннаяПодсказка" id="71"/>
+												</InputField>
+												<InputField name="УсловияФункцияПолученияЗначения_1" id="72">
+													<DataPath>Объект.РезультатыПроверки.ФункцияПолученияЗначения_1</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="УсловияФункцияПолученияЗначения_1КонтекстноеМеню" id="73"/>
+													<ExtendedTooltip name="УсловияФункцияПолученияЗначения_1РасширеннаяПодсказка" id="74"/>
+												</InputField>
+												<InputField name="УсловияЗначениеРеквизита_1" id="75">
+													<DataPath>Объект.РезультатыПроверки.ЗначениеРеквизита_1</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="УсловияЗначениеРеквизита_1КонтекстноеМеню" id="76"/>
+													<ExtendedTooltip name="УсловияЗначениеРеквизита_1РасширеннаяПодсказка" id="77"/>
+												</InputField>
+												<InputField name="УсловияФункциональнаяРоль_1" id="78">
+													<DataPath>Объект.РезультатыПроверки.ФункциональнаяРоль_1</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="УсловияФункциональнаяРоль_1КонтекстноеМеню" id="79"/>
+													<ExtendedTooltip name="УсловияФункциональнаяРоль_1РасширеннаяПодсказка" id="80"/>
+												</InputField>
+												<InputField name="УсловияВидРеквизита_1" id="81">
+													<DataPath>Объект.РезультатыПроверки.ВидРеквизита_1</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="УсловияВидРеквизита_1КонтекстноеМеню" id="82"/>
+													<ExtendedTooltip name="УсловияВидРеквизита_1РасширеннаяПодсказка" id="83"/>
+												</InputField>
+												<InputField name="УсловияВидРеквизитаСвязаннойКарточки_1" id="84">
+													<DataPath>Объект.РезультатыПроверки.ВидРеквизитаСвязаннойКарточки_1</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="УсловияВидРеквизитаСвязаннойКарточки_1КонтекстноеМеню" id="85"/>
+													<ExtendedTooltip name="УсловияВидРеквизитаСвязаннойКарточки_1РасширеннаяПодсказка" id="86"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="УсловияГруппа3" id="128">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сравнение 2</v8:content>
+										</v8:item>
+									</Title>
+									<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+									<Group>Horizontal</Group>
+									<ShowInHeader>true</ShowInHeader>
+									<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+									<ExtendedTooltip name="УсловияГруппа3РасширеннаяПодсказка" id="129"/>
+									<ChildItems>
+										<InputField name="УсловияСравнение_2" id="87">
+											<DataPath>Объект.РезультатыПроверки.Сравнение_2</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content> </v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="УсловияСравнение_2КонтекстноеМеню" id="88"/>
+											<ExtendedTooltip name="УсловияСравнение_2РасширеннаяПодсказка" id="89"/>
+										</InputField>
+										<InputField name="УсловияЗначениеСправа_2" id="130">
+											<DataPath>Объект.РезультатыПроверки.ЗначениеСправа_2</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="УсловияЗначениеСправа_2КонтекстноеМеню" id="131"/>
+											<ExtendedTooltip name="УсловияЗначениеСправа_2РасширеннаяПодсказка" id="132"/>
+										</InputField>
+										<ColumnGroup name="УсловияГруппа4" id="133">
+											<Visible>false</Visible>
+											<ExtendedTooltip name="УсловияГруппа4РасширеннаяПодсказка" id="134"/>
+											<ChildItems>
+												<InputField name="УсловияЗначениеРеквизита_2" id="90">
+													<DataPath>Объект.РезультатыПроверки.ЗначениеРеквизита_2</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="УсловияЗначениеРеквизита_2КонтекстноеМеню" id="91"/>
+													<ExtendedTooltip name="УсловияЗначениеРеквизита_2РасширеннаяПодсказка" id="92"/>
+												</InputField>
+												<InputField name="УсловияСпособПолученияЗначения_2" id="93">
+													<DataPath>Объект.РезультатыПроверки.СпособПолученияЗначения_2</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="УсловияСпособПолученияЗначения_2КонтекстноеМеню" id="94"/>
+													<ExtendedTooltip name="УсловияСпособПолученияЗначения_2РасширеннаяПодсказка" id="95"/>
+												</InputField>
+												<InputField name="УсловияФункцияПолученияЗначения_2" id="96">
+													<DataPath>Объект.РезультатыПроверки.ФункцияПолученияЗначения_2</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="УсловияФункцияПолученияЗначения_2КонтекстноеМеню" id="97"/>
+													<ExtendedTooltip name="УсловияФункцияПолученияЗначения_2РасширеннаяПодсказка" id="98"/>
+												</InputField>
+												<InputField name="УсловияФункциональнаяРоль_2" id="99">
+													<DataPath>Объект.РезультатыПроверки.ФункциональнаяРоль_2</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="УсловияФункциональнаяРоль_2КонтекстноеМеню" id="100"/>
+													<ExtendedTooltip name="УсловияФункциональнаяРоль_2РасширеннаяПодсказка" id="101"/>
+												</InputField>
+												<InputField name="УсловияВидРеквизита_2" id="102">
+													<DataPath>Объект.РезультатыПроверки.ВидРеквизита_2</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="УсловияВидРеквизита_2КонтекстноеМеню" id="103"/>
+													<ExtendedTooltip name="УсловияВидРеквизита_2РасширеннаяПодсказка" id="104"/>
+												</InputField>
+												<InputField name="УсловияВидРеквизитаСвязаннойКарточки_2" id="105">
+													<DataPath>Объект.РезультатыПроверки.ВидРеквизитаСвязаннойКарточки_2</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="УсловияВидРеквизитаСвязаннойКарточки_2КонтекстноеМеню" id="106"/>
+													<ExtendedTooltip name="УсловияВидРеквизитаСвязаннойКарточки_2РасширеннаяПодсказка" id="107"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
+									</ChildItems>
+								</ColumnGroup>
+								<CheckBoxField name="УсловияВыполнено_1" id="108">
+									<DataPath>Объект.РезультатыПроверки.Выполнено_1</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="УсловияВыполнено_1КонтекстноеМеню" id="109"/>
+									<ExtendedTooltip name="УсловияВыполнено_1РасширеннаяПодсказка" id="110"/>
+								</CheckBoxField>
+								<CheckBoxField name="УсловияВыполнено_2" id="111">
+									<DataPath>Объект.РезультатыПроверки.Выполнено_2</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="УсловияВыполнено_2КонтекстноеМеню" id="112"/>
+									<ExtendedTooltip name="УсловияВыполнено_2РасширеннаяПодсказка" id="113"/>
+								</CheckBoxField>
+								<CheckBoxField name="УсловияИтогСтроки" id="114">
+									<DataPath>Объект.РезультатыПроверки.ИтогСтроки</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="УсловияИтогСтрокиКонтекстноеМеню" id="115"/>
+									<ExtendedTooltip name="УсловияИтогСтрокиРасширеннаяПодсказка" id="116"/>
+								</CheckBoxField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject._ПроверкаПримененияПравил</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>Условия</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.РезультатыПроверки.ИтогСтроки</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">web:LightPink</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="КомандаПроверить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить правило</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда проверить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Проверить</Action>
+		</Command>
+	</Commands>
+</Form>

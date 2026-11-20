@@ -343,7 +343,7 @@
 											<ExtendedTooltip name="КомандыВидКарточкиРасширеннаяПодсказка" id="106"/>
 										</LabelField>
 										<LabelField name="КомандыКомандаГруппа" id="113">
-											<DataPath>ПравилоОбработкиКоманды.Команда.Группа</DataPath>
+											<DataPath>~ПравилоОбработкиКоманды.Команда.Группа</DataPath>
 											<ContextMenu name="КомандыКомандаГруппаКонтекстноеМеню" id="114"/>
 											<ExtendedTooltip name="КомандыКомандаГруппаРасширеннаяПодсказка" id="115"/>
 										</LabelField>

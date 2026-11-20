@@ -90,7 +90,12 @@
 			<AuxiliaryChoiceForm/>
 			<ListPresentation/>
 			<ExtendedListPresentation/>
-			<Explanation/>
+			<Explanation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ПоОдной - Для каждой </v8:content>
+				</v8:item>
+			</Explanation>
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>

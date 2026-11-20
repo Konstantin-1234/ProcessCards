@@ -43,7 +43,7 @@
 			<Comment/>
 			<ConfigurationExtensionPurpose>Customization</ConfigurationExtensionPurpose>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
-			<NamePrefix>_</NamePrefix>
+			<NamePrefix>_PrcM_</NamePrefix>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_23</ConfigurationExtensionCompatibilityMode>
 			<DefaultRunMode>ManagedApplication</DefaultRunMode>
 			<UsePurposes>
@@ -65,13 +65,18 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Subsystem>_КарточкиДанных</Subsystem>
+			<Subsystem>_PrcM_Оператор</Subsystem>
+			<Subsystem>_PrcM_Архитектор</Subsystem>
 			<StyleItem>_ЗаголовокГруппыКолонок_Выделенный_Шрифт</StyleItem>
 			<Style>_Основной</Style>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<SessionParameter>_ОграничитьДоступ_кНСИ</SessionParameter>
 			<SessionParameter>_ОграничитьДоступ_кКарточкам</SessionParameter>
 			<Role>_Карточки_ОсновнаяРоль</Role>
+			<Role>_PrcM_ПолныеПрава</Role>
+			<Role>_PrcM_Оператор</Role>
+			<Role>_PrcM_Оператор_Интерфейс</Role>
+			<Role>_PrcM_БазовыеПрава</Role>
 			<CommonModule>_КомандыКлиент</CommonModule>
 			<CommonModule>_КомандыВызовСервера</CommonModule>
 			<CommonModule>_ВызовСервера</CommonModule>

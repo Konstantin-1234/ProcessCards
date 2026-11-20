@@ -171,7 +171,8 @@
 			<Explanation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Определяет источники значений функциональных ролей</v8:content>
+					<v8:content>Определяет источник получения значения функциональной роли.
+Используется для формирования списка возможных команд над карточкой процесса.</v8:content>
 				</v8:item>
 			</Explanation>
 			<DataHistory>DontUse</DataHistory>

@@ -11,14 +11,13 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="36"/>
 			<ChildItems>
-				<InputField name="Код" id="1">
-					<DataPath>Объект.Code</DataPath>
+				<InputField name="ВидКарточки" id="112">
+					<DataPath>Объект.ВидКарточки</DataPath>
 					<TitleLocation>Top</TitleLocation>
-					<EditMode>EnterOnInput</EditMode>
-					<Width>25</Width>
+					<Width>20</Width>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
-					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+					<ContextMenu name="ВидКарточкиКонтекстноеМеню" id="113"/>
+					<ExtendedTooltip name="ВидКарточкиРасширеннаяПодсказка" id="114"/>
 				</InputField>
 				<InputField name="Наименование" id="4">
 					<DataPath>Объект.Description</DataPath>
@@ -29,29 +28,15 @@
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
 				</InputField>
-				<InputField name="ВидКарточки" id="112">
-					<DataPath>Объект.ВидКарточки</DataPath>
-					<TitleLocation>Top</TitleLocation>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ВидКарточкиКонтекстноеМеню" id="113"/>
-					<ExtendedTooltip name="ВидКарточкиРасширеннаяПодсказка" id="114"/>
-				</InputField>
-				<InputField name="ГруппаКоманд" id="10">
-					<DataPath>Объект.Группа</DataPath>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
 					<TitleLocation>Top</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
-					<Width>25</Width>
+					<Width>20</Width>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ГруппаКомандКонтекстноеМеню" id="11"/>
-					<ExtendedTooltip name="ГруппаКомандРасширеннаяПодсказка" id="12"/>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
 				</InputField>
-				<CheckBoxField name="АвтоОбработка" id="117">
-					<DataPath>Объект.АвтоОбработка</DataPath>
-					<TitleLocation>Top</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="АвтоОбработкаКонтекстноеМеню" id="118"/>
-					<ExtendedTooltip name="АвтоОбработкаРасширеннаяПодсказка" id="119"/>
-				</CheckBoxField>
 			</ChildItems>
 		</UsualGroup>
 		<Pages name="ГруппаСтраницы" id="37">
@@ -69,11 +54,288 @@
 			</ToolTip>
 			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="38"/>
 			<ChildItems>
+				<Page name="ГруппаФункциональныеРоли" id="41">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Функциональные роли команды</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа функциональные роли</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="ГруппаФункциональныеРолиРасширеннаяПодсказка" id="42"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаФункциональныеРоли_1" id="105">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Функциональные роли и виды карточек, которые могут выступать значениями у этих функциональных ролей.</v8:content>
+								</v8:item>
+							</Title>
+							<TitleFont ref="style:NormalTextFont" height="10" kind="StyleItem" scale="100"/>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа функциональные роли 1</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Group>Vertical</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаФункциональныеРоли_1РасширеннаяПодсказка" id="106"/>
+							<ChildItems>
+								<LabelDecoration name="ГруппаФункциональныеРоли_Декорация" id="120">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Height>3</Height>
+									<TextColor>style:AccentColor</TextColor>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Функциональные роли и виды карточек, которые могут выступать значениями у этих функциональных ролей.</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ГруппаФункциональныеРоли_ДекорацияКонтекстноеМеню" id="121"/>
+									<ExtendedTooltip name="ГруппаФункциональныеРоли_ДекорацияРасширеннаяПодсказка" id="122"/>
+								</LabelDecoration>
+								<Table name="ФункциональныеРоли" id="13">
+									<Representation>List</Representation>
+									<Width>15</Width>
+									<Height>3</Height>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>Объект.ФункциональныеРоли</DataPath>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="ФункциональныеРолиКонтекстноеМеню" id="14"/>
+									<AutoCommandBar name="ФункциональныеРолиКоманднаяПанель" id="15"/>
+									<ExtendedTooltip name="ФункциональныеРолиРасширеннаяПодсказка" id="16"/>
+									<SearchStringAddition name="ФункциональныеРолиСтрокаПоиска" id="17">
+										<AdditionSource>
+											<Item>ФункциональныеРоли</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ФункциональныеРолиСтрокаПоискаКонтекстноеМеню" id="18"/>
+										<ExtendedTooltip name="ФункциональныеРолиСтрокаПоискаРасширеннаяПодсказка" id="19"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="ФункциональныеРолиСостояниеПросмотра" id="20">
+										<AdditionSource>
+											<Item>ФункциональныеРоли</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ФункциональныеРолиСостояниеПросмотраКонтекстноеМеню" id="21"/>
+										<ExtendedTooltip name="ФункциональныеРолиСостояниеПросмотраРасширеннаяПодсказка" id="22"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="ФункциональныеРолиУправлениеПоиском" id="23">
+										<AdditionSource>
+											<Item>ФункциональныеРоли</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="ФункциональныеРолиУправлениеПоискомКонтекстноеМеню" id="24"/>
+										<ExtendedTooltip name="ФункциональныеРолиУправлениеПоискомРасширеннаяПодсказка" id="25"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<LabelField name="ФункциональныеРолиНомерСтроки" id="26">
+											<DataPath>Объект.ФункциональныеРоли.LineNumber</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content> </v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<Width>2</Width>
+											<ContextMenu name="ФункциональныеРолиНомерСтрокиКонтекстноеМеню" id="27"/>
+											<ExtendedTooltip name="ФункциональныеРолиНомерСтрокиРасширеннаяПодсказка" id="28"/>
+										</LabelField>
+										<InputField name="ФункциональныеРолиФункциональнаяРоль" id="29">
+											<DataPath>Объект.ФункциональныеРоли.ФункциональнаяРоль</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<Width>5</Width>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ФункциональныеРолиФункциональнаяРольКонтекстноеМеню" id="30"/>
+											<ExtendedTooltip name="ФункциональныеРолиФункциональнаяРольРасширеннаяПодсказка" id="31"/>
+										</InputField>
+										<InputField name="ФункциональныеРолиВидКарточки" id="32">
+											<DataPath>Объект.ФункциональныеРоли.ФункциональнаяРоль.ВидКарточки</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Тип значения ФР (Вид карточки)</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<Width>5</Width>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ФункциональныеРолиВидКарточкиКонтекстноеМеню" id="33"/>
+											<ExtendedTooltip name="ФункциональныеРолиВидКарточкиРасширеннаяПодсказка" id="34"/>
+										</InputField>
+										<InputField name="ФункциональныеРолиСпособГруппировки" id="109">
+											<DataPath>Объект.ФункциональныеРоли.СпособГруппировки</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<Width>5</Width>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ФункциональныеРолиСпособГруппировкиКонтекстноеМеню" id="110"/>
+											<ExtendedTooltip name="ФункциональныеРолиСпособГруппировкиРасширеннаяПодсказка" id="111"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаФункциональныеРоли_2" id="107">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Источники значения самой функциональной роли (Для каждого вида карточки определяет из какого реквизита брать значение)
+  </v8:content>
+								</v8:item>
+							</Title>
+							<TitleFont ref="style:NormalTextFont" height="10" kind="StyleItem" scale="100"/>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа функциональные роли 2</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаФункциональныеРоли_2РасширеннаяПодсказка" id="108"/>
+							<ChildItems>
+								<LabelDecoration name="ГруппаФункциональныеРоли_ДекорацияИсточники" id="123">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Height>3</Height>
+									<TextColor>style:AccentColor</TextColor>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Функциональные роли и виды карточек, которые могут выступать значениями у этих функциональных ролей.</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ГруппаФункциональныеРоли_ДекорацияИсточникиКонтекстноеМеню" id="124"/>
+									<ExtendedTooltip name="ГруппаФункциональныеРоли_ДекорацияИсточникиРасширеннаяПодсказка" id="125"/>
+								</LabelDecoration>
+								<Table name="ИсточникиФункциональныхРолей" id="74">
+									<Height>3</Height>
+									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<EnableStartDrag>true</EnableStartDrag>
+									<DataPath>ИсточникиФункциональныхРолей</DataPath>
+									<RowPictureDataPath>ИсточникиФункциональныхРолей.DefaultPicture</RowPictureDataPath>
+									<AutoRefresh>false</AutoRefresh>
+									<AutoRefreshPeriod>60</AutoRefreshPeriod>
+									<Period>
+										<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+										<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+										<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+									</Period>
+									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+									<RestoreCurrentRow>false</RestoreCurrentRow>
+									<TopLevelParent xsi:nil="true"/>
+									<ShowRoot>true</ShowRoot>
+									<AllowRootChoice>false</AllowRootChoice>
+									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+									<ContextMenu name="ИсточникиФункциональныхРолейКонтекстноеМеню" id="75"/>
+									<AutoCommandBar name="ИсточникиФункциональныхРолейКоманднаяПанель" id="76"/>
+									<ExtendedTooltip name="ИсточникиФункциональныхРолейРасширеннаяПодсказка" id="77"/>
+									<SearchStringAddition name="ИсточникиФункциональныхРолейСтрокаПоиска" id="78">
+										<AdditionSource>
+											<Item>ИсточникиФункциональныхРолей</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ИсточникиФункциональныхРолейСтрокаПоискаКонтекстноеМеню" id="79"/>
+										<ExtendedTooltip name="ИсточникиФункциональныхРолейСтрокаПоискаРасширеннаяПодсказка" id="80"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="ИсточникиФункциональныхРолейСостояниеПросмотра" id="81">
+										<AdditionSource>
+											<Item>ИсточникиФункциональныхРолей</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ИсточникиФункциональныхРолейСостояниеПросмотраКонтекстноеМеню" id="82"/>
+										<ExtendedTooltip name="ИсточникиФункциональныхРолейСостояниеПросмотраРасширеннаяПодсказка" id="83"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="ИсточникиФункциональныхРолейУправлениеПоиском" id="84">
+										<AdditionSource>
+											<Item>ИсточникиФункциональныхРолей</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="ИсточникиФункциональныхРолейУправлениеПоискомКонтекстноеМеню" id="85"/>
+										<ExtendedTooltip name="ИсточникиФункциональныхРолейУправлениеПоискомРасширеннаяПодсказка" id="86"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<LabelField name="ИсточникиФункциональныхРолейФункциональнаяРоль" id="99">
+											<DataPath>ИсточникиФункциональныхРолей.ФункциональнаяРоль</DataPath>
+											<ContextMenu name="ИсточникиФункциональныхРолейФункциональнаяРольКонтекстноеМеню" id="100"/>
+											<ExtendedTooltip name="ИсточникиФункциональныхРолейФункциональнаяРольРасширеннаяПодсказка" id="101"/>
+										</LabelField>
+										<ColumnGroup name="ГруппаИсточникЗначения" id="115">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Источник получения значения</v8:content>
+												</v8:item>
+											</Title>
+											<TitleFont ref="style:_ЗаголовокГруппыКолонок_Выделенный_Шрифт" kind="StyleItem"/>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Источник значения функциональной роли</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Horizontal</Group>
+											<ShowInHeader>true</ShowInHeader>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<ExtendedTooltip name="ГруппаИсточникЗначенияРасширеннаяПодсказка" id="116"/>
+											<ChildItems>
+												<LabelField name="ИсточникиФункциональныхРолейВидКарточки" id="87">
+													<DataPath>ИсточникиФункциональныхРолей.ВидКарточки</DataPath>
+													<Visible>false</Visible>
+													<ContextMenu name="ИсточникиФункциональныхРолейВидКарточкиКонтекстноеМеню" id="88"/>
+													<ExtendedTooltip name="ИсточникиФункциональныхРолейВидКарточкиРасширеннаяПодсказка" id="89"/>
+												</LabelField>
+												<LabelField name="ИсточникиФункциональныхРолейВидРеквизита" id="90">
+													<DataPath>ИсточникиФункциональныхРолей.ВидРеквизита</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Реквизит текущей карточки</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="ИсточникиФункциональныхРолейВидРеквизитаКонтекстноеМеню" id="91"/>
+													<ExtendedTooltip name="ИсточникиФункциональныхРолейВидРеквизитаРасширеннаяПодсказка" id="92"/>
+												</LabelField>
+												<LabelField name="ИсточникиФункциональныхРолейВидРеквизитаДополнение" id="93">
+													<DataPath>ИсточникиФункциональныхРолей.ВидРеквизитаДополнение</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Дополнительный реквизит</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="ИсточникиФункциональныхРолейВидРеквизитаДополнениеКонтекстноеМеню" id="94"/>
+													<ExtendedTooltip name="ИсточникиФункциональныхРолейВидРеквизитаДополнениеРасширеннаяПодсказка" id="95"/>
+												</LabelField>
+											</ChildItems>
+										</ColumnGroup>
+										<LabelField name="ИсточникиФункциональныхРолейКоманда" id="96">
+											<DataPath>ИсточникиФункциональныхРолей.Команда</DataPath>
+											<Visible>false</Visible>
+											<ContextMenu name="ИсточникиФункциональныхРолейКомандаКонтекстноеМеню" id="97"/>
+											<ExtendedTooltip name="ИсточникиФункциональныхРолейКомандаРасширеннаяПодсказка" id="98"/>
+										</LabelField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
 				<Page name="ГруппаКомандыГруппыПравила" id="39">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content> Команды, группы, правила обработки</v8:content>
+							<v8:content>Правила обработки команды</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
@@ -133,28 +395,6 @@
 								<ExtendedTooltip name="ПравилаОбработкиКомандыУправлениеПоискомРасширеннаяПодсказка" id="55"/>
 							</SearchControlAddition>
 							<ChildItems>
-								<LabelField name="ПравилаОбработкиКомандыСтандартнаяКартинка" id="71">
-									<DataPath>ПравилаОбработкиКоманды.DefaultPicture</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content> </v8:content>
-										</v8:item>
-									</Title>
-									<ContextMenu name="ПравилаОбработкиКомандыСтандартнаяКартинкаКонтекстноеМеню" id="72"/>
-									<ExtendedTooltip name="ПравилаОбработкиКомандыСтандартнаяКартинкаРасширеннаяПодсказка" id="73"/>
-								</LabelField>
-								<LabelField name="ПравилаОбработкиКомандыВидКарточки" id="56">
-									<DataPath>ПравилаОбработкиКоманды.ВидКарточки</DataPath>
-									<Width>10</Width>
-									<ContextMenu name="ПравилаОбработкиКомандыВидКарточкиКонтекстноеМеню" id="57"/>
-									<ExtendedTooltip name="ПравилаОбработкиКомандыВидКарточкиРасширеннаяПодсказка" id="58"/>
-								</LabelField>
-								<LabelField name="ПравилаОбработкиКомандыКоманда" id="59">
-									<DataPath>ПравилаОбработкиКоманды.Команда</DataPath>
-									<ContextMenu name="ПравилаОбработкиКомандыКомандаКонтекстноеМеню" id="60"/>
-									<ExtendedTooltip name="ПравилаОбработкиКомандыКомандаРасширеннаяПодсказка" id="61"/>
-								</LabelField>
 								<LabelField name="ПравилаОбработкиКомандыПравилоОбработкиКоманды" id="65">
 									<DataPath>ПравилаОбработкиКоманды.ПравилоОбработкиКоманды</DataPath>
 									<ContextMenu name="ПравилаОбработкиКомандыПравилоОбработкиКомандыКонтекстноеМеню" id="66"/>
@@ -164,235 +404,109 @@
 						</Table>
 					</ChildItems>
 				</Page>
-				<Page name="ГруппаФункциональныеРоли" id="41">
+				<Page name="ГруппаГруппыКоманд" id="126">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Функциональные роли</v8:content>
+							<v8:content>Группы команд</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа функциональные роли</v8:content>
+							<v8:content>Группы команд</v8:content>
 						</v8:item>
 					</ToolTip>
-					<Group>AlwaysHorizontal</Group>
-					<ExtendedTooltip name="ГруппаФункциональныеРолиРасширеннаяПодсказка" id="42"/>
+					<ExtendedTooltip name="ГруппаГруппыКомандРасширеннаяПодсказка" id="127"/>
 					<ChildItems>
-						<UsualGroup name="ГруппаФункциональныеРоли_1" id="105">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Функциональные роли и виды карточек, которые могут выступать значениями у этих функциональных ролей.</v8:content>
-								</v8:item>
-							</Title>
-							<TitleFont ref="style:NormalTextFont" height="10" kind="StyleItem" scale="100"/>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа функциональные роли 1</v8:content>
-								</v8:item>
-							</ToolTip>
-							<ExtendedTooltip name="ГруппаФункциональныеРоли_1РасширеннаяПодсказка" id="106"/>
+						<Table name="ГруппыКоманды" id="149">
+							<Height>3</Height>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ГруппыКоманды</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ГруппыКомандыКонтекстноеМеню" id="150"/>
+							<AutoCommandBar name="ГруппыКомандыКоманднаяПанель" id="151"/>
+							<ExtendedTooltip name="ГруппыКомандыРасширеннаяПодсказка" id="152"/>
+							<SearchStringAddition name="ГруппыКомандыСтрокаПоиска" id="153">
+								<AdditionSource>
+									<Item>ГруппыКоманды</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ГруппыКомандыСтрокаПоискаКонтекстноеМеню" id="154"/>
+								<ExtendedTooltip name="ГруппыКомандыСтрокаПоискаРасширеннаяПодсказка" id="155"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ГруппыКомандыСостояниеПросмотра" id="156">
+								<AdditionSource>
+									<Item>ГруппыКоманды</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ГруппыКомандыСостояниеПросмотраКонтекстноеМеню" id="157"/>
+								<ExtendedTooltip name="ГруппыКомандыСостояниеПросмотраРасширеннаяПодсказка" id="158"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ГруппыКомандыУправлениеПоиском" id="159">
+								<AdditionSource>
+									<Item>ГруппыКоманды</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ГруппыКомандыУправлениеПоискомКонтекстноеМеню" id="160"/>
+								<ExtendedTooltip name="ГруппыКомандыУправлениеПоискомРасширеннаяПодсказка" id="161"/>
+							</SearchControlAddition>
 							<ChildItems>
-								<Table name="ФункциональныеРоли" id="13">
-									<Representation>List</Representation>
-									<Height>3</Height>
-									<AutoInsertNewRow>true</AutoInsertNewRow>
-									<EnableStartDrag>true</EnableStartDrag>
-									<EnableDrag>true</EnableDrag>
-									<DataPath>Объект.ФункциональныеРоли</DataPath>
-									<RowFilter xsi:nil="true"/>
-									<ContextMenu name="ФункциональныеРолиКонтекстноеМеню" id="14"/>
-									<AutoCommandBar name="ФункциональныеРолиКоманднаяПанель" id="15"/>
-									<ExtendedTooltip name="ФункциональныеРолиРасширеннаяПодсказка" id="16"/>
-									<SearchStringAddition name="ФункциональныеРолиСтрокаПоиска" id="17">
-										<AdditionSource>
-											<Item>ФункциональныеРоли</Item>
-											<Type>SearchStringRepresentation</Type>
-										</AdditionSource>
-										<ContextMenu name="ФункциональныеРолиСтрокаПоискаКонтекстноеМеню" id="18"/>
-										<ExtendedTooltip name="ФункциональныеРолиСтрокаПоискаРасширеннаяПодсказка" id="19"/>
-									</SearchStringAddition>
-									<ViewStatusAddition name="ФункциональныеРолиСостояниеПросмотра" id="20">
-										<AdditionSource>
-											<Item>ФункциональныеРоли</Item>
-											<Type>ViewStatusRepresentation</Type>
-										</AdditionSource>
-										<ContextMenu name="ФункциональныеРолиСостояниеПросмотраКонтекстноеМеню" id="21"/>
-										<ExtendedTooltip name="ФункциональныеРолиСостояниеПросмотраРасширеннаяПодсказка" id="22"/>
-									</ViewStatusAddition>
-									<SearchControlAddition name="ФункциональныеРолиУправлениеПоиском" id="23">
-										<AdditionSource>
-											<Item>ФункциональныеРоли</Item>
-											<Type>SearchControl</Type>
-										</AdditionSource>
-										<ContextMenu name="ФункциональныеРолиУправлениеПоискомКонтекстноеМеню" id="24"/>
-										<ExtendedTooltip name="ФункциональныеРолиУправлениеПоискомРасширеннаяПодсказка" id="25"/>
-									</SearchControlAddition>
-									<ChildItems>
-										<LabelField name="ФункциональныеРолиНомерСтроки" id="26">
-											<DataPath>Объект.ФункциональныеРоли.LineNumber</DataPath>
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content> </v8:content>
-												</v8:item>
-											</Title>
-											<EditMode>EnterOnInput</EditMode>
-											<Width>2</Width>
-											<ContextMenu name="ФункциональныеРолиНомерСтрокиКонтекстноеМеню" id="27"/>
-											<ExtendedTooltip name="ФункциональныеРолиНомерСтрокиРасширеннаяПодсказка" id="28"/>
-										</LabelField>
-										<InputField name="ФункциональныеРолиФункциональнаяРоль" id="29">
-											<DataPath>Объект.ФункциональныеРоли.ФункциональнаяРоль</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-											<ContextMenu name="ФункциональныеРолиФункциональнаяРольКонтекстноеМеню" id="30"/>
-											<ExtendedTooltip name="ФункциональныеРолиФункциональнаяРольРасширеннаяПодсказка" id="31"/>
-										</InputField>
-										<InputField name="ФункциональныеРолиСпособГруппировки" id="109">
-											<DataPath>Объект.ФункциональныеРоли.СпособГруппировки</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-											<ContextMenu name="ФункциональныеРолиСпособГруппировкиКонтекстноеМеню" id="110"/>
-											<ExtendedTooltip name="ФункциональныеРолиСпособГруппировкиРасширеннаяПодсказка" id="111"/>
-										</InputField>
-										<InputField name="ФункциональныеРолиВидКарточки" id="32">
-											<DataPath>1/0:19fb43b9-3713-4fce-93e3-679860d1fff4/0:4d9b7836-43ec-4aee-9a64-dbd44f367eb4</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-											<ContextMenu name="ФункциональныеРолиВидКарточкиКонтекстноеМеню" id="33"/>
-											<ExtendedTooltip name="ФункциональныеРолиВидКарточкиРасширеннаяПодсказка" id="34"/>
-										</InputField>
-									</ChildItems>
-								</Table>
+								<LabelField name="ГруппыКомандыНомерСтроки" id="162">
+									<DataPath>Объект.ГруппыКоманды.LineNumber</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content> </v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>1</Width>
+									<ContextMenu name="ГруппыКомандыНомерСтрокиКонтекстноеМеню" id="163"/>
+									<ExtendedTooltip name="ГруппыКомандыНомерСтрокиРасширеннаяПодсказка" id="164"/>
+								</LabelField>
+								<InputField name="ГруппыКомандыГруппа" id="165">
+									<DataPath>Объект.ГруппыКоманды.ГруппаКоманды</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ГруппыКомандыГруппаКонтекстноеМеню" id="166"/>
+									<ExtendedTooltip name="ГруппыКомандыГруппаРасширеннаяПодсказка" id="167"/>
+								</InputField>
 							</ChildItems>
-						</UsualGroup>
-						<UsualGroup name="Группа2" id="107">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Источники значения самой функциональной роли (Для каждого вида карточки определяет из какого реквизита брать значение)
-  </v8:content>
-								</v8:item>
-							</Title>
-							<TitleFont ref="style:NormalTextFont" height="10" kind="StyleItem" scale="100"/>
-							<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="108"/>
-							<ChildItems>
-								<Table name="ИсточникиФункциональныхРолей" id="74">
-									<Height>3</Height>
-									<UseAlternationRowColor>true</UseAlternationRowColor>
-									<EnableStartDrag>true</EnableStartDrag>
-									<DataPath>ИсточникиФункциональныхРолей</DataPath>
-									<RowPictureDataPath>ИсточникиФункциональныхРолей.DefaultPicture</RowPictureDataPath>
-									<AutoRefresh>false</AutoRefresh>
-									<AutoRefreshPeriod>60</AutoRefreshPeriod>
-									<Period>
-										<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
-										<v8:startDate>0001-01-01T00:00:00</v8:startDate>
-										<v8:endDate>0001-01-01T00:00:00</v8:endDate>
-									</Period>
-									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-									<RestoreCurrentRow>false</RestoreCurrentRow>
-									<TopLevelParent xsi:nil="true"/>
-									<ShowRoot>true</ShowRoot>
-									<AllowRootChoice>false</AllowRootChoice>
-									<UpdateOnDataChange>Auto</UpdateOnDataChange>
-									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
-									<ContextMenu name="ИсточникиФункциональныхРолейКонтекстноеМеню" id="75"/>
-									<AutoCommandBar name="ИсточникиФункциональныхРолейКоманднаяПанель" id="76"/>
-									<ExtendedTooltip name="ИсточникиФункциональныхРолейРасширеннаяПодсказка" id="77"/>
-									<SearchStringAddition name="ИсточникиФункциональныхРолейСтрокаПоиска" id="78">
-										<AdditionSource>
-											<Item>ИсточникиФункциональныхРолей</Item>
-											<Type>SearchStringRepresentation</Type>
-										</AdditionSource>
-										<ContextMenu name="ИсточникиФункциональныхРолейСтрокаПоискаКонтекстноеМеню" id="79"/>
-										<ExtendedTooltip name="ИсточникиФункциональныхРолейСтрокаПоискаРасширеннаяПодсказка" id="80"/>
-									</SearchStringAddition>
-									<ViewStatusAddition name="ИсточникиФункциональныхРолейСостояниеПросмотра" id="81">
-										<AdditionSource>
-											<Item>ИсточникиФункциональныхРолей</Item>
-											<Type>ViewStatusRepresentation</Type>
-										</AdditionSource>
-										<ContextMenu name="ИсточникиФункциональныхРолейСостояниеПросмотраКонтекстноеМеню" id="82"/>
-										<ExtendedTooltip name="ИсточникиФункциональныхРолейСостояниеПросмотраРасширеннаяПодсказка" id="83"/>
-									</ViewStatusAddition>
-									<SearchControlAddition name="ИсточникиФункциональныхРолейУправлениеПоиском" id="84">
-										<AdditionSource>
-											<Item>ИсточникиФункциональныхРолей</Item>
-											<Type>SearchControl</Type>
-										</AdditionSource>
-										<ContextMenu name="ИсточникиФункциональныхРолейУправлениеПоискомКонтекстноеМеню" id="85"/>
-										<ExtendedTooltip name="ИсточникиФункциональныхРолейУправлениеПоискомРасширеннаяПодсказка" id="86"/>
-									</SearchControlAddition>
-									<ChildItems>
-										<LabelField name="ИсточникиФункциональныхРолейСтандартнаяКартинка" id="102">
-											<DataPath>ИсточникиФункциональныхРолей.DefaultPicture</DataPath>
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content> </v8:content>
-												</v8:item>
-											</Title>
-											<Width>1</Width>
-											<HorizontalStretch>false</HorizontalStretch>
-											<ContextMenu name="ИсточникиФункциональныхРолейСтандартнаяКартинкаКонтекстноеМеню" id="103"/>
-											<ExtendedTooltip name="ИсточникиФункциональныхРолейСтандартнаяКартинкаРасширеннаяПодсказка" id="104"/>
-										</LabelField>
-										<LabelField name="ИсточникиФункциональныхРолейФункциональнаяРоль" id="99">
-											<DataPath>ИсточникиФункциональныхРолей.ФункциональнаяРоль</DataPath>
-											<ContextMenu name="ИсточникиФункциональныхРолейФункциональнаяРольКонтекстноеМеню" id="100"/>
-											<ExtendedTooltip name="ИсточникиФункциональныхРолейФункциональнаяРольРасширеннаяПодсказка" id="101"/>
-										</LabelField>
-										<ColumnGroup name="ГруппаИсточникиФункциональныхРолей" id="115">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Источник значения функциональной роли</v8:content>
-												</v8:item>
-											</Title>
-											<TitleFont ref="style:_ЗаголовокГруппыКолонок_Выделенный_Шрифт" kind="StyleItem"/>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Источник значения функциональной роли</v8:content>
-												</v8:item>
-											</ToolTip>
-											<Group>Horizontal</Group>
-											<ShowInHeader>true</ShowInHeader>
-											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
-											<ExtendedTooltip name="ГруппаИсточникиФункциональныхРолейРасширеннаяПодсказка" id="116"/>
-											<ChildItems>
-												<LabelField name="ИсточникиФункциональныхРолейВидКарточки" id="87">
-													<DataPath>ИсточникиФункциональныхРолей.ВидКарточки</DataPath>
-													<ContextMenu name="ИсточникиФункциональныхРолейВидКарточкиКонтекстноеМеню" id="88"/>
-													<ExtendedTooltip name="ИсточникиФункциональныхРолейВидКарточкиРасширеннаяПодсказка" id="89"/>
-												</LabelField>
-												<LabelField name="ИсточникиФункциональныхРолейВидРеквизита" id="90">
-													<DataPath>ИсточникиФункциональныхРолей.ВидРеквизита</DataPath>
-													<ContextMenu name="ИсточникиФункциональныхРолейВидРеквизитаКонтекстноеМеню" id="91"/>
-													<ExtendedTooltip name="ИсточникиФункциональныхРолейВидРеквизитаРасширеннаяПодсказка" id="92"/>
-												</LabelField>
-												<LabelField name="ИсточникиФункциональныхРолейВидРеквизитаДополнение" id="93">
-													<DataPath>ИсточникиФункциональныхРолей.ВидРеквизитаДополнение</DataPath>
-													<ContextMenu name="ИсточникиФункциональныхРолейВидРеквизитаДополнениеКонтекстноеМеню" id="94"/>
-													<ExtendedTooltip name="ИсточникиФункциональныхРолейВидРеквизитаДополнениеРасширеннаяПодсказка" id="95"/>
-												</LabelField>
-											</ChildItems>
-										</ColumnGroup>
-										<LabelField name="ИсточникиФункциональныхРолейКоманда" id="96">
-											<DataPath>ИсточникиФункциональныхРолей.Команда</DataPath>
-											<Visible>false</Visible>
-											<ContextMenu name="ИсточникиФункциональныхРолейКомандаКонтекстноеМеню" id="97"/>
-											<ExtendedTooltip name="ИсточникиФункциональныхРолейКомандаРасширеннаяПодсказка" id="98"/>
-										</LabelField>
-									</ChildItems>
-								</Table>
-							</ChildItems>
-						</UsualGroup>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтранцаПараметры" id="144">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Параметры</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Странца параметры</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтранцаПараметрыРасширеннаяПодсказка" id="145"/>
+					<ChildItems>
+						<InputField name="ШаблонПредставления" id="146">
+							<DataPath>Объект.ШаблонПредставления</DataPath>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ШаблонПредставленияКонтекстноеМеню" id="147"/>
+							<ExtendedTooltip name="ШаблонПредставленияРасширеннаяПодсказка" id="148"/>
+						</InputField>
+						<CheckBoxField name="АвтоОбработка" id="117">
+							<DataPath>Объект.АвтоОбработка</DataPath>
+							<TitleLocation>Left</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="АвтоОбработкаКонтекстноеМеню" id="118"/>
+							<ExtendedTooltip name="АвтоОбработкаРасширеннаяПодсказка" id="119"/>
+						</CheckBoxField>
 					</ChildItems>
 				</Page>
 			</ChildItems>

@@ -109,6 +109,14 @@ configuration/InformationRegisters/_СостояниеКарточек/Templates
 configuration/InformationRegisters/_СостояниеКарточек/Templates/Промт_ПолучитьСостояние/Ext/Template.xml
 configuration/InformationRegisters/_СостояниеКарточек/Templates/Промт_ПолучитьСостояние/Ext/Template/ru.html
 configuration/Languages/Русский.xml
+configuration/Roles/_PrcM_БазовыеПрава.xml
+configuration/Roles/_PrcM_БазовыеПрава/Ext/Rights.xml
+configuration/Roles/_PrcM_Оператор_Интерфейс.xml
+configuration/Roles/_PrcM_Оператор_Интерфейс/Ext/Rights.xml
+configuration/Roles/_PrcM_Оператор.xml
+configuration/Roles/_PrcM_Оператор/Ext/Rights.xml
+configuration/Roles/_PrcM_ПолныеПрава.xml
+configuration/Roles/_PrcM_ПолныеПрава/Ext/Rights.xml
 configuration/Roles/_Карточки_ОсновнаяРоль.xml
 configuration/Roles/_Карточки_ОсновнаяРоль/Ext/Rights.xml
 configuration/ScheduledJobs/_ВыполнениеРегламентныхКоманд.xml
@@ -118,7 +126,8 @@ configuration/SessionParameters/_ОграничитьДоступ_кНСИ.xml
 configuration/SessionParameters/ТекущийПользователь.xml
 configuration/StyleItems/_ЗаголовокГруппыКолонок_Выделенный_Шрифт.xml
 configuration/Styles/_Основной.xml
-configuration/Subsystems/_КарточкиДанных.xml
-configuration/Subsystems/_КарточкиДанных/Ext/CommandInterface.xml
-configuration/Subsystems/_КарточкиДанных/Subsystems/Движения.xml
-configuration/Subsystems/_КарточкиДанных/Subsystems/Справочники.xml
+configuration/Subsystems/_PrcM_Архитектор.xml
+configuration/Subsystems/_PrcM_Архитектор/Ext/CommandInterface.xml
+configuration/Subsystems/_PrcM_Архитектор/Subsystems/Движения.xml
+configuration/Subsystems/_PrcM_Архитектор/Subsystems/Справочники.xml
+configuration/Subsystems/_PrcM_Оператор.xml

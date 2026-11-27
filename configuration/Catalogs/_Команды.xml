@@ -94,11 +94,11 @@
 		<ChildObjects>
 			<Attribute uuid="2a621d07-418d-4fd0-abe8-ef320d082baa">
 				<Properties>
-					<Name>ГруппаКоманды</Name>
+					<Name>ГруппаКоманды_УДАЛИТЬ</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа команды</v8:content>
+							<v8:content>Группа команды УДАЛИТЬ</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -246,7 +246,7 @@
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>При вычислении представления команды, все
+							<v8:content>При вычислении представления команды, 
 строки вида *КодФункциональнойРоли* будут заменены на представление значения указанной функциональной роли.</v8:content>
 						</v8:item>
 					</ToolTip>

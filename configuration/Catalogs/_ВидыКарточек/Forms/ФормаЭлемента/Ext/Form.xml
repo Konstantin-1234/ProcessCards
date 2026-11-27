@@ -8,6 +8,7 @@
 	<ChildItems>
 		<UsualGroup name="Группа1" id="65">
 			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="66"/>
 			<ChildItems>
 				<InputField name="Код" id="1">
@@ -97,20 +98,6 @@
 									<ContextMenu name="РеквизитыНомерСтрокиКонтекстноеМеню" id="25"/>
 									<ExtendedTooltip name="РеквизитыНомерСтрокиРасширеннаяПодсказка" id="26"/>
 								</LabelField>
-								<InputField name="РеквизитыХранение" id="88">
-									<DataPath>Объект.Реквизиты.Хранение</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="РеквизитыХранениеКонтекстноеМеню" id="89"/>
-									<ExtendedTooltip name="РеквизитыХранениеРасширеннаяПодсказка" id="90"/>
-								</InputField>
-								<InputField name="РеквизитыВидРеквизита" id="27">
-									<DataPath>Объект.Реквизиты.ВидРеквизита</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="РеквизитыВидРеквизитаКонтекстноеМеню" id="28"/>
-									<ExtendedTooltip name="РеквизитыВидРеквизитаРасширеннаяПодсказка" id="29"/>
-								</InputField>
 								<InputField name="РеквизитыМножественный" id="62">
 									<DataPath>Объект.Реквизиты.ВидРеквизита.ЭтоСписок</DataPath>
 									<Title>
@@ -137,32 +124,54 @@
 									<ContextMenu name="РеквизитыМножественныйКонтекстноеМеню" id="63"/>
 									<ExtendedTooltip name="РеквизитыМножественныйРасширеннаяПодсказка" id="64"/>
 								</InputField>
-								<InputField name="РеквизитыИспользоватьКакРоль" id="59">
-									<DataPath>Объект.Реквизиты.ЭтоФункциональнаяРоль</DataPath>
+								<InputField name="РеквизитыВидРеквизита" id="27">
+									<DataPath>Объект.Реквизиты.ВидРеквизита</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="РеквизитыВидРеквизитаКонтекстноеМеню" id="28"/>
+									<ExtendedTooltip name="РеквизитыВидРеквизитаРасширеннаяПодсказка" id="29"/>
+								</InputField>
+								<ColumnGroup name="РеквизитыГруппа2" id="154">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Роль</v8:content>
+											<v8:content>Хранение</v8:content>
 										</v8:item>
 									</Title>
-									<EditMode>EnterOnInput</EditMode>
-									<Width>3</Width>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<Format>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>БЛ=-; БИ=Роль</v8:content>
-										</v8:item>
-									</Format>
-									<EditFormat>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>БЛ=-; БИ=Роль</v8:content>
-										</v8:item>
-									</EditFormat>
-									<ContextMenu name="РеквизитыИспользоватьКакРольКонтекстноеМеню" id="60"/>
-									<ExtendedTooltip name="РеквизитыИспользоватьКакРольРасширеннаяПодсказка" id="61"/>
-								</InputField>
+									<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+									<Group>Horizontal</Group>
+									<ShowInHeader>true</ShowInHeader>
+									<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+									<ExtendedTooltip name="РеквизитыГруппа2РасширеннаяПодсказка" id="155"/>
+									<ChildItems>
+										<InputField name="РеквизитыХранение" id="88">
+											<DataPath>Объект.Реквизиты.Хранение</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content> </v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="РеквизитыХранениеКонтекстноеМеню" id="89"/>
+											<ExtendedTooltip name="РеквизитыХранениеРасширеннаяПодсказка" id="90"/>
+											<Events>
+												<Event name="OnChange">РеквизитыПроверить</Event>
+											</Events>
+										</InputField>
+										<InputField name="РеквизитыВидРеквизитаВХранении" id="151">
+											<DataPath>Объект.Реквизиты.ВидРеквизитаВХранении</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="РеквизитыВидРеквизитаВХраненииКонтекстноеМеню" id="152"/>
+											<ExtendedTooltip name="РеквизитыВидРеквизитаВХраненииРасширеннаяПодсказка" id="153"/>
+											<Events>
+												<Event name="OnChange">РеквизитыПроверить</Event>
+											</Events>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
 								<ColumnGroup name="РеквизитыГруппа1" id="57">
 									<Title>
 										<v8:item>
@@ -194,6 +203,14 @@
 								</ColumnGroup>
 							</ChildItems>
 						</Table>
+						<LabelField name="РеквизитыОшибкиЗаполнения" id="156">
+							<DataPath>Items.Реквизиты.CurrentData.ОшибкиЗаполнения</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<TextColor>style:SpecialTextColor</TextColor>
+							<ContextMenu name="РеквизитыОшибкиЗаполненияКонтекстноеМеню" id="157"/>
+							<ExtendedTooltip name="РеквизитыОшибкиЗаполненияРасширеннаяПодсказка" id="158"/>
+						</LabelField>
 					</ChildItems>
 				</Page>
 				<Page name="ГруппаКомандыГруппыПравила" id="36">
@@ -754,5 +771,47 @@
 				</ListSettings>
 			</Settings>
 		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>РеквизитыВидРеквизитаВХранении</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.Реквизиты.ОшибкиЗаполнения</dcsset:left>
+						<dcsset:comparisonType>Contains</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:string">ВидРеквизитаВХранении</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:SpecialTextColor</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>РеквизитыХранение</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.Реквизиты.ОшибкиЗаполнения</dcsset:left>
+						<dcsset:comparisonType>Contains</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:string">Хранение</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:SpecialTextColor</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
 	</Attributes>
 </Form>

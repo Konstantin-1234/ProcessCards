@@ -199,7 +199,7 @@
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Вид реквизита в хранении</v8:content>
+									<v8:content>Вид реквизита в связанной карточке</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
@@ -320,30 +320,27 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="af518746-b6cb-4c94-8bf7-a0e491d40496">
+					<Attribute uuid="9d51a58b-fdf8-41b9-a9a7-cc1742f0f230">
 						<Properties>
-							<Name>ЭтоФункциональнаяРоль</Name>
+							<Name>ОшибкиЗаполнения</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Это функциональная роль</v8:content>
+									<v8:content>Ошибки заполнения</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>xs:boolean</v8:Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>150</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
 							<EditFormat/>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Это функциональная роль.
-Состояние этого элемента влияет на выполнение команд.
-А так же может изменяться командами</v8:content>
-								</v8:item>
-							</ToolTip>
+							<ToolTip/>
 							<MarkNegatives>false</MarkNegatives>
 							<Mask/>
 							<MultiLine>false</MultiLine>
